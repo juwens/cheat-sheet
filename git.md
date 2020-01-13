@@ -1,5 +1,7 @@
 ```
 git config --global --list
+git config --system --list
+git config --local --list
 ```
 
 gitconfig
