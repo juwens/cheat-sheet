@@ -1,1 +1,1 @@
-[https://stackoverflow.com/questions/59391984/test-explorer-vs-shows-unknown-project](Test Explorer (VS) shows '<Unknown project>')
+[Test Explorer (VS) shows '&lt;Unknown project&gt;'](https://stackoverflow.com/questions/59391984/test-explorer-vs-shows-unknown-project)
