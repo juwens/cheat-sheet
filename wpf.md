@@ -7,6 +7,7 @@
 - [With MSDN Subscription yout get some free Tutorials on Pluralsight and LinkedIn](https://my.visualstudio.com/benefits)
 - [pluralsight.com/search?q=wpf](https://www.pluralsight.com/search?q=wpf&categories=course&sort=relevance)
 - [linkedin.com/learning/windows-presentation-foundation-1](https://www.linkedin.com/learning/windows-presentation-foundation-1-build-dramatic-desktop-applications)
+- https://www.udemy.com/topic/wpf/
 
 # Free Tutorials
 
