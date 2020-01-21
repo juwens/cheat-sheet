@@ -3,7 +3,7 @@
 git config --global --list
 git config --system --list
 git config --local --list
-
+git config --global --edit
 git config --global alias.co checkout
 ```
 
