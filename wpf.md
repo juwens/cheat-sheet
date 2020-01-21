@@ -1,6 +1,16 @@
-# WPF Samples
+# Samples by MS
 
 - https://github.com/Microsoft/WPF-Samples
+
+# Paid Tutorials
+
+- https://www.pluralsight.com/search?q=wpf
+- https://www.linkedin.com/learning/windows-presentation-foundation-1-build-dramatic-desktop-applications
+
+# Free Tutorials
+
+- With MSDN Subscription yout get a free trial of Pluralsight and LinkedIn tutorials: https://my.visualstudio.com/benefits
+- https://www.youtube.com/playlist?list=PLrW43fNmjaQVYF4zgsD0oL9Iv6u23PI6M
 
 # WPF Debug
 ```
