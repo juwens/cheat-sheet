@@ -1,4 +1,4 @@
-# 203 WPF Samples by MS
+# Many real WPF Examples by MS (actually 203)
 
 - https://github.com/Microsoft/WPF-Samples
 
