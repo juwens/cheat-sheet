@@ -1,7 +1,7 @@
-# Many real WPF Examples by MS (actually 203)
+ Many real WPF Examples by MS (actually 203)
 
-- https://github.com/Microsoft/WPF-Samples (WPF for .Net Core 3.1)
-- https://github.com/microsoft/WPF-Samples/tree/netframework (WPF for .Net 4.7.2)
+- WPF for .Net Core 3.1: https://github.com/microsoft/WPF-Samples/tree/master
+- WPF for .Net 4.7.2: https://github.com/microsoft/WPF-Samples/tree/netframework
 
 # Paid Tutorials
 
