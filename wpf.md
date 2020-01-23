@@ -51,3 +51,9 @@ xmlns:ComponentModel="clr-namespace:System.ComponentModel;assembly=PresentationF
 ```
 System.Windows.Media.RenderOptions.ProcessRenderMode = System.Windows.Interop.RenderMode.SoftwareOnly;
 ```
+
+# Binding
+
+
+## Binding Directions
+![wpf binding directions](https://github.com/juwens/cheat-sheet/raw/master/assets/wpf_binding.png)
