@@ -15,6 +15,10 @@
 - [C # WPF UI Tutorials by AngelSix @YouTube](https://www.youtube.com/playlist?list=PLrW43fNmjaQVYF4zgsD0oL9Iv6u23PI6M)
 - https://channel9.msdn.com/Tags/wpf
 
+# Tools
+
+- https://github.com/snoopwpf/snoopwpf
+
 # WPF Debug
 ```
 System.Diagnostics.PresentationTraceSources.DataBindingSource.Switch.Level = System.Diagnostics.SourceLevels.Critical;
