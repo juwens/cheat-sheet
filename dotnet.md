@@ -14,5 +14,5 @@
 | | | |
 | | | |
 
-https://docs.microsoft.com/en-us/dotnet/standard/glossary
-https://docs.microsoft.com/en-us/dotnet/standard/net-standard
+- https://docs.microsoft.com/en-us/dotnet/standard/glossary
+- https://docs.microsoft.com/en-us/dotnet/standard/net-standard
