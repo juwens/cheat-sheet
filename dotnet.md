@@ -1,6 +1,18 @@
 
-| Runtime | Framework (FX) |   |
+| Runtime | Base Class Library |   |
 |---------|----------------|---|
-| .Net Core |   |   |
+| CoreCLR | CoreBCL  |   |
+| Common Language Runtime (CLR) | | |
 | SQL CLR  |   |   |
-|   |   |   |
+| Mono |   |   |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+
+https://docs.microsoft.com/en-us/dotnet/standard/glossary
+https://docs.microsoft.com/en-us/dotnet/standard/net-standard
