@@ -19,6 +19,12 @@
 
 - https://github.com/snoopwpf/snoopwpf
 
+# Binding 
+```
+# Attached Property
+{Binding Path=(helpers:WpfHelpers.CustomDataContext).IsAnyUniversalSafetyRelevant}"
+```
+
 # WPF Debug
 ```
 System.Diagnostics.PresentationTraceSources.DataBindingSource.Switch.Level = System.Diagnostics.SourceLevels.Critical;
