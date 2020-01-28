@@ -25,12 +25,11 @@
 {Binding Path=(helpers:WpfHelpers.CustomDataContext).IsAnyUniversalSafetyRelevant}"
 ```
 
-# WPF Debug
+# Binding Debugging
 ```
-System.Diagnostics.PresentationTraceSources.DataBindingSource.Switch.Level = System.Diagnostics.SourceLevels.Critical;
-
 , PresentationTraceSources.TraceLevel=High
 ```
+`System.Diagnostics.PresentationTraceSources.DataBindingSource.Switch.Level = System.Diagnostics.SourceLevels.Critical;`
 
 # WPF DesignTime
 ```
