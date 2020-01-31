@@ -32,7 +32,7 @@
      * full example:
     ```
         var binding = new Binding("Foobar");
-        PresentationTraceSources.SetTraceLevel(binding, PresentationTraceLevel.High); // important: must happen before "SetBinding()"
+        PresentationTraceSources.SetTraceLevel(binding, PresentationTraceLevel.High); // MUST happen before "SetBinding()"
         \_target.SetBinding(TextBox.TextProperty, binding);
     ```
 
