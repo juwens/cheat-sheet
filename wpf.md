@@ -29,15 +29,18 @@
  * `PresentationTraceSources.TraceLevel=High`
  	* `<TextBox Text="{Binding Path=Foobar, PresentationTraceSources.TraceLevel=High}" />`
  * `PresentationTraceSources.SetTraceLevel(binding, PresentationTraceLevel.High);`
- 	* 
-	```var binding = new Binding("Foobar");
-	PresentationTraceSources.SetTraceLevel(binding, PresentationTraceLevel.High); // important: must happen before "SetBinding()"
-	\_target.SetBinding(TextBox.TextProperty, binding);```
+     * full example:
+    ```
+        var binding = new Binding("Foobar");
+        PresentationTraceSources.SetTraceLevel(binding, PresentationTraceLevel.High); // important: must happen before "SetBinding()"
+        \_target.SetBinding(TextBox.TextProperty, binding);
+    ```
 
-	 * `System.Diagnostics.PresentationTraceSources.DataBindingSource.Switch.Level = System.Diagnostics.SourceLevels.Critical;`
+ * `System.Diagnostics.PresentationTraceSources.DataBindingSource.Switch.Level = System.Diagnostics.SourceLevels.Critical;`
 
-	# WPF DesignTime
-	```
+# WPF DesignTime
+
+```
 xmlns:ComponentModel="clr-namespace:System.ComponentModel;assembly=PresentationFramework"
 
 <DataTrigger Binding="{Binding (ComponentModel:DesignerProperties.IsInDesignMode), RelativeSource={RelativeSource Self}}" Value="True">
