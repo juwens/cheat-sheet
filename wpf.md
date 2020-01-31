@@ -26,8 +26,10 @@
 ```
 
 # Binding Debugging
- * `PresentationTraceSources.TraceLevel=High` (`Text={Binding Path=Foobar, PresentationTraceSources.TraceLevel=High}`)
+ * `PresentationTraceSources.TraceLevel=High`
+ 	* `<TextBox Text="{Binding Path=Foobar, PresentationTraceSources.TraceLevel=High}" />`
  * `PresentationTraceSources.SetTraceLevel(binding, PresentationTraceLevel.High);`
+ 	* 
 	```var binding = new Binding("Foobar");
 	PresentationTraceSources.SetTraceLevel(binding, PresentationTraceLevel.High); // important: must happen before "SetBinding()"
 	\_target.SetBinding(TextBox.TextProperty, binding);```
