@@ -1,11 +1,15 @@
 # commands
 ```
+# config
 git config --global --list
 git config --system --list
 git config --local --list
 git config --global --edit
 git config --global alias.co checkout
+
+# diff
 git diff -w # shorthand for --ignore-all-space; no option for setting this as default in the config
+git diff -b # shorthand for --ignore-space-change
 ```
 
 
