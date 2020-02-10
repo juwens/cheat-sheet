@@ -1,12 +1,15 @@
-* msbuild verbose: `dotnet build /pp` 
 * order of import:
- * ".props"
- * code
- * ".targets"
-* Recursive 
- * Directory.Build.props
- * Directory.Build.targets
-* Debug in VS: https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools
+  * ".props"
+  * code
+  * ".targets"
+* Recursive Imports
+  * Directory.Build.props
+  * Directory.Build.targets
+* Debugging
+  * `dotnet build /pp` 
+  * VS: https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools
+  * https://github.com/KirillOsenkov/MSBuildStructuredLog
+  
 
 # tutorial
 
