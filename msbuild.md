@@ -12,7 +12,7 @@
     * `msbuild solution.sln /bl`
   
 
-# tutorial
+# Talks
 
  * https://www.youtube.com/watch?v=5HEbsyU5E1g
 
