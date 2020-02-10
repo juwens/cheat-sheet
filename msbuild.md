@@ -14,5 +14,5 @@
 
 # Talks
 
- * https://www.youtube.com/watch?v=5HEbsyU5E1g
+ * [MS Build: Things You Should Know About Project Files - .NET Oxford - January 2020](https://www.youtube.com/watch?v=5HEbsyU5E1g)
 
