@@ -6,7 +6,7 @@
   * Directory.Build.props
   * Directory.Build.targets
 * Debugging
-  * `dotnet build /pp` 
+  * `dotnet build /pp` preprocess
   * VS: https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools
   * https://github.com/KirillOsenkov/MSBuildStructuredLog
     * `msbuild solution.sln /bl`
