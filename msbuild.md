@@ -9,6 +9,7 @@
   * `dotnet build /pp` 
   * VS: https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools
   * https://github.com/KirillOsenkov/MSBuildStructuredLog
+    * `msbuild solution.sln /bl`
   
 
 # tutorial
