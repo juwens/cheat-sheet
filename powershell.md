@@ -1,3 +1,9 @@
+# boilerplate
+
+```
+Set-StrictMode -Version Latest
+```
+
 # profile
 ```
 if (!(Test-Path -Path $PROFILE)) {New-Item -ItemType File -Path $PROFILE -Force}
