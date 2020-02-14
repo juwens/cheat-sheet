@@ -1,5 +1,7 @@
 # commands
 ```
+git remote prune origin -n # remove branches not on remote
+
 # config
 git config --global --list
 git config --system --list
