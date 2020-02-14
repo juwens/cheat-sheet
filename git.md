@@ -1,5 +1,6 @@
 # commands
 ```
+git fetch -pn
 git remote prune origin -n # remove branches not on remote
 
 # config
