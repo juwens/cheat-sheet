@@ -5,4 +5,4 @@
 | FAKE - F# Make | https://github.com/fsharp/FAKE |   |   |
 | Nake           | https://github.com/yevhen/Nake |   |   |
 
-[Popularity](https://star-history.t9t.io/#fsharp/FAKE&psake/psake&nant/nant&yevhen/Nake)
+[![build-tools-star-history.png](https://github.com/juwens/cheat-sheet/raw/master/dotnet/assets/build-tools-star-history.png)](https://star-history.t9t.io/#fsharp/FAKE&psake/psake&nant/nant&yevhen/Nake)
