@@ -15,7 +15,7 @@ git diff -w # shorthand for --ignore-all-space; no option for setting this as de
 git diff -b # shorthand for --ignore-space-change
 
 # delete modified files
-git st --porcelain|% {$_.substring(3)}|% { Remove-Item $_ }
+
 ```
 
 
@@ -32,6 +32,7 @@ git st --porcelain|% {$_.substring(3)}|% { Remove-Item $_ }
 
 # fix crlf (lineending) differences repo <-> workspace
 ```
-PS: Get-ChildItem -Filter '*.cs' -Recurse | ForEach-Object { Remove-Item $_.FullName }
+Get-ChildItem -Filter '*.cs' -Recurse | ForEach-Object { Remove-Item $_.FullName }
+git status --porcelain|% {$_.substring(3)}|% { Remove-Item $_ }
 git reset --hard
 ```
