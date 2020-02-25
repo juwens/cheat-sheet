@@ -21,7 +21,7 @@ git diff -b # shorthand for --ignore-space-change
 [alias]
         co = checkout
         st = status
-        fa = fetch --all
+        fa = fetch --all --prune
         mm = !git fetch origin master && git merge origin/master
 ```
 
