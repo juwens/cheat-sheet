@@ -1,0 +1,7 @@
+= .Net 4 =
+
+ * https://docs.microsoft.com/en-us/dotnet/framework/unmanaged-api/hosting/clr-hosting-interfaces-added-in-the-net-framework-4-and-4-5[MSDN: CLR Hosting Interfaces Added in the .NET Framework 4 and 4.5]
+ * https://stackoverflow.com/questions/375457/cant-instantiate-a-com-object-written-in-c-sharp-from-vba-vb6-ok[SO: instantiate a COM object written in C# from VBA]
+ 
+= .net core =
+ * https://docs.microsoft.com/en-us/dotnet/core/tutorials/netcore-hosting
