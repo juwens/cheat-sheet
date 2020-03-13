@@ -1,0 +1,13 @@
+= network library =
+c++ standard contains no network funnctionality
+
+https://stackoverflow.com/a/118968/534812
+
+ * link:https://www.boost.org/doc/libs/1_72_0/doc/html/boost_asio/using.html[Boost.Asio]
+ * https://github.com/chriskohlhoff/asio
+ * https://github.com/yhirose/cpp-httplib
+ * https://github.com/pocoproject/poco
+
+= Install Qt =
+
+ * Download http://download.qt.io/official_releases/online_installers/qt-unified-windows-x86-online.exe
