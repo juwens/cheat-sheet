@@ -1,4 +1,3 @@
-[cols="2,2,5a"]
 |===
 |Name|Wiki|Infos
 
@@ -8,12 +7,12 @@
 
 |MarkDown
 |https://en.wikipedia.org/wiki/Markdown[wiki]
-|
-* simple features
+a|* simple features
 * widely supported
 * different dialects
 
 |AsciiDoc
 |https://en.wikipedia.org/wiki/AsciiDoc[wiki]
-|advanced features; incomplete Renderers
+a|* advanced features
+* incomplete? renderers
 |===
