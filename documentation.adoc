@@ -10,12 +10,14 @@
 |MarkDown
 |https://en.wikipedia.org/wiki/Markdown[wiki]
 a|* simple features
+* easy to master
 * widely supported
 * different dialects
 
 |AsciiDoc
 |https://en.wikipedia.org/wiki/AsciiDoc[wiki]
 a|* advanced features
+* longer learning curve
 * incomplete? renderers
 |===
 
@@ -25,6 +27,15 @@ a|* advanced features
 |===
 |Name|Wiki|Infos
 
-|mermaid|
-a| * javascript-library available for browser and nodejs Commandline
+|mermaid
+|https://github.com/mermaid-js/mermaid
+a|* javascript-library available for browser and nodejs Commandline
 * https://mermaid-js.github.io/mermaid-live-editor/#/[Live Editor]
+* pleasent style
+
+|PlantUML
+|https://en.wikipedia.org/wiki/PlantUML[wiki]
+a|* java library/server/commandline 
+* unpleasent style
+* widely supported
+|===
