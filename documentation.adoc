@@ -1,3 +1,4 @@
+[cols="2,2,5a"]
 |===
 |Name|Wiki|Infos
 
