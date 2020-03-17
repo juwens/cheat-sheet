@@ -10,7 +10,8 @@
 
 |MarkDown
 |https://en.wikipedia.org/wiki/Markdown[wiki]
-a|* simple features
+a|* lightweight
+* simple features
 * easy to master
 * widely supported
 * different dialects
