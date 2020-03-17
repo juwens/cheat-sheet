@@ -1,3 +1,5 @@
+
+[cols="3*"]
 |===
 |Name|Wiki|Infos
 
@@ -16,3 +18,13 @@ a|* simple features
 a|* advanced features
 * incomplete? renderers
 |===
+
+# Diagram tool(chain)s
+
+[cols="3*"]
+|===
+|Name|Wiki|Infos
+
+|mermaid|
+a| * javascript-library available for browser and nodejs Commandline
+* https://mermaid-js.github.io/mermaid-live-editor/#/[Live Editor]
