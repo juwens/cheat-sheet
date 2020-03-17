@@ -20,6 +20,7 @@ a|* simple features
 a|* advanced features
 * longer learning curve
 * incomplete? renderers
+* Ruby CLI
 |===
 
 # Diagram tool(chain)s
@@ -30,13 +31,17 @@ a|* advanced features
 
 |mermaid
 |https://github.com/mermaid-js/mermaid
-a|* javascript-library available for browser and nodejs Commandline
+a|* javascript-library available for browser and nodejs CLI
 * https://mermaid-js.github.io/mermaid-live-editor/#/[Live Editor]
 * pleasent style
 
 |PlantUML
 |https://en.wikipedia.org/wiki/PlantUML[wiki]
-a|* java library/server/commandline 
+a|* java library/server/CLI 
 * unpleasent style
 * widely supported
 |===
+
+# Gossar
+
+* CLI: Command Line Interface
