@@ -25,16 +25,9 @@
 
 |name|code|rendered
 
-|Headers|```
-# Header 1
-## Header 2
-### Header 3
-```
-a|# Header 1
-
-## Header 2
-
-### Header 3
+|Headers|`# Header 1`|# Header 1
+|Headers|`## Header 2`|## Header 2
+|Headers|`### Header 3`|### Header 3
 
 |Links
 a|```
