@@ -4,6 +4,8 @@
 
 # Table
 
+https://asciidoctor.org/docs/user-manual/#cols-style
+
 .Table Title
 |===
 |Name of Column 1 |Name of Column 2 |Name of Column 3 
