@@ -19,10 +19,13 @@
 
 # Misc
 
+[cols="2*"]
 |===
 
 
 |code|rendered
+
+|`# Header 1`|# Header 1
 
 a|
 ```
