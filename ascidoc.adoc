@@ -1,7 +1,30 @@
-https://github.com/karthick-gururaj/asciidoc-expts/blob/master/Example.asciidoc
+* https://github.com/karthick-gururaj/asciidoc-expts/blob/master/Example.asciidoc
+* https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+* https://gist.github.com/dcode/0cfbf2699a1fe9b46ff04c41721dda74 
 
-https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+# Table
+
+.Table Title
+|===
+|Name of Column 1 |Name of Column 2 |Name of Column 3 
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+|Cell in column 3, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|Cell in column 3, row 2
+|===
+
+# Misc
+
+|===
 
 
+|code|rendered
 
-https://gist.github.com/dcode/0cfbf2699a1fe9b46ff04c41721dda74 
+|`link: https://www.google.com/[name]`
+|link: https://www.google.com/[name]
+
+|===
