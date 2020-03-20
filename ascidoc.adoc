@@ -24,7 +24,10 @@
 
 |code|rendered
 
-|`link: https://www.google.com/[name]`
+a|
+```
+link: https://www.google.com/[name]
+```
 |link: https://www.google.com/[name]
 
 |===
