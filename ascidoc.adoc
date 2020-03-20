@@ -19,18 +19,18 @@
 
 # Misc
 
-[cols="2*"]
+[cols="3*"]
 |===
 
 
-|code|rendered
+|name|code|rendered
 
-|`# Header 1`|# Header 1
+|Headers|`# Header 1`|# Header 1
 
-a|
+|Links
+a|```
+https://www.google.com/[name]
 ```
-link: https://www.google.com/[name]
-```
-|link: https://www.google.com/[name]
+|https://www.google.com/[name]
 
 |===
