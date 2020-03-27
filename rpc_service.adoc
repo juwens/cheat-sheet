@@ -1,0 +1,11 @@
+|===
+|Topic|REST|SOAP|Binary
+|IDLs
+a| * RESTful API Modeling Language (RAML)
+* OpenAPI (Swagger) Specification
+a| * WSDL
+a| * Thrift
+* Protobuf/gRPC
+* CORBA
+
+|===
