@@ -6,6 +6,7 @@ a| * RESTful API Modeling Language (RAML)
 a| * WSDL
 a| * Thrift
 * Protobuf/gRPC
+* IDL-Family (Java IDL, Microsoft IDL, ...)
 * CORBA
 
 |===
