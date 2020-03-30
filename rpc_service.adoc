@@ -10,3 +10,12 @@ a| * Thrift
 * CORBA
 
 |===
+
+
+# Message Encodings
+
+* protobuf
+* MessagePack
+* json
+* XML
+* SOAP-Message as XML
