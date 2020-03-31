@@ -11,3 +11,10 @@ https://stackoverflow.com/a/118968/534812
 = Install Qt =
 
  * Download http://download.qt.io/official_releases/online_installers/qt-unified-windows-x86-online.exe
+ 
+# main function
+```
+int main()
+int main(int argc, char* argv[]) // ascii
+int wmain(int argc, wchar_t* argv[]) // unicode
+```
