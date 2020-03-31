@@ -1,0 +1,6 @@
+* https://en.wikipedia.org/wiki/Component_Object_Model
+* OLE: https://en.wikipedia.org/wiki/Object_Linking_and_Embedding
+* https://en.wikipedia.org/wiki/OLE_Automation
+* TBL: https://docs.microsoft.com/en-us/previous-versions/windows/desktop/automat/creating-a-type-library
+* ODL: https://docs.microsoft.com/en-us/windows/win32/midl/midl-and-odl
+* MIDL: https://docs.microsoft.com/en-us/windows/win32/midl/midl-and-odl
