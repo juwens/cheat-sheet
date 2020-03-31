@@ -4,3 +4,5 @@
 * TBL: https://docs.microsoft.com/en-us/previous-versions/windows/desktop/automat/creating-a-type-library
 * ODL: https://docs.microsoft.com/en-us/windows/win32/midl/midl-and-odl
 * MIDL: https://docs.microsoft.com/en-us/windows/win32/midl/midl-and-odl
+* https://docs.microsoft.com/en-us/dotnet/framework/tools/tlbexp-exe-type-library-exporter
+* https://docs.microsoft.com/en-us/dotnet/framework/tools/regasm-exe-assembly-registration-tool
