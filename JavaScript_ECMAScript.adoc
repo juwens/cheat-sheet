@@ -1,11 +1,11 @@
 |===
-|Edition|ECMAScript|Major Feature
+|Edition|ECMAScript|Major Feature|link
 
 | |ES.Next|
 |10|2019|Array functions
 |9|2018|
 |8|2017|
 |7|2016|async, await
-|6|2015|classes, arrow functions, let, const
+|6|2015|classes, arrow functions, let, const| http://es6-features.org/
 |5|2009|strict
 |===
