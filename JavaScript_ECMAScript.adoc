@@ -1,5 +1,6 @@
 |===
 |Edition|ECMAScript|Major Feature
+
 | |ES.Next|
 |10|2019|Array functions
 |9|2018|
