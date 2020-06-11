@@ -11,9 +11,10 @@
 ```
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
+    <UseWPF>true</UseWPF>
+    
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <UseWPF>true</UseWPF>
   </PropertyGroup>
 </Project>
 ```
