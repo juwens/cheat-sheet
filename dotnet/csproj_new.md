@@ -7,6 +7,17 @@
 </Project>
 ```
 
+# minimal wpf
+```
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+</Project>
+```
+
 # disable Generate AssemblyInfo
 ```
 <PropertyGroup>
