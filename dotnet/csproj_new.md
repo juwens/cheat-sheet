@@ -25,3 +25,11 @@
    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 </PropertyGroup>
 ```
+
+# deterministic builds
+https://gist.github.com/aelij/b20271f4bd0ab1298e49068b388b54ae
+```
+  <PropertyGroup>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+```
