@@ -33,3 +33,12 @@ https://gist.github.com/aelij/b20271f4bd0ab1298e49068b388b54ae
     <Deterministic>true</Deterministic>
   </PropertyGroup>
 ```
+
+# IternalsVisibleTo without AssemblyInfo
+```
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>MyProject, PublicKey=0000000</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+ ```
