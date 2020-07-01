@@ -6,6 +6,7 @@
 |Xbox Series X|12| | |
 |GTX 660|2| |0.08256 (1:24)|
 |GTX 1070|6.5|101| |
+|RTX 2060 Super|8.1|16.2| |
 |GeForce GTX 1080|8.23| | |
 |Radeon RX 5700XT|9.5| |600|
 |GeForce RTX 2080|10.6| |
