@@ -9,4 +9,5 @@
 |RTX 2060 Super|8.1|16.2| |
 |GeForce GTX 1080|8.23| | |
 |Radeon RX 5700XT|9.5| |600|
+|RTX 2070 Super|9.7|19.4| |
 |GeForce RTX 2080|10.6| |
