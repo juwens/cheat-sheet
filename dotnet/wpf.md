@@ -14,6 +14,7 @@
 
 - [C # WPF UI Tutorials by AngelSix @YouTube](https://www.youtube.com/playlist?list=PLrW43fNmjaQVYF4zgsD0oL9Iv6u23PI6M)
 - https://channel9.msdn.com/Tags/wpf
+- [WPF Path Markup](https://www.youtube.com/watch?v=AjuUiu5y-sk)
 
 # Tools
 
