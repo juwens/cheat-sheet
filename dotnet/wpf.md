@@ -21,6 +21,9 @@
 - https://github.com/snoopwpf/snoopwpf
 
 # Binding 
+
+[MSDN: Binding Path Syntax](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/binding-declarations-overview?redirectedfrom=MSDN#Path_Syntax)
+
 ```
 # Attached Property
 {Binding Path=(myLib:MyClass.MyAttachedProperty).MyViewModelProperty}"
