@@ -23,7 +23,7 @@
 # Binding 
 ```
 # Attached Property
-{Binding Path=(helpers:WpfHelpers.CustomDataContext).IsAnyUniversalSafetyRelevant}"
+{Binding Path=(myLib:MyClass.MyAttachedProperty).MyViewModelProperty}"
 ```
 
 # Binding Debugging
