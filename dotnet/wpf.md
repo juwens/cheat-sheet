@@ -29,7 +29,7 @@
 {Binding Path=(myLib:MyClass.MyAttachedProperty).MyViewModelProperty}"
 ```
 
-# Border Magic Table
+# inner Border-collaps Table
 ```
 <ItemsControl ItemsSource="{Binding MyList}">
 <ItemsControl.ItemTemplate>
