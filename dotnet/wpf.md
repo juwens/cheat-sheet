@@ -30,6 +30,7 @@
 ```
 
 # inner Border-collaps Table
+https://stackoverflow.com/questions/4572631/is-it-possible-to-emulate-border-collapse-ala-css-in-a-wpf-itemscontrol
 ```
 <ItemsControl ItemsSource="{Binding MyList}">
 <ItemsControl.ItemTemplate>
