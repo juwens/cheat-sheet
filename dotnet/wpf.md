@@ -29,6 +29,23 @@
 {Binding Path=(myLib:MyClass.MyAttachedProperty).MyViewModelProperty}"
 ```
 
+# Border Magic Table
+```
+<ItemsControl ItemsSource="{Binding MyList}">
+<ItemsControl.ItemTemplate>
+    <DataTemplate>
+	<Grid x:Name="grid" Margin="0,8,0,0" />
+	
+	<DataTemplate.Triggers>
+	    <DataTrigger Binding="{Binding RelativeSource={RelativeSource Mode=PreviousData}}" Value="{x:Null}">
+		<Setter TargetName="grid" Property="Margin" Value="0,0,0,0" />
+	    </DataTrigger>
+	</DataTemplate.Triggers>
+    </DataTemplate>
+</ItemsControl.ItemTemplate>
+</ItemsControl>
+```
+
 # Binding Debugging
  * `PresentationTraceSources.TraceLevel=High`
  	* `<TextBox Text="{Binding Path=Foobar, PresentationTraceSources.TraceLevel=High}" />`
