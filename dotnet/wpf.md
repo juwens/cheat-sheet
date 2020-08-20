@@ -20,6 +20,10 @@
 
 - https://github.com/snoopwpf/snoopwpf
 
+# Libraries
+
+- https://github.com/Infragistics/InfragisticsThemesForMicrosoftControls
+
 # Binding 
 
 [MSDN: Binding Path Syntax](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/binding-declarations-overview?redirectedfrom=MSDN#Path_Syntax)
