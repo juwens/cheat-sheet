@@ -24,6 +24,10 @@
 
 - https://github.com/Infragistics/InfragisticsThemesForMicrosoftControls
 
+# ContentPresenter vs ContentControl
+
+- https://stackoverflow.com/questions/1287995/whats-the-difference-between-contentcontrol-and-contentpresenter
+
 # Binding 
 
 [MSDN: Binding Path Syntax](https://docs.microsoft.com/en-us/dotnet/framework/wpf/data/binding-declarations-overview?redirectedfrom=MSDN#Path_Syntax)
