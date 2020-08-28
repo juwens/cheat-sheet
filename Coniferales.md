@@ -16,6 +16,8 @@ Ordnung
     - Pseudolarix Gordon, monotypisch
     - Hemlocktannen (Tsuga Carrière)
 - Eibengewächse (Taxaceae)
+  - Eiben (Taxus)
+    - Europäische Eibe (Taxus baccata)
 - Cupressaceae
   - Cupressoideae 
     - Weihrauchzedern (Calocedrus)
