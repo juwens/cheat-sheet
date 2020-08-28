@@ -6,3 +6,4 @@
     - Zypressen (Cupressus)
     - Wacholder (Juniperus)
     - Lebensbäume (Thuja)
+    - Unterfamilie Mammutbäume (Sequoioideae (Luerss.) Quinn)
