@@ -1,4 +1,13 @@
+Ordnung
+- Familie 
+  - Unterfamilie
+    - Gattung
+      - Art
+
 - Kieferngewächse (Pinaceae)
+  - Piceoideae
+    - Fichten (Picea)
+      - Gemeine Fichte (Picea Abies)
   - Unterfamilie Abietoideae 
     - Tannen (Abies Mill.), ist die Typusgattung für diese Unterfamilie.
     - Zedern (Cedrus Trew)
