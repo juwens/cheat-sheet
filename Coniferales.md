@@ -8,6 +8,9 @@ Ordnung
   - Piceoideae
     - Fichten (Picea)
       - Gemeine Fichte (Picea Abies)
+  - Laricoideae
+    - Lärchen (Larix), sind die Typusgattung für diese Unterfamilie.
+    - Douglasien (Pseudotsuga)
   - Abietoideae 
     - Tannen (Abies Mill.), ist die Typusgattung für diese Unterfamilie.
     - Zedern (Cedrus Trew)
