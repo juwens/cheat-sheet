@@ -3,4 +3,6 @@
   - Cupressoideae 
     - Weihrauchzedern (Calocedrus)
     - Scheinzypressen (Chamaecyparis)
+    - Zypressen (Cupressus)
     - Wacholder (Juniperus)
+    - Lebensbäume (Thuja)
