@@ -1,5 +1,5 @@
 Ordnung
-- Familie 
+- Familie
   - Unterfamilie
     - Gattung
       - Art
