@@ -6,7 +6,7 @@
 | Invoke-Build   | https://github.com/nightroman/Invoke-Build    |
 | nant           | https://github.com/nant/nant                  |
 | Nake           | https://github.com/yevhen/Nake                |
-| nuke           | nuke-build/nuke                               |
+| nuke           | https://github.com/nuke-build/nuke                               |
 
 
 [![](https://github.com/juwens/cheat-sheet/raw/master/dotnet/assets/build-tools-star-history_3.png)](https://star-history.t9t.io/#fsharp/FAKE&psake/psake&nant/nant&yevhen/Nake&nightroman/Invoke-Build&cake-build/cake&nuke-build/nuke)
