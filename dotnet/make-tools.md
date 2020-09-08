@@ -8,4 +8,4 @@
 | Nake           | https://github.com/yevhen/Nake                |   |   |
 
 
-[![build-tools-star-history.png](https://github.com/juwens/cheat-sheet/raw/master/dotnet/assets/build-tools-star-history.png)](https://star-history.t9t.io/#fsharp/FAKE&psake/psake&nant/nant&yevhen/Nake&nightroman/Invoke-Build&cake-build/cake)
+[![](https://github.com/juwens/cheat-sheet/raw/master/dotnet/assets/build-tools-star-history_2.png)](https://star-history.t9t.io/#fsharp/FAKE&psake/psake&nant/nant&yevhen/Nake&nightroman/Invoke-Build&cake-build/cake)
