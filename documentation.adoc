@@ -41,15 +41,14 @@ a|* javascript-library available for browser and nodejs CLI
 a|* java library/server/CLI 
 * unpleasent style
 * widely supported
-|===
 
 |yEd
 |https://www.yworks.com/products/yed
 a|* desktop application
 * browser https://www.yworks.com/products/yed-live
-|===
+* yEd is freely available and runs on all major platforms: Windows, Unix/Linux, and macOS.
 
-yEd is freely available and runs on all major platforms: Windows, Unix/Linux, and macOS.
+|===
 
 # Gossar
 
