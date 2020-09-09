@@ -43,6 +43,14 @@ a|* java library/server/CLI
 * widely supported
 |===
 
+|yEd
+|https://www.yworks.com/products/yed
+a|* desktop application
+* browser https://www.yworks.com/products/yed-live
+|===
+
+yEd is freely available and runs on all major platforms: Windows, Unix/Linux, and macOS.
+
 # Gossar
 
 * CLI: Command Line Interface
