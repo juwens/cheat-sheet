@@ -2,8 +2,8 @@
 
 Inter-process communication (usually) consist of four components:
 
-1. Definition of the service (method and exchanged data - example `int32 getCustomerId(string email)`) - **IDL** (**I**nterface **D**efinition **L**anguage). For SOAP it's WSDL (webservice description language)
-2. Data encoder/serializer/marshaller, which converts an in-process/in-memory object to a string or byte-array which can be transfered over the network.
+1. Definition of the service (method and exchanged data - example `int32 getCustomerId(string email)`) - **IDL** (**I**nterface **D**efinition **L**anguage). For SOAP it's WSDL (webservice description language).
+2. Data encoder/serializer/marshaller, which converts an in-process/in-memory object to a string or byte-array which can be transfered over the network. For SOAP the data-format is XML and tons of (de)serializers are available for every modern language.
 3. 
 
 # Glossary
