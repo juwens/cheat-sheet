@@ -1,10 +1,16 @@
-Glossar
+# Abstract
+
+Inter-process communication (usually) consist of four components:
+
+1. Definition of the service (method and exchanged data - example `int32 getCustomerId(string email)`) - **IDL** (**I**nterface **D**efinition **L**anguage). For SOAP it's WSDL (webservice description language)
+2. Data encoder/serializer/marshaller, which converts an in-process/in-memory object to a string or byte-array which can be transfered over the network.
+3. 
+
+# Glossary
 
 | Name | Explanation |
 |--|--|
 | Message | A (usually little complexity) data object which exists in your application code (ex: `var myCar = new Car { NumberOfWheels = 4, Weight = 1400 }`. Will be serialized/encoded to json/xml/protobuf |
-
-
 
 # Layer 0 - Communication
 
@@ -25,7 +31,7 @@ Responsible for
 - http
 - http/2
 
-Layer 2 - Serialization Format/Technology to serilize/deserialize the Message
+# Layer 2 - Serialization Format/Technology to serilize/deserialize the Message
 
 - xml
 - json
@@ -36,3 +42,9 @@ Layer 2 - Serialization Format/Technology to serilize/deserialize the Message
 - ASN.1
 
 A lot more available: https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats
+
+# IDL - Interface Definition Language
+
+The 
+
+- [Swagger/OpenAPI Specification](https://en.wikipedia.org/wiki/OpenAPI_Specification)
