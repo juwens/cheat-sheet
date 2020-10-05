@@ -34,7 +34,7 @@ a|* advanced features
 |https://github.com/mermaid-js/mermaid
 a|* javascript-library available for browser and nodejs CLI
 * https://mermaid-js.github.io/mermaid-live-editor/#/[Live Editor]
-* pleasent style
+* pleasent style (out of the box)
 
 |PlantUML
 |https://en.wikipedia.org/wiki/PlantUML[wiki]
