@@ -26,7 +26,7 @@ a|* cli compiler generates png from markup
 |https://www.yworks.com/products/yed
 |Yes
 |???
-a|* desktop application
+a|* Desktop App
 * browser https://www.yworks.com/products/yed-live
 * yEd is freely available and runs on all major platforms: Windows, Unix/Linux, and macOS.
 
@@ -35,12 +35,17 @@ a|* desktop application
 |Yes
 |???
 a|* online (in browser)
-* offline (electron app)
+* Desktop App (electron)
 
 |Pencil
 |https://pencil.evolus.vn/
 |Yes
 |GPL v2
 a|* 
+
+|Microsoft Visio
+|https://www.microsoft.com/en-us/microsoft-365/visio/flowchart-software
+|commercial MS Visio EULA
+a|* Desktop App
 
 |===
