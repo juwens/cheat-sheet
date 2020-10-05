@@ -1,6 +1,6 @@
 # Diagram tool(chain)s
 
-[cols="3*"]
+[cols="5*"]
 |===
 |Name|Homepage/Wiki|WYSIWYG|License|Infos
 
