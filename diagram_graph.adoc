@@ -34,7 +34,7 @@ a|* desktop application
 |Yes
 |???
 a|* online (in browser)
-|* offline (electron app)
+* offline (electron app)
 
 |Pencil
 |https://pencil.evolus.vn/
