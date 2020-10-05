@@ -2,24 +2,44 @@
 
 [cols="3*"]
 |===
-|Name|Wiki|Infos
+|Name|Homepage/Wiki|WYSIWYG|License|Infos
 
 |mermaid
 |https://github.com/mermaid-js/mermaid
+|Yes (live preview of markup changes)
+|???
 a|* javascript-library available for browser and nodejs CLI
 * https://mermaid-js.github.io/mermaid-live-editor/#/[Live Editor]
 * pleasent style (out of the box)
 
 |PlantUML
 |https://en.wikipedia.org/wiki/PlantUML[wiki]
-a|* java library/server/CLI 
+|No
+|???
+a|* cli compiler generates png from markup
+* java library/server/CLI 
 * unpleasent style
 * widely supported
 
 |yEd
 |https://www.yworks.com/products/yed
+|Yes
+|???
 a|* desktop application
 * browser https://www.yworks.com/products/yed-live
 * yEd is freely available and runs on all major platforms: Windows, Unix/Linux, and macOS.
+
+|draw.io
+|https://drawio-app.com/
+|Yes
+|???
+a|* online (in browser)
+|* offline (electron app)
+
+|Pencil
+|https://pencil.evolus.vn/
+|Yes
+|GPL v2
+a|* 
 
 |===
