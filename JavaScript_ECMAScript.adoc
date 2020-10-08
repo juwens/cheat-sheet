@@ -48,4 +48,4 @@ a|* React Native
 a|
 [%hardbreaks]
 https://github.com/facebook/hermes
-Just a runtime, without browser.
+Just a runtime, without render-engine or browser.
