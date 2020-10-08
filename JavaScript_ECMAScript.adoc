@@ -41,7 +41,9 @@ a|* Microsoft Edge (Legacy)
 a|
 [%hardbreaks]
 https://github.com/microsoft/ChakraCore
-Will not be further developep by microsoft
+Will not be further developep by microsoft.
+Debugging JS via "v8 devtools-protocol" aka. "inspect".
+https://github.com/microsoft/ChakraCore-Debugger
 
 |Hermes
 a|* React Native
