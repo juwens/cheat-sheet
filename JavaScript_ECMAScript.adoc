@@ -19,7 +19,7 @@
 https://medium.com/engineered-publicis-sapient/javascript-es6-es7-es10-where-are-we-8ac044dfd964
 
 = Engine/Runtimes
-
+[%hardbreaks]
 |===
 |Engine|Used by|Comments
 
@@ -27,7 +27,9 @@ https://medium.com/engineered-publicis-sapient/javascript-es6-es7-es10-where-are
 a|* Google Chrome
 * Microsoft Edge (chromium based)
 * Node.js
-a|https://github.com/v8/v8
+a|
+[%hardbreaks]
+https://github.com/v8/v8
 JS Debug Protocol: "inspector" and "legacy"
 
 |JavaScriptCore (Webkit)
@@ -36,9 +38,14 @@ a|* Safari
 
 |ChakraCore
 a|* Microsoft Edge (Legacy)
-| https://github.com/microsoft/ChakraCore
+a|
+[%hardbreaks]
+https://github.com/microsoft/ChakraCore
 Will not be further developep by microsoft
 
 |Hermes
 |React Native
-|https://github.com/facebook/hermes
+a|
+[%hardbreaks]
+https://github.com/facebook/hermes
+Just a runtime, without browser.
