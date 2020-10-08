@@ -42,7 +42,7 @@ a|
 [%hardbreaks]
 https://github.com/microsoft/ChakraCore
 Will not be further developep by microsoft.
-Debugging JS via "v8 devtools-protocol" aka. "inspect".
+Debugging JS via "v8 devtools-protocol" aka. "inspector" protocol.
 https://github.com/microsoft/ChakraCore-Debugger
 
 |Hermes
