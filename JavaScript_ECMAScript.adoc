@@ -44,7 +44,7 @@ https://github.com/microsoft/ChakraCore
 Will not be further developep by microsoft
 
 |Hermes
-|React Native
+a|* React Native
 a|
 [%hardbreaks]
 https://github.com/facebook/hermes
