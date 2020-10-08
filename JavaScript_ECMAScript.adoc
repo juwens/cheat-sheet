@@ -27,7 +27,8 @@ https://medium.com/engineered-publicis-sapient/javascript-es6-es7-es10-where-are
 a|* Google Chrome
 * Microsoft Edge (chromium based)
 * Node.js
-|JS Debug Protocol: "inspector" and "legacy"
+a|https://github.com/v8/v8
+JS Debug Protocol: "inspector" and "legacy"
 
 |JavaScriptCore (Webkit)
 a|* Safari
