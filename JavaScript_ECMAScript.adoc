@@ -51,3 +51,9 @@ a|
 [%hardbreaks]
 https://github.com/facebook/hermes
 Just a runtime, without render-engine or browser.
+
+|SpiderMonkey/JaegerMonkey
+a|* Firefox
+a|[%hardbreaks]
+https://en.wikipedia.org/wiki/SpiderMonkey
+https://wiki.mozilla.org/JaegerMonkey
