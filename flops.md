@@ -1,9 +1,13 @@
 | |FP32 TFLOPS|FP16 TFLOPS|FP64 TFLOPS|
 |--|--|--|--|
+|Xbox One S|1.4| | |
 |PS4|1.8| | |
 |ps4 pro|4.2| | |
 |PS5|10.3| | |
 |Xbox Series X|12| | |
+
+| |FP32 TFLOPS|FP16 TFLOPS|FP64 TFLOPS|
+|--|--|--|--|
 |GTX 660|2| |0.08256 (1:24)|
 |GTX 1070|6.5|101| |
 |RTX 2060 Super|8.1|16.2| |
