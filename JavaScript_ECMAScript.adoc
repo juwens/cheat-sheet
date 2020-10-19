@@ -26,6 +26,7 @@ TS/ESNext  -- Transpile --> ES5 (still with import/require) -- bundler --> ES5 w
              Typescript                                        rollup
                Babel                                         browserify
                                                               webpack
+                                                               parcel
 ```
 
 == bundler
