@@ -18,6 +18,24 @@
 
 https://medium.com/engineered-publicis-sapient/javascript-es6-es7-es10-where-are-we-8ac044dfd964
 
+= Build Toolchain
+
+```
+TS/ESNext  -- Transpile --> ES5 (still with import/require) -- bundler --> ES5 with inlined imports/require
+                             
+             Typescript                                        rollup
+               Babel                                         browserify
+                                                              webpack
+```
+
+== bundler
+
+* https://github.com/browserify/browserify
+* https://github.com/rollup/rollup
+
+* https://github.com/Rich-Harris/sorcery
+* 
+
 = Engine/Runtimes
 [%hardbreaks]
 |===
