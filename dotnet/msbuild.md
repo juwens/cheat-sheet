@@ -7,9 +7,11 @@
   * Directory.Build.targets
 * Debugging
   * `dotnet build /pp` preprocess
-  * VS: https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools
-  * https://github.com/KirillOsenkov/MSBuildStructuredLog
-    * `msbuild solution.sln /bl`
+  * `msbuild solution.sln /bl` binlog
+    * https://github.com/KirillOsenkov/MSBuildStructuredLog
+    * VS: https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools
+  
+    
   
 
 # Talks
