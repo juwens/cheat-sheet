@@ -1,4 +1,4 @@
-# Fusion Log Viewer (fuslogvw.exe)
+# Fuslogvw.exe (Assembly Binding Log Viewer) ~ Fusion Log Viewer
 
 - Fusion++ https://github.com/awaescher/Fusion
 - https://docs.microsoft.com/en-us/dotnet/framework/tools/fuslogvw-exe-assembly-binding-log-viewer
