@@ -1,7 +1,7 @@
 
 # Unity doc for versions equal or smaller than 4
 
-- https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff660872(v=pandp.20)?redirectedfrom=MSDN
+- https://docs.microsoft.com/en-us/previous-versions/msp-n-p/dn170416(v=pandp.10)
 - https://www.tutorialsteacher.com/ioc/register-and-resolve-in-unity-container
 
 | | |
