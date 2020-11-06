@@ -1,6 +1,6 @@
 
-- Unity 4 Docu: https://www.tutorialsteacher.com/ioc/register-and-resolve-in-unity-container
-- Unity 5 Docu: http://unitycontainer.org/api/Unity.Resolution.html
+- Unity 4 doc: https://www.tutorialsteacher.com/ioc/register-and-resolve-in-unity-container
+- Unity 5 doc: http://unitycontainer.org/api/Unity.Resolution.html
 
 | | |
 |--|--|
