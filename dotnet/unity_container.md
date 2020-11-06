@@ -1,6 +1,8 @@
 
-- Unity 4 doc: https://www.tutorialsteacher.com/ioc/register-and-resolve-in-unity-container
-- Unity 5 doc: http://unitycontainer.org/api/Unity.Resolution.html
+# Unity doc for versions equal or smaller than 4
+
+- https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff660872(v=pandp.20)?redirectedfrom=MSDN
+- https://www.tutorialsteacher.com/ioc/register-and-resolve-in-unity-container
 
 | | |
 |--|--|
@@ -10,3 +12,8 @@
 |PerResolveLifetimeManager | |
 |PerThreadLifetimeManager | |
 |ExternallyControlledLifetimeManager | |
+
+# Unity doc for versions equal or greater than 5
+- http://unitycontainer.org/api/Unity.Resolution.html
+
+
