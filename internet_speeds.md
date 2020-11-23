@@ -8,3 +8,7 @@
 |VDSL2 (Profil 8b)|50|10|no vectoring|
 |VDSL|55|3| |
 |ADSL2+|20|0,75| |
+
+# References
+- https://www.elektronik-kompendium.de/sites/kom/1804231.htm
+- https://en.wikipedia.org/wiki/VDSL#Vectoring
