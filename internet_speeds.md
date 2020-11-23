@@ -12,3 +12,4 @@
 # References
 - https://www.elektronik-kompendium.de/sites/kom/1804231.htm
 - https://en.wikipedia.org/wiki/VDSL#Vectoring
+- https://en.wikipedia.org/wiki/G.992.5#Germany
