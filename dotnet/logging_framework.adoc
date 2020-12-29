@@ -4,14 +4,14 @@
 |Topic|NLog|Serilog
 
 |Conclusion
-a|- easy setup
-- for my usecase: same logfile-output (text, json, structured, whatever)
+a|* easy setup
+* for my usecase: same logfile-output (text, json, structured, whatever)
 
-- NLog took me ; Serilog took me 3 hours
-a|- theoratically good
-- poor exprience in reality, mainly because of the bad documentation
-- pretty complicated setup, if the defaults don't fullfill your needs (due to bad docs)
-- headaches and cumbersome digging in docs, sourcecode, github issues
+* NLog took me ; Serilog took me 3 hours
+a|* theoratically good
+* poor exprience in reality, mainly because of the bad documentation
+* pretty complicated setup, if the defaults don't fullfill your needs (due to bad docs)
+* headaches and cumbersome digging in docs, sourcecode, github issues
 
 a |Time to setup loggin in a new app wiht specific demands.
 
@@ -20,29 +20,31 @@ For me: log to file & console. With classname, Exceptions and some structured da
 |200 Minutes
 
 |Documentation
-a|- very extensive
-- well structured
-- working examples
+a|* very extensive
+* well structured
+* working examples
 
-a|- few docs
-- outdated
-- examples do not work as described
-- "documentation" is mostly in github isses, when people ask how things work
-- there's no clear statement what the ":l" modifier in the format template does; it 
+a|* few docs
+* outdated
+* examples do not work as described
+* "documentation" is mostly in github isses, when people ask how things work
+* there's no clear statement what the ":l" modifier in the format template does; it 
 
 |include Class-Name in log output
-a|- create a field with `ILogger _log = LogManager.GetCurrentClassLogger();`
-- you are done! Default target-layout contains the appropriate 
-- it will appear in File an Console-log
-a|- create a field with `ILogger _log = Log.ForContext<MqttDrainService>();`
-- add `{SourceContext}` to outputTemplate
-- for console: `[{Timestamp:HH:mm:ss} {Level:u3} {SourceContext}] {Message:j}{NewLine}{Exception}`
-- add `.Enrich.FromLogContext()` to Configuration
+a|* create a field with `ILogger _log = LogManager.GetCurrentClassLogger();`
+* you are done! Default target-layout contains the appropriate 
+* it will appear in File an Console-log
+a|* create a field with `ILogger _log = Log.ForContext<MqttDrainService>();`
+* add `{SourceContext}` to outputTemplate
+* for console: `[{Timestamp:HH:mm:ss} {Level:u3} {SourceContext}] {Message:j}{NewLine}{Exception}`
+* add `.Enrich.FromLogContext()` to Configuration
 
 |Hints
-a|- config file
-- put an nlog.config in the root of your project
-- set `CopyToOutputDirectory` for nlog.config to `Always`
-- copy paste a basic config into you nlog.config https://github.com/nlog/nlog/wiki/Configuration-file#nlog-config-xml
-a|- remove the ":l" modifier to automatically add quotes for strings
+
+a|* config file
+** put an nlog.config in the root of your project
+** set `CopyToOutputDirectory` for nlog.config to `Always`
+** copy paste a basic config into you nlog.config https://github.com/nlog/nlog/wiki/Configuration-file#nlog-config-xml
+
+a|* remove the ":l" modifier to automatically add quotes for strings
 |===
