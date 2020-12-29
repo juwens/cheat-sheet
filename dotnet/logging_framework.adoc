@@ -13,7 +13,8 @@ a|- theoratically good
 - pretty complicated setup, if the defaults don't fullfill your needs (due to bad docs)
 - headaches and cumbersome digging in docs, sourcecode, github issues
 
-|Time to setup loggin in a new app wiht specific demands.
+a |Time to setup loggin in a new app wiht specific demands.
+
 For me: log to file & console. With classname, Exceptions and some structured data.
 |20 Minutes
 |200 Minutes
