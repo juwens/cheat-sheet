@@ -4,10 +4,19 @@
 |Topic|NLog|Serilog
 
 |Conclusion
-a|- much easier usable
+a|- easy setup
 - for my usecase: same logfile-output (text, json, structured, whatever)
+
+- NLog took me ; Serilog took me 3 hours
 a|- theoratically good
 - poor exprience in reality, mainly because of the bad documentation
+- pretty complicated setup, if the defaults don't fullfill your needs (due to bad docs)
+- headaches and cumbersome digging in docs, sourcecode, github issues
+
+|Time to setup loggin in a new app wiht specific demands.
+For me: log to file & console. With classname, Exceptions and some structured data.
+|20 Minutes
+|200 Minutes
 
 |Documentation
 a|- very extensive
