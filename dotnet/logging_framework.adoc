@@ -1,0 +1,24 @@
+.Table .Net Logging Framework Comparison
+
+[%header,cols=3*]
+|===
+|Topic|NLog|Serilog
+
+|Documentation
+a|- very extensive
+- well structured
+- working examples
+
+a|- few docs
+- outdated
+- examples do not work as described
+- "documentation" is mostly in github isses, when people ask how things work
+- there's no clear statement what the ":l" modifier in the format template does; it 
+
+|include Class-Name in log output
+a|- create a field with `ILogger _log = LogManager.GetCurrentClassLogger();`
+- you are done! Default target-layout contains the appropriate
+
+- Default it will appear in File an Console-log
+|Cell in column 3, row 2
+|===
