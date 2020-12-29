@@ -3,6 +3,13 @@
 |===
 |Topic|NLog|Serilog
 
+|Conclusion
+a|- much easier usable
+- for my usecase: same logfile-output (text, json, structured, whatever)
+a|- theoratically good
+- practially bad
+- mainly because of the bad documentation
+
 |Documentation
 a|- very extensive
 - well structured
