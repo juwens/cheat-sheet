@@ -16,15 +16,17 @@ a|- few docs
 
 |include Class-Name in log output
 a|- create a field with `ILogger _log = LogManager.GetCurrentClassLogger();`
-- you are done! Default target-layout contains the appropriate
-
-- Default it will appear in File an Console-log
-|- create a field with `ILogger _log = Log.ForContext<MqttDrainService>();`
+- you are done! Default target-layout contains the appropriate 
+- it will appear in File an Console-log
+a|- create a field with `ILogger _log = Log.ForContext<MqttDrainService>();`
 - add `{SourceContext}` to outputTemplate
 - for console: `[{Timestamp:HH:mm:ss} {Level:u3} {SourceContext}] {Message:j}{NewLine}{Exception}`
 - add `.Enrich.FromLogContext()` to Configuration
 
 |Hints
-a|-
+a|- config file
+- put an nlog.config in the root of your project
+- set `CopyToOutputDirectory` for nlog.config to `Always`
+- copy paste a basic config into you nlog.config https://github.com/nlog/nlog/wiki/Configuration-file#nlog-config-xml
 a|- remove the ":l" modifier to automatically add quotes for strings
 |===
