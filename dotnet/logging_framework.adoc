@@ -1,4 +1,4 @@
-.Net Logging Framework Comparison
+.Net Logging Framework Comparison (2020)
 [%header,cols=3*]
 |===
 |Topic|NLog|Serilog
