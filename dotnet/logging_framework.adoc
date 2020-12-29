@@ -1,5 +1,4 @@
-.Table .Net Logging Framework Comparison
-
+.Net Logging Framework Comparison
 [%header,cols=3*]
 |===
 |Topic|NLog|Serilog
@@ -20,5 +19,12 @@ a|- create a field with `ILogger _log = LogManager.GetCurrentClassLogger();`
 - you are done! Default target-layout contains the appropriate
 
 - Default it will appear in File an Console-log
-|Cell in column 3, row 2
+|- create a field with `ILogger _log = Log.ForContext<MqttDrainService>();`
+- add `{SourceContext}` to outputTemplate
+- for console: `[{Timestamp:HH:mm:ss} {Level:u3} {SourceContext}] {Message:j}{NewLine}{Exception}`
+- add `.Enrich.FromLogContext()` to Configuration
+
+|Hints
+a|-
+a|- remove the ":l" modifier to automatically add quotes for strings
 |===
