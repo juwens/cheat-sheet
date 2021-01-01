@@ -3,6 +3,7 @@
 |Xbox One S|1.4| | |
 |PS4|1.8| | |
 |ps4 pro|4.2| | |
+|Xbox Series S|4| | |
 |Xbox One X|6| | |
 |PS5|10.3| | |
 |Xbox Series X|12| | |
