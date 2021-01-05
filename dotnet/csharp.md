@@ -7,11 +7,10 @@ System.Timers.Timer: timer.Enabled = false; or timer.Stop();
 
 # Gzip
 ```
-using (FileStream compressedFileStream = File.Create(fileToCompress.FullName + ".gz"))
+using (var inFileStream = File.OpenRead(inFile))
+using (var compressedFileStream = File.OpenWrite(outFile))
+using (var compressedStream = new GZipStream(compressedFileStream, CompressionMode.Compress))
 {
-    using (FileStream originalFileStream = fileToCompress.OpenRead());
-    using (GZipStream compressionStream = new GZipStream(compressedFileStream, CompressionMode.Compress));
-    
-    originalFileStream.CopyTo(compressionStream);
+    inFileStream.CopyTo(compressedStream);
 }
 ```
