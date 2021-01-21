@@ -3,5 +3,6 @@
 - Status bar (from Android); BackgroundColor: colorPrimaryDark
 - Toolbar
 - Content?
-- Tabbar
+- Tabbar (optional) or NavigationBar (older Android OS)
 
+![android_layout_colornames.webp](assets/android_layout_colornames.webp)
