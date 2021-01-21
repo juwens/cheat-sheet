@@ -1,5 +1,6 @@
 - MAUI
-- WinUI 3
+- UI
+  - WinUI 3
+  - UWP
+  - WPF
 - .Net 5
-- UWP
-- WPF
