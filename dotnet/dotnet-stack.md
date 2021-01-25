@@ -1,7 +1,10 @@
 # Dotnet Stack components
 
+https://www.ecma-international.org/publications-and-standards/standards/ecma-335/
+
+
 - Runtime (may include JIT-er) 
-  - The Standard: [VES/Virtual Execution System](https://en.wikipedia.org/wiki/Virtual_Execution_System)
+  - VES Standard is Part of ECMA-335 (CLI): [Virtual Execution System](https://en.wikipedia.org/wiki/Virtual_Execution_System)
   - The Implementations:
     - [Common Language Runtime](https://en.wikipedia.org/wiki/Common_Language_Runtime)
     - [Mono](https://en.wikipedia.org/wiki/Mono_(software))
