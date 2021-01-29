@@ -2,6 +2,8 @@
 
 ```
 Set-StrictMode -Version Latest
+$ErrorActionPreference = 'Stop'
+trap {break}
 ```
 
 # profile
