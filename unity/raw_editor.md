@@ -5,8 +5,16 @@
 
 - Photoshop Raw format
   - https://helpx.adobe.com/photoshop/using/file-formats.html#photoshop_raw_format
+  - `contain 8-bits-per-channel RGB data in top-to-bottom, left-to-right pixel order. Dimensions must be input manually when such files are re-opened, or a square image is assumed.` (Source: [wikipedia](https://en.wikipedia.org/wiki/Raw_image_format#Raw_bitmap_files))
 
 # Editor/Viewer for "Unity/Photoshop Raw"
+
+# The Solution
+
+```
+magic stream -map r -storage-type short image.png image_1081x1081_16bit.praw
+magic stream -map r -storage-type char image.png image_1081x1081_8bit.praw
+```
 
 # What did work
 
