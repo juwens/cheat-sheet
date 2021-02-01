@@ -6,14 +6,15 @@
 - Photoshop Raw format
   - https://helpx.adobe.com/photoshop/using/file-formats.html#photoshop_raw_format
   - `contain 8-bits-per-channel RGB data in top-to-bottom, left-to-right pixel order. Dimensions must be input manually when such files are re-opened, or a square image is assumed.` (Source: [wikipedia](https://en.wikipedia.org/wiki/Raw_image_format#Raw_bitmap_files))
+  - lacks a header, so you have to know the resolution and pixel-byte-size and Little/Big-Endiness upfront of opening the file
 
 # Editor/Viewer for "Unity/Photoshop Raw"
 
 # The Solution
 
 ```
-magic stream -map r -storage-type short image.png image_1081x1081_16bit.praw
-magic stream -map r -storage-type char image.png image_1081x1081_8bit.praw
+magic stream -map r -storage-type short image.png image_1081x1081_16bit.praw # Gray unsigned 16 bit Little Endian
+magic stream -map r -storage-type char image.png image_1081x1081_8bit.praw   # Gray 8 bit
 ```
 
 - open with GIMP:
