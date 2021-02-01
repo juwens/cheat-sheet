@@ -3,6 +3,12 @@
 is what in Photoshop "Save as > Photoshop Raw" produces.
 No further specification or alternatives 
 
+# Editor/Viewer for "Unity/Photoshop Raw"
+
+# What did work
+
+- IrfanView (Viewing worked; but was not able to import saved File)
+
 # What didn't work
 
 - XNView: couldn't display raw files properly
