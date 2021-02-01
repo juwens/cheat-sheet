@@ -31,7 +31,8 @@ Don't use 8 bit if your source-image is 16 bit.
 stream -map r -storage-type char image.png image_1081x1081_8bit.praw   # Gray 8 bit
 ```
 
-- open with GIMP:
+## Open "raw" file with GIMP:
+
   - File > Open ... > select file (don't click open yet)
   - expand "Select File Type"
     - select "Raw Image Data" (Extension 'data')
