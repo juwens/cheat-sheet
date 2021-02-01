@@ -1,15 +1,17 @@
 # Unity "Raw Format" 
 
-is what in Photoshop "Save as > Photoshop Raw" produces.
-No further specification or alternatives (as for example png import)
+- is what in Photoshop "Save as > Photoshop Raw" produces.
+- No further specification or alternatives (as for example png import)
 
-- https://helpx.adobe.com/photoshop/using/file-formats.html#photoshop_raw_format
+- Photoshop Raw format
+  - https://helpx.adobe.com/photoshop/using/file-formats.html#photoshop_raw_format
 
 # Editor/Viewer for "Unity/Photoshop Raw"
 
 # What did work
 
-- IrfanView (Viewing worked; but was not able to import saved File)
+- IrfanView (opening and viewing raw files worked; but was not able to import files saved with Irfanview)
+- GIMP (opening and viewing raw files dit **not** work; but GIMP is able to export as raw files, which can opened by unitiy "import raw")
 
 # What didn't work
 
