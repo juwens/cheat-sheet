@@ -45,8 +45,14 @@ stream -map r -storage-type char image.png image_1081x1081_8bit.praw   # Gray 8 
 
 # What did work
 
-- IrfanView (opening and viewing raw files worked; but was not able to import files saved with Irfanview)
-- GIMP (opening and viewing raw files dit **not** work; but GIMP is able to export as raw files, which can opened by unitiy "import raw")
+- GIMP 
+  - opening and viewing raw files works
+    - circumvent the open-wizard and use "Raw Image Data" as filetype
+    - GIMP is also able to export as raw files, which can opened by unitiy "import raw"
+- IrfanView
+  - opening and viewing raw 8bit files worked
+  - opening and viewing raw 16bit files dit not work
+  - but was not able to import files saved with Irfanview)
 
 # What didn't work
 
