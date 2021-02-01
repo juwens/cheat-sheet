@@ -1,7 +1,9 @@
 # Unity "Raw Format" 
 
 is what in Photoshop "Save as > Photoshop Raw" produces.
-No further specification or alternatives 
+No further specification or alternatives (as for example png import)
+
+- https://helpx.adobe.com/photoshop/using/file-formats.html#photoshop_raw_format
 
 # Editor/Viewer for "Unity/Photoshop Raw"
 
