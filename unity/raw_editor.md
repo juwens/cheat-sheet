@@ -12,9 +12,17 @@
 
 # The Solution
 
+Check the size of pixel
 ```
-magic stream -map r -storage-type short image.png image_1081x1081_16bit.praw # Gray unsigned 16 bit Little Endian
-magic stream -map r -storage-type char image.png image_1081x1081_8bit.praw   # Gray 8 bit
+$ identify image.png
+image.png PNG 1081x1081 1081x1081+0+0 16-bit Grayscale Gray 1.42376MiB 0.000u 0:00.000
+```
+
+Convert
+```
+stream -map r -storage-type short image.png image_1081x1081_16bit.praw # Gray unsigned 16 bit Little Endian
+# optionally (if your source is 8bit; don't donwgrade ab 16bit image to an 8bit)
+stream -map r -storage-type char image.png image_1081x1081_8bit.praw   # Gray 8 bit
 ```
 
 - open with GIMP:
