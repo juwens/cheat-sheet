@@ -20,8 +20,14 @@ image.png PNG 1081x1081 1081x1081+0+0 16-bit Grayscale Gray 1.42376MiB 0.000u 0:
 
 Convert
 ```
-stream -map r -storage-type short image.png image_1081x1081_16bit.praw # Gray unsigned 16 bit Little Endian
-# optionally (if your source is 8bit; don't donwgrade ab 16bit image to an 8bit)
+stream -map r -storage-type short image.png image_1081x1081_16bit.praw # creates "Gray unsigned 16 bit Little Endian"
+```
+
+Done 🥳
+
+Optionally for 8 bit source image.
+Don't use 8 bit if your source-image is 16 bit.
+```
 stream -map r -storage-type char image.png image_1081x1081_8bit.praw   # Gray 8 bit
 ```
 
