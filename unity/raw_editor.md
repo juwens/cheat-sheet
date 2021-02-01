@@ -16,6 +16,17 @@ magic stream -map r -storage-type short image.png image_1081x1081_16bit.praw
 magic stream -map r -storage-type char image.png image_1081x1081_8bit.praw
 ```
 
+- open with GIMP:
+  - File > Open ... > select file (don't click open yet)
+  - expand "Select File Type"
+    - select "Raw Image Data" (Extension 'data')
+  - Click Open
+  - Wizard "Load Image from Raw Data" will open
+    - set correct! image resolution
+    - Image Type
+      - "Gray 8 bit" for 8 bit 
+      - "Gray unsigned 16 bit Little Endian" for 16 bit (unity identifies this as "windows byte order")
+
 # What did work
 
 - IrfanView (opening and viewing raw files worked; but was not able to import files saved with Irfanview)
