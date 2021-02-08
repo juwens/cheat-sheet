@@ -7,7 +7,7 @@
   * Directory.Build.targets
 * Debugging
   * `dotnet build /pp` preprocess
-  * `msbuild /pp:foo.txt MyProj.csproj` works only with project, not with solution
+  * `msbuild /pp:foo.targets MyProj.csproj` works only with project, not with solution
   * `msbuild solution.sln /bl` binlog
     * https://github.com/KirillOsenkov/MSBuildStructuredLog
     * VS: https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools
