@@ -102,3 +102,7 @@ System.Windows.Media.RenderOptions.ProcessRenderMode = System.Windows.Interop.Re
 
 ## Binding Directions
 ![wpf binding directions](https://github.com/juwens/cheat-sheet/raw/master/assets/wpf_binding.png)
+
+# List UI Synchronization Lock	
+
+BindingOperations.EnableCollectionSynchronization(MyList, _myListLock);
