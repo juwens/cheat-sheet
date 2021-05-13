@@ -3,7 +3,12 @@
 
 - https://devblogs.microsoft.com/dotnet/announcing-net-multi-platform-app-ui-preview-3/
 
+# MAUI Sample
+
+https://github.com/dotnet/net6-mobile-samples
+
 # Select iOS Simulator
 
 ```
 dotnet build -t:Run -f net6.0-ios /p:_DeviceName=:v2:udid=E3B7CC6A-4E29-4148-AACA-2A00B6CB3F52
+```
