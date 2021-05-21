@@ -17,6 +17,10 @@
 https://stackoverflow.com/questions/12772428/how-do-i-specify-targetpath-in-startarguments-a-csvbfsproj-user/12776579#12776579
 ```
 <TargetDir Condition="'$(OutDir)' != ''">$([MSBuild]::Escape($([System.IO.Path]::GetFullPath($([System.IO.Path]::Combine($(MSBuildProjectDirectory), $(OutDir)))))))</TargetDir>
+
+<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+  <Exec Command="echo ProjectDir='$(ProjectDir)'&#xD;&#xA;echo SolutionDir='$(SolutionDir)'" />
+</Target>
 ```
   
 
