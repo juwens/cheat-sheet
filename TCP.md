@@ -1,0 +1,1 @@
+- Data and ACK-Reply: https://stackoverflow.com/questions/3604485/does-tcp-send-a-syn-ack-on-every-packet-or-only-on-the-first-connection
