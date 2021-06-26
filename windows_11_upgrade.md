@@ -2,3 +2,8 @@
 
 - https://thinkdeploy.blogspot.com/2018/06/upgrading-tpm-spec-12-to-20-on-thinkpad.html
 - https://pcsupport.lenovo.com/de/de/downloads/ds032441 (X220 supported)
+
+Powershell:
+```
+(Get-WmiObject -Namespace "root\CIMV2\Security\MicrosoftTpm" -Class Win32_TPM)
+```
