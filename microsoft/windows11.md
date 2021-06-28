@@ -21,6 +21,5 @@ There are three options:
 | A lot of the Mainboards have a proprietary socket for a dTPM<br><br>A dTPM (or alternatively fTPM) is required! <br> The TPM itself is not included, but **may** be present. Plugged/soldered on the MB by OEM or the user <br>If you have a dTPM you should be able to enable it in BIOS/UEFI and run Windows 11. | since 2013 <br><br> separate dTPM required <br><br> None of the **LGA1150** (aka. 4th Gen Core CPU aka Haswell) Chipsets (H81, C222, B85, C224, Q85, Q87, C226,H87, Z87) and prior have PTT support, hence no embedded/integrated fTPM|since 2016/2017 <br><br> - separate dTPM required <br>- no embedded fTPM <br><br>this concerns Zen (1fst gen)/Ryzen 1000 Mainboards|
 | official windows 11 support. <br>a fTPM module embedded/integrated into the CPU or Chipset | since 2015<br><br> fTPM (which Intel calls PTT) included in every Chipset (except C236) <br><br>All **LGA1200** (8/9/10/11th gen core CPU) with 400 and 500 chipset have PTT support <br> <br> All (except one) of the **LGA1151** (6/7th gen Core cpu) Chipsets (100, 200, 300, **except C236**) have PTT support | since 2018 <br><br> fTPM included in every SOC/CPU<br><br>Socket AM4, "Zen+" (Ryzen 2000), "Zen 2", "Zen 3" and newer contain an embedded fTPM |
 
-Sources
 
   [1]: https://en.wikipedia.org/wiki/ARM_architecture#Security_extensions
