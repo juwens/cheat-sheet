@@ -26,3 +26,13 @@ private async void Tapped(object sender, EventArgs e)
     }
 }
 ```
+
+# Release History
+
+| | |
+|--|--|
+|5.0|01 2021|
+|4.0|04 2018|
+|3.0|03 2018|
+|2.0|11 2015|
+|1.0|11 2014|
