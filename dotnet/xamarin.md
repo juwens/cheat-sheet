@@ -36,3 +36,11 @@ private async void Tapped(object sender, EventArgs e)
 |3.0|03 2018|
 |2.0|11 2015|
 |1.0|11 2014|
+
+# Known Bugs
+
+## DataTrigger not working as intended
+
+- https://github.com/xamarin/Xamarin.Forms/issues/1412 ( aus dem Jahr 2016!!)
+- https://github.com/xamarin/Xamarin.Forms/issues/9495
+- https://github.com/xamarin/Xamarin.Forms/issues/7219
