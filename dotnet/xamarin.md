@@ -29,7 +29,7 @@ private async void Tapped(object sender, EventArgs e)
 
 # Release History
 
-| | |
+| Release | Date |
 |--|--|
 |5.0|01 2021|
 |4.0|04 2018|
