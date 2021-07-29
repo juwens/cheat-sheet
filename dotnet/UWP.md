@@ -8,4 +8,6 @@
 
 # Build Pipeline
 
-- MakePri.exe - compiles Resources to PRI (Package resource indexing) Files: https://docs.microsoft.com/en-us/windows/uwp/app-resources/pri-apis-custom-build-systems
+- MakePri.exe - compiles Resources to PRI (Package resource indexing) Files: 
+  - https://docs.microsoft.com/en-us/windows/uwp/app-resources/pri-apis-custom-build-systems
+  - https://docs.microsoft.com/en-us/windows/uwp/app-resources/build-resources-into-app-package
