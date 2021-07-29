@@ -5,3 +5,7 @@
   - https://www.nuget.org/packages/Microsoft.Windows.SDK.Contracts
   - https://www.nuget.org/packages/System.Runtime.InteropServices.WindowsRuntime/
 - Share Mutex between UWP and Win32: https://stackoverflow.com/questions/46186350/share-named-mutex-between-uwp-and-desktop-app
+
+# Build Pipeline
+
+- MakePri.exe - compiles Resources to PRI (Package resource indexing) Files: https://docs.microsoft.com/en-us/windows/uwp/app-resources/pri-apis-custom-build-systems
