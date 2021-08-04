@@ -5,6 +5,7 @@
 /lib/{tfm}/refrerence_and_implementation.dll
 /runtimes/{rid}/{tfm}/implementation.dll
 /runtimes/{rid}/{platform}-{architecture}\lib\{framework}
+/runtimes/{rid}/{platform}-{architecture}\native
 /contentFiles/{codeLanguage}/{TxM}/{any?}
 ```
 
