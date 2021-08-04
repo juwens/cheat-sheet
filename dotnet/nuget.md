@@ -7,10 +7,10 @@
 /contentFiles/{codeLanguage}/{TxM}/{any?}
 ```
 
-- tfm: Target Framework Moniker: 
+- tfm | Target Framework Moniker: 
   - https://docs.microsoft.com/en-us/dotnet/standard/frameworks
   - https://docs.microsoft.com/en-us/nuget/reference/target-frameworks
-- rid: Runtime Identifier [runtime.json](https://github.com/dotnet/runtime/blob/main/src/libraries/Microsoft.NETCore.Platforms/src/runtime.json)
+- rid | Runtime Identifier [runtime.json](https://github.com/dotnet/runtime/blob/main/src/libraries/Microsoft.NETCore.Platforms/src/runtime.json)
 - /contentFiles/ [nuspec#including-content-files](https://docs.microsoft.com/en-us/nuget/reference/nuspec#including-content-files)
   - codeLanguages may be cs, vb, fs, any, or the lowercase equivalent of a given $(ProjectLanguage)
   - TxM is any legal target framework moniker that NuGet supports (see Target frameworks).
