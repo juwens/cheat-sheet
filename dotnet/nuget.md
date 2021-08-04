@@ -4,6 +4,7 @@
 /ref/{tfm}/my_refrerence.dll
 /lib/{tfm}/refrerence_and_implementation.dll
 /runtimes/{rid}/{tfm}/implementation.dll
+/runtimes/{rid}/{platform}-{architecture}\lib\{framework}
 /contentFiles/{codeLanguage}/{TxM}/{any?}
 ```
 
