@@ -11,7 +11,7 @@
   - https://docs.microsoft.com/en-us/dotnet/standard/frameworks
   - https://docs.microsoft.com/en-us/nuget/reference/target-frameworks
 - [rid: Runtime Identifier](https://github.com/dotnet/runtime/blob/main/src/libraries/Microsoft.NETCore.Platforms/src/runtime.json)
-- [contentFiles](https://docs.microsoft.com/en-us/nuget/reference/nuspec#including-content-files)
+- /contentFiles/ [nuspec#including-content-files](https://docs.microsoft.com/en-us/nuget/reference/nuspec#including-content-files)
   - codeLanguages may be cs, vb, fs, any, or the lowercase equivalent of a given $(ProjectLanguage)
   - TxM is any legal target framework moniker that NuGet supports (see Target frameworks).
   - Any folder structure may be appended to the end of this syntax.
