@@ -3,16 +3,16 @@
 ```
 /ref/{tfm}/my_refrerence.dll
 /lib/{tfm}/refrerence_and_implementation.dll
-/runtimes/{rid}/{tfm}/implementation.dll
-/runtimes/{rid}/{platform}-{architecture}\lib\{framework}
-/runtimes/{rid}/{platform}-{architecture}\native
+/runtimes/{rid}/lib/{tfm}/my.dll
+/runtimes/{rid}/native/my.dll
 /contentFiles/{codeLanguage}/{TxM}/{any?}
 ```
 
 - tfm | Target Framework Moniker: 
-  - https://docs.microsoft.com/en-us/dotnet/standard/frameworks
+  - https://docs.microsoft.com/en-us/tfmd/otnet/standard/frameworks
   - https://docs.microsoft.com/en-us/nuget/reference/target-frameworks
-- rid | Runtime Identifier [runtime.json](https://github.com/dotnet/runtime/blob/main/src/libraries/Microsoft.NETCore.Platforms/src/runtime.json)
+- {rid} or {platform}-{architecture}
+  - Runtime Identifier [runtime.json](https://github.com/dotnet/runtime/blob/main/src/libraries/Microsoft.NETCore.Platforms/src/runtime.json)
 - /contentFiles/ [nuspec#including-content-files](https://docs.microsoft.com/en-us/nuget/reference/nuspec#including-content-files)
   - codeLanguages may be cs, vb, fs, any, or the lowercase equivalent of a given $(ProjectLanguage)
   - TxM is any legal target framework moniker that NuGet supports (see Target frameworks).
