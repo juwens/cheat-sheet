@@ -1,3 +1,17 @@
+# Histogramm
+
+```
+            
+              #
+              #
+ #        #   #    #
+ #        #   #    #
+----------------------------------
+4.7 5    5.5  6   >=6
+```
+
+# Table
+
 | Device | Display Size \[in\] | Pixel Density \[ppi\] | Resolution \[px\] | Misc |
 |--|--|--|--|--|
 | Pixel 4 (2020) | 5.7 | 444 | 1080 x 2280 |  |
