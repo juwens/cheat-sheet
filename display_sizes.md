@@ -1,6 +1,7 @@
 | Device | Display Size \[in\] | Pixel Density \[ppi\] | Resolution \[px\] | Misc |
 |--|--|--|--|--|
-| Pixel 4 XL| 6.30 | 537 | 1440 x 3040  | AMOLED |
+| Pixel 4 (2020) | 5.7 | 444 | 1080 x 2280 |  |
+| Pixel 4 XL (2020) | 6.30 | 537 | 1440 x 3040  | AMOLED |
 |  |  |  |  |  |
 |  |  |  |  |  |
 | iPhone 12 Mini (2021) | 5.4 | 476 | 2340 x 1080 | XDR |
