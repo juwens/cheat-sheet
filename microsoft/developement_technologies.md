@@ -13,12 +13,14 @@
   - Windows Forms
 - .Net Runtimes
   - .Net >= 6
+  - .Net 5.x
   - .Net <= 4.8
+  - .Net Core
 - C(++) Runtimes
-  - UCRT | Universal C Runtime
+  - Win32 CRT and VC Runtime | C runtime (CRT) and C++ Standard Library (STL)
     - https://docs.microsoft.com/en-us/cpp/c-runtime-library/crt-library-features?view=msvc-160
-  - Win32 C(++) Runtime
-    - sdf
+    - contains basic functions like "free", "malloc", etc and STL 
+    - provided to enduser by "Visual C++ Redistributable" aka "vc_redist"
   - WinRT C++ Runtime | Microsoft.VCLibs.Desktop
     - Microsoft.VCLibs.140.00.UWPDesktop
     - https://docs.microsoft.com/en-us/troubleshoot/cpp/c-runtime-packages-desktop-bridge
