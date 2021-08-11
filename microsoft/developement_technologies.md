@@ -15,7 +15,8 @@
   - .Net >= 6
   - .Net <= 4.8
 - C(++) Runtimes
-  - UCRT | Universal C Runtime https://docs.microsoft.com/en-us/cpp/c-runtime-library/crt-library-features?view=msvc-160
+  - UCRT | Universal C Runtime
+    - https://docs.microsoft.com/en-us/cpp/c-runtime-library/crt-library-features?view=msvc-160
   - Win32 C(++) Runtime
     - 
   - WinRT C++ Runtime | Microsoft.VCLibs.Desktop
