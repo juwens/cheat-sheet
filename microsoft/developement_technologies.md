@@ -1,7 +1,7 @@
 - MAUI
 - UI
   - UNO
-  - WinUI 3
+  - WinUI 3 (now called [Windows App SDK](https://github.com/microsoft/WindowsAppSDK)
   - UWP
   - WPF
 - .Net 6
