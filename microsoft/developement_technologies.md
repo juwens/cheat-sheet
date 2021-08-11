@@ -18,7 +18,7 @@
   - UCRT | Universal C Runtime
     - https://docs.microsoft.com/en-us/cpp/c-runtime-library/crt-library-features?view=msvc-160
   - Win32 C(++) Runtime
-    - 
+    - sdf
   - WinRT C++ Runtime | Microsoft.VCLibs.Desktop
     - Microsoft.VCLibs.140.00.UWPDesktop
     - https://docs.microsoft.com/en-us/troubleshoot/cpp/c-runtime-packages-desktop-bridge
