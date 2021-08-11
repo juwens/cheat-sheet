@@ -1,10 +1,24 @@
-- MAUI (Successor to Xamarin.Forms 5)
+- MAUI
+  - Successor to Xamarin.Forms 5
+  - Framework with
+    - UI-Controls
+    - Platform Bindings/Abstractions (iOS, Android, Windows, MacOS), for things like camera, location, file access etc.
 - UI
+  - Windows App SDK
+    - primary UI-Control-Library for Windows 10 and 11 (since Q3 2021)
+    - WinUI 3 (Part of the SDK since WinUI 2.6 aka. Q2 2021)
   - UNO (kinda similar to Xamarin, compiles a generic UI-Framework into UWP/WPF/Blazor/etc.)
-  - WinUI 3 (Part of Windows App SDK since 2.6 aka. 07/2021)
   - UWP
   - WPF
-- .Net 6
+  - Windows Forms
+- .Net Runtimes
+  - .Net >= 6
+  - .Net <= 4.8
+- C(++) Runtimes
+  - UCRT | Universal C Runtime https://docs.microsoft.com/en-us/cpp/c-runtime-library/crt-library-features?view=msvc-160
+  - Win32 C(++) Runtime
+    - 
+  - WinRT C(++) Runtime | 
 - [Windows App SDK](https://github.com/microsoft/WindowsAppSDK) (called Project Reunion till 06/2021)
 
 # .Net 6 + UWP
