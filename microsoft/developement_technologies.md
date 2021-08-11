@@ -1,4 +1,4 @@
-- MAUI
+- MAUI (Successor to Xamarin.Forms 5)
 - UI
   - UNO (kinda similar to Xamarin, compiles a generic UI-Framework into UWP/WPF/Blazor/etc.)
   - WinUI 3 (Part of Windows App SDK since 2.6 aka. 07/2021)
