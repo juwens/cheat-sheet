@@ -1,6 +1,6 @@
 - MAUI
 - UI
-  - UNO
+  - UNO (kinda similar to Xamarin, compiles a generic UI-Framework into UWP/WPF/Blazor/etc.)
   - WinUI 3 (Part of Windows App SDK since 2.6 aka. 07/2021)
   - UWP
   - WPF
