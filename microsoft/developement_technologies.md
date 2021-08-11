@@ -22,6 +22,11 @@
   - WinRT C++ Runtime | Microsoft.VCLibs.Desktop
     - Microsoft.VCLibs.140.00.UWPDesktop
     - https://docs.microsoft.com/en-us/troubleshoot/cpp/c-runtime-packages-desktop-bridge
+  - Deprecated:
+    - Windows Runtime C++ Template Library (WRL)
+    - C++/CX
+    - MFC
+    - ATL
 - [Windows App SDK](https://github.com/microsoft/WindowsAppSDK) (called Project Reunion till 06/2021)
 
 # .Net 6 + UWP
