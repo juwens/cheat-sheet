@@ -7,10 +7,11 @@
   - Windows App SDK
     - primary UI-Control-Library for Windows 10 and 11 (since Q3 2021)
     - WinUI 3 (Part of the SDK since WinUI 2.6 aka. Q2 2021)
-  - UNO (kinda similar to Xamarin, compiles a generic UI-Framework into UWP/WPF/Blazor/etc.)
+  - Xamarin.Forms 5 (from Q1 2022: MAUI - "Multiplatform App UI")
   - UWP
   - WPF
   - Windows Forms
+  - UNO (kinda similar to Xamarin, compiles a generic UI-Framework into UWP/WPF/Blazor/etc.)
 - .Net Runtimes
   - .Net >= 6
   - .Net 5.x
