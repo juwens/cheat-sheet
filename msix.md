@@ -14,3 +14,13 @@ https://techcommunity.microsoft.com/t5/windows-dev-appconsult/packaging-a-net-co
 # Tools
 
 - https://msixhero.net/get/
+
+# misc
+
+
+- launch packaged app from Win32
+  - register app specific uri-schema. `my-fancy-app:`
+  - execution alias
+    - folder `%userprofile%\AppData\Local\Microsoft\WindowsApps\`
+  - `shell:appsFolder\Microsoft.People_8wekyb3d8bbwe!App`
+  - `"C:\Program Files (x86)\Windows Kits\10\App Certification Kit\microsoft.windows.softwarelogo.appxlauncher.exe" MyPackageName_ph1m9x8skttmg!AppId`
