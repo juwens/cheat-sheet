@@ -17,6 +17,10 @@ https://techcommunity.microsoft.com/t5/windows-dev-appconsult/packaging-a-net-co
 
 # misc
 
+- Glossar
+  - Package Family Name: "MSIXHero_zxq1da1qqbeze"
+  - AppUserModelId: "MSIXHero_zxq1da1qqbeze!App"
+  - Full package name: "MSIXHero_2.2.8.0_neutral__zxq1da1qqbeze"
 
 - launch packaged app from Win32
   - register app specific uri-schema. `my-fancy-app:`
