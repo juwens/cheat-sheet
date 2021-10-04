@@ -4,7 +4,15 @@
 - Nugets:
   - https://www.nuget.org/packages/Microsoft.Windows.SDK.Contracts
   - https://www.nuget.org/packages/System.Runtime.InteropServices.WindowsRuntime/
+  - https://github.com/qmatteoq/DesktopBridgeHelpers
 - Share Mutex between UWP and Win32: https://stackoverflow.com/questions/46186350/share-named-mutex-between-uwp-and-desktop-app
+
+# Known Locations
+
+```
+var userDataFolder = Windows.Storage.ApplicationData.Current.LocalFolder
+var installedLocation = Windows.ApplicationModel.Package.Current.InstalledLocation
+```
 
 # Build Pipeline
 
