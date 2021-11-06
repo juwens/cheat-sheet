@@ -3,13 +3,41 @@
 |REST|http 1.1 
 a|http header  
 ```
-GET /api/v1/user/546/address HTTP/1.1
+POST /api/v1/user/546/address HTTP/1.1
 Host: example.com
+
+{
+  "foo": "bar"
+}
 ```
 |JSON    |OpenAPI & RAML
 
 
-|SOAP|http 1.1 |xml enveloap |XML     |WSDL    
+|SOAP|http 1.1 
+a|
+```
+POST /InStock HTTP/1.1
+Host: www.example.org
+Content-Type: application/soap+xml; charset=utf-8
+Content-Length: nnn
+
+<?xml version="1.0"?>
+
+<soap:Envelope
+xmlns:soap="http://www.w3.org/2003/05/soap-envelope/"
+soap:encodingStyle="http://www.w3.org/2003/05/soap-encoding">
+
+<soap:Body xmlns:m="http://www.example.org/stock">
+  <m:GetStockPrice>
+    <m:StockName>IBM</m:StockName>
+  </m:GetStockPrice>
+</soap:Body>
+
+</soap:Envelope>
+```
+|XML     |WSDL    
+
+
 |gRPC|http/2   |http/2 header|protobuf|proto   
 
 |===
