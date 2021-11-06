@@ -1,0 +1,20 @@
+|===
+|    |Transport|format  |IDL.    |
+|REST|http 1.1 |JSON    |OpenAPI & RAML|
+|SOAP|http 1.1 |XML     |WSDL    |
+|gRPC|http/2   |protobuf|proto   |
+
+|===
+
+* CORBA
+
+Other IDLs:
+* IDL-Family (Java IDL, Microsoft IDL, ...)
+
+# Message Encodings
+
+* protobuf
+* MessagePack
+* json
+* XML
+* SOAP-Message as XML
