@@ -18,4 +18,5 @@ Other IDLs:
 # Message Formats
 
 * MessagePack
-* SOAP-Message as XML
+* FlatBuffers
+* more: https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats
