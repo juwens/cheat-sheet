@@ -1,21 +1,21 @@
 |===
-|    |Transport|format  |IDL     |
-|REST|http 1.1 |JSON    |OpenAPI & RAML|
-|SOAP|http 1.1 |XML     |WSDL    |
-|gRPC|http/2   |protobuf|proto   |
+|    |transport|request |data format  |IDL     
+|REST|http 1.1 |http header  |JSON    |OpenAPI & RAML
+|SOAP|http 1.1 |xml enveloap |XML     |WSDL    
+|gRPC|http/2   |http/2 header|protobuf|proto   
 
 |===
+
+Other Technologies:
 
 * CORBA
 
 Other IDLs:
 
 * IDL-Family (Java IDL, Microsoft IDL, ...)
+* zero-mq
 
-# Message Encodings
+# Message Formats
 
-* protobuf
 * MessagePack
-* json
-* XML
 * SOAP-Message as XML
