@@ -1,5 +1,5 @@
 |===
-|    |Transport|format  |IDL.    |
+|    |Transport|format  |IDL     |
 |REST|http 1.1 |JSON    |OpenAPI & RAML|
 |SOAP|http 1.1 |XML     |WSDL    |
 |gRPC|http/2   |protobuf|proto   |
