@@ -1,6 +1,14 @@
 |===
 |    |transport|request |data format  |IDL     
-|REST|http 1.1 |http header  |JSON    |OpenAPI & RAML
+|REST|http 1.1 
+a|http header  
+```
+GET /api/v1/user/546/address HTTP/1.1
+Host: example.com
+```
+|JSON    |OpenAPI & RAML
+
+
 |SOAP|http 1.1 |xml enveloap |XML     |WSDL    
 |gRPC|http/2   |http/2 header|protobuf|proto   
 
