@@ -38,6 +38,15 @@ soap:encodingStyle="http://www.w3.org/2003/05/soap-encoding">
 |XML     |WSDL    
 
 
+|gRPC|http/2   
+a|http/2 message
+```
+:method: POST
+:scheme: http2
+:path: /MyGrpc/FancyService/GetUser
+content-type: application/grpc+proto
+```
+|protobuf|proto   
 |gRPC|http/2   |http/2 header|protobuf|proto   
 
 |===
