@@ -9,7 +9,8 @@
 
 |Kernel
 |"function" of the SVM describing the hyperplane between the two classes
-a|can be 
+a|can be:
+
 * linear
 * RBF (Radial basis function)
 * Polynomial
