@@ -1,7 +1,11 @@
 # glossary
 
 |===
-|SVM|stabilized vector machine|a vector separating the datapoints in a binary(two-class) system, stabalized by additional "stabalizing" vectors, describing the margin between the two classes.
+| | |
+
+|SVM
+|stabilized vector machine
+|a vector separating the datapoints in a binary(two-class) system, stabalized by additional "stabalizing" vectors, describing the margin between the two classes.
 
 |Kernel
 |"function" of the SVM describing the hyperplane between the two classes
