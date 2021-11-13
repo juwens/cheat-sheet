@@ -1,7 +1,7 @@
 # glossary
 
+[%noheader,cols="3*"]
 |===
-| | |
 
 |SVM
 |support-vector machine
@@ -34,8 +34,9 @@ a|can be:
 
 = Frameworks
 
+[%noheader,cols="2*"]
 |===
-|  |
+
 | ML.Net |
 
 | MXNet | https://en.wikipedia.org/wiki/Apache_MXNet
