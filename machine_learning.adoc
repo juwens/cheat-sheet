@@ -32,7 +32,14 @@ a|can be:
 
 |===
 
-= Frameworks
+= Platform specific Frameworks
+
+[%noheader,cols="2*"]
+|===
+|Apple CoreML |https://apple.github.io/coremltools/mlmodel/Format/SVM.html
+|===
+
+= Platform independent Frameworks
 
 [%noheader,cols="2*"]
 |===
