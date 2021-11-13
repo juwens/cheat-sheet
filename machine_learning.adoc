@@ -12,7 +12,7 @@
 a|can be:
 
 * linear
-* RBF (Radial basis function)
+* RBF (gaussian radial basis function)
 * Polynomial
 * CosineSimilarity
 * Fourier
