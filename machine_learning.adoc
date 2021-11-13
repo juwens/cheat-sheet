@@ -31,3 +31,25 @@ a|can be:
 |
 
 |===
+
+= Frameworks
+
+|===
+|  |
+| ML.Net |
+|  |
+| MXNet | https://en.wikipedia.org/wiki/Apache_MXNet
+| OpenCV | https://opencv.org/
+|  | https://github.com/opencv/opencv
+|  | https://github.com/shimat/opencvsharp
+| Pandas | https://en.wikipedia.org/wiki/Pandas_(software)
+|  | https://github.com/pandas-dev/pandas
+| Scikit-learn | https://en.wikipedia.org/wiki/Scikit-learn
+|  | https://towardsai.net/p/machine-learning/deploy-a-python-machine-learning-model-on-your-iphone
+|  | https://github.com/nok/sklearn-porter
+|  |
+| tensorflow light | https://www.tensorflow.org/lite/guide/ios
+|  |
+| Torch und |
+| pytorch   mobile |
+|===
