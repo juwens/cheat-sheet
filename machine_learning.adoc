@@ -62,7 +62,9 @@ a| * https://en.wikipedia.org/wiki/Scikit-learn
 * https://github.com/nok/sklearn-porter
 
 
-| tensorflow light | https://www.tensorflow.org/lite/guide/ios
+| tensorflow 
+a|* https://www.tensorflow.org/
+* mobile runtime https://www.tensorflow.org/lite/guide/ios
 
 | pytorch (formerly only torch)|
 |===
