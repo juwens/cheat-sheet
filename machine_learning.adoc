@@ -25,6 +25,8 @@ a|can be
 |Stochastic dual coordinate ascent
 |?
 
-
+|LR
+|linear regression
+|
 
 |===
