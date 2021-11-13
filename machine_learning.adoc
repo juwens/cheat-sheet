@@ -64,7 +64,5 @@ a| * https://en.wikipedia.org/wiki/Scikit-learn
 
 | tensorflow light | https://www.tensorflow.org/lite/guide/ios
 
-| Torch und |
-
-| pytorch   mobile |
+| pytorch (formerly only torch)|
 |===
