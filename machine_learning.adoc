@@ -5,7 +5,7 @@
 
 |SVM
 |support-vector machine
-|a vector separating the datapoints in a binary(two-class) system, support vectors describe the margin between the two classes.
+|a vector separating the datapoints in a binary(two-class) system, support-vectors describe nearest Point from the separator between the two classes.
 
 |Kernel
 |"function" of the SVM describing the hyperplane between the two classes
