@@ -8,7 +8,7 @@
 |a vector separating the datapoints in a binary(two-class) system, support-vectors describe nearest Point from the separator between the two classes.
 
 |Kernel
-|"function" of the SVM describing the hyperplane between the two classes
+|"function" given to the SVM, describing the mapping for the feature vectors in a higher dimension
 a|can be:
 
 * linear
