@@ -52,10 +52,6 @@ a|* https://opencv.org/
 * https://github.com/opencv/opencv
 * https://github.com/shimat/opencvsharp
 
-| Pandas 
-a|* https://en.wikipedia.org/wiki/Pandas_(software)
-* https://github.com/pandas-dev/pandas
-
 | Scikit-learn
 a| * https://en.wikipedia.org/wiki/Scikit-learn
 * https://towardsai.net/p/machine-learning/deploy-a-python-machine-learning-model-on-your-iphone
