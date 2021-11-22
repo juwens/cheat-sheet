@@ -39,7 +39,7 @@ a|can be:
 |Apple CoreML |https://apple.github.io/coremltools/mlmodel/Format/SVM.html
 |===
 
-= Platform independent Frameworks
+= Platform independent Libraries
 
 [%noheader,cols="2*"]
 |===
@@ -57,10 +57,18 @@ a| * https://en.wikipedia.org/wiki/Scikit-learn
 * https://towardsai.net/p/machine-learning/deploy-a-python-machine-learning-model-on-your-iphone
 * https://github.com/nok/sklearn-porter
 
+| pytorch (formerly only torch)|
+|===
+
+Lowlevel Libraries used by ML libraries (so support for SVM, "only" number crunching)
+|===
 
 | tensorflow 
 a|* https://www.tensorflow.org/
 * mobile runtime https://www.tensorflow.org/lite/guide/ios
 
-| pytorch (formerly only torch)|
+|Pandas
+a|* https://en.wikipedia.org/wiki/Pandas_(software)
+* https://github.com/pandas-dev/pandas
+
 |===
