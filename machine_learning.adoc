@@ -44,11 +44,15 @@ a|can be:
 [%noheader,cols="2*"]
 |===
 
-| ML.Net | https://github.com/dotnet/machinelearning
+| ML.Net 
+a|* https://en.wikipedia.org/wiki/ML.NET
+* https://github.com/dotnet/machinelearning
 
 | MXNet | https://en.wikipedia.org/wiki/Apache_MXNet
+
 | OpenCV 
 a|* https://opencv.org/
+* https://en.wikipedia.org/wiki/OpenCV
 * https://github.com/opencv/opencv
 * https://github.com/shimat/opencvsharp
 
