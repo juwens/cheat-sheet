@@ -1,3 +1,9 @@
+# list environment variables
+```
+dir env:
+```
+Hint: `env:` is a pseudo drive, like registry psuedo drives `hklm:`
+
 # boilerplate
 
 ```
