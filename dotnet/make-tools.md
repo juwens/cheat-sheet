@@ -10,6 +10,6 @@
 | bullseye       | https://github.com/adamralph/bullseye         |
 
 
-![image](https://user-images.githubusercontent.com/11560817/125361237-557b0c80-e36d-11eb-991a-5c76ebd58473.png)
+![image](https://user-images.githubusercontent.com/11560817/149800695-d919157c-b752-48bc-9049-0fb9a0cacd1c.png)
 
 Source: https://star-history.t9t.io/#fsharp/FAKE&psake/psake&nant/nant&yevhen/Nake&nightroman/Invoke-Build&cake-build/cake&nuke-build/nuke&adamralph/bullseye
