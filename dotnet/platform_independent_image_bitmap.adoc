@@ -1,0 +1,5 @@
+Since System.Drawing is only available on Win32 and NOT on UWP, mono.anroid or mono.ios, here are some alternatives:
+
+- https://github.com/mono/SkiaSharp
+- https://github.com/reactiveui/splat
+- https://github.com/SixLabors/ImageSharp
