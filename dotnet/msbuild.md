@@ -6,6 +6,8 @@
   - `MSBuild.Sdk.Extras` - https://github.com/novotnyllc/MSBuildSdkExtras
 - https://docs.microsoft.com/en-us/dotnet/core/project-sdk/overview
 
+# Misc
+
 * order of import:
   * ".props"
   * your stuff
