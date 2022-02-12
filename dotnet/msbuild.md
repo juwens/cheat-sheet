@@ -1,6 +1,14 @@
+# `<Project Sdk="...">` 
+
+- official:
+  - `Microsoft.NET.Sdk` - for lib and console apps wich don't need a special SDK, also WPF and WinForms for .Net >= 5.0
+  - `Microsoft.NET.Sdk.Web` - asp.net
+  - `MSBuild.Sdk.Extras` - https://github.com/novotnyllc/MSBuildSdkExtras
+- https://docs.microsoft.com/en-us/dotnet/core/project-sdk/overview
+
 * order of import:
   * ".props"
-  * code
+  * your stuff
   * ".targets"
 * Recursive Imports
   * Directory.Build.props
