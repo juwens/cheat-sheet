@@ -4,9 +4,13 @@
 | |
 | https://www.nuget.org/packages/SimpleExec/ |
 | https://www.nuget.org/packages/ProcessX/ | https://github.com/Cysharp/ProcessX
+| | 
+| Build Task | 
 | https://www.nuget.org/packages/Bullseye/ | https://github.com/adamralph/bullseye
+| |
+| Console printing & tables |
 | https://www.nuget.org/packages/ConsoleTableExt/ | 
-| https://www.nuget.org/packages/Spectre.Console / | https://github.com/spectreconsole/spectre.console
+| https://www.nuget.org/packages/Spectre.Console/ | https://github.com/spectreconsole/spectre.console
 |===
 
 #### Sources
