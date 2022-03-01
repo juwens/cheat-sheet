@@ -32,6 +32,9 @@
 | avalonia | 
 | Xamarin/MAUI |
 
+.2+| Plot
+| | https://oxyplot.github.io/
+| | 
 
 |===
 
