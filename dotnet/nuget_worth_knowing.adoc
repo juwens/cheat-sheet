@@ -33,7 +33,7 @@
 | Xamarin/MAUI |
 
 .2+| Plot
-| | https://oxyplot.github.io/
+| https://www.nuget.org/packages/OxyPlot.Core/ | https://oxyplot.github.io/
 | https://www.nuget.org/packages/ScottPlot/ | https://scottplot.net/
 
 |===
