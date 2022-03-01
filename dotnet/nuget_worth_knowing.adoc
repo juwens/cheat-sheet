@@ -28,8 +28,8 @@
 | | |
 
 .3+| GUI
-| xwt |
-| avalonia | 
+| https://www.nuget.org/packages/Xwt/ | https://github.com/mono/xwt/
+| https://www.nuget.org/packages/Avalonia/ | https://github.com/AvaloniaUI/Avalonia
 | Xamarin/MAUI |
 
 .3+| Plot
