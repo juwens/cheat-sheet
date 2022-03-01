@@ -1,16 +1,38 @@
 # Packages
 
+[cols=3*]
 |===
-| Process abstraction |
+3+| Process abstraction
+.2+| Process abstraction
 | https://www.nuget.org/packages/SimpleExec/ |
 | https://www.nuget.org/packages/ProcessX/ | https://github.com/Cysharp/ProcessX
-| | 
-| Build Task | 
+
+ 
+3+| Build Task
+.2+| Build Task
 | https://www.nuget.org/packages/Bullseye/ | https://github.com/adamralph/bullseye
 | |
-| Console printing & tables |
+
+| | |
+
+.2+| Console printing & tables
 | https://www.nuget.org/packages/ConsoleTableExt/ | 
 | https://www.nuget.org/packages/Spectre.Console/ | https://github.com/spectreconsole/spectre.console
+
+| | |
+
+.2+|2D Drawing
+| https://www.nuget.org/packages/SixLabors.ImageSharp/ | 
+| https://www.nuget.org/packages/SkiaSharp | 
+
+| | |
+
+.3+| GUI
+| xwt |
+| avalonia | 
+| Xamarin/MAUI |
+
+
 |===
 
 #### Sources
