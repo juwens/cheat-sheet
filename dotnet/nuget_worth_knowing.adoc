@@ -42,6 +42,11 @@
 | Discontinued https://www.nuget.org/packages/MvvmLight/ (2.6M) | 
 | https://www.nuget.org/packages/MvvmCross/ (4.5M) | https://github.com/MvvmCross/MvvmCross
 
+.3+| XAML Value Converters
+| https://www.nuget.org/packages/ValueConverters/ | 
+| https://www.nuget.org/packages/ValueConverters.Forms |
+| https://www.nuget.org/packages/Microsoft.Toolkit.Uwp.UI/ | 
+
 .3+| Guard
 | https://www.nuget.org/packages/CommunityToolkit.Diagnostics/ | https://docs.microsoft.com/en-us/windows/communitytoolkit/developer-tools/guard
 | https://www.nuget.org/packages/Ardalis.GuardClauses/ (3.5M) |
