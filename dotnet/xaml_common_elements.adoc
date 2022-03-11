@@ -11,6 +11,12 @@ support)
 a|- https://stackoverflow.com/questions/5382925/difference-between-label-and-textblock[WPF: Label vs TextBlock]
 - https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/[Text in Xamarin.Forms]
 
+|Display any Content
+3+|Label
+|
+|
+|https://stackoverflow.com/questions/5382925/difference-between-label-and-textblock[WPF: Label vs TextBlock]
+
 
 |Edit Text
 3+|TextBox
