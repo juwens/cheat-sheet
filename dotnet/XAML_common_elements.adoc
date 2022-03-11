@@ -1,0 +1,40 @@
+
+|===
+|canonic|WPF|UWP|WinUI|XF|HTML|Links
+
+|Read-only Text (with multitline support)
+|TextBlock
+|TextBlock
+|TextBlock
+|
+|
+| https://stackoverflow.com/questions/5382925/difference-between-label-and-textblock[WPF: Label vs TextBlock]
+
+|Drop-down list
+|ComboBox
+|ComboBox
+|ComboBox
+|Picker
+|select
+
+|Input
+|TextBox
+|TextBox
+|
+|
+|
+
+|
+|
+|
+|
+|
+|
+
+|
+|
+|
+|
+|
+|
+|===
