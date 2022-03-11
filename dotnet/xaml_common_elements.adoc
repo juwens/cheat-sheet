@@ -42,7 +42,7 @@ custom Text input: `IsEditable=True`
 |
 
 | list of viewmodels
-3+|ListView is the more flexible/feature-rich/newer variant of ListBox
+3+|ListView is the more flexible/feature-rich/newer variant of ListBox +
 https://docs.microsoft.com/en-us/dotnet/desktop/wpf/controls/listview-overview[WPF ListView] (derived from ListBox) +
 https://docs.microsoft.com/en-us/dotnet/desktop/wpf/controls/listbox[WPF ListBox] +
 https://docs.microsoft.com/en-us/windows/winui/api/microsoft.ui.xaml.controls.listview[WUI ListView]
