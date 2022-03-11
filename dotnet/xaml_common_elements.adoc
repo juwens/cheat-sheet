@@ -19,8 +19,9 @@ input lement
 |https://stackoverflow.com/questions/5382925/difference-between-label-and-textblock[WPF: Label vs TextBlock]
 
 
-|Edit Text
-3+|TextBox
+|Text Input
+3+|sl: TextBox +
+ml: `<TextBox TextWrapping="Wrap" AcceptsReturn="True" AcceptsTab="True" Height="200" />`
 |sl: https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/entry[Entry] +
 ml: https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/editor[Editor]
 |sl: `<input type="text" />` +
