@@ -8,8 +8,8 @@ support)
 3+|TextBlock
 |https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/label[Label]
 |
-a|- https://stackoverflow.com/questions/5382925/difference-between-label-and-textblock[WPF: Label vs TextBlock]
-- https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/[Text in Xamarin.Forms]
+a|https://stackoverflow.com/questions/5382925/difference-between-label-and-textblock[WPF: Label vs TextBlock] +
+https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/[Text in Xamarin.Forms]
 
 |Label for +
 input lement
@@ -23,10 +23,9 @@ input lement
 3+|TextBox
 |sl: https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/entry[Entry] +
 ml: https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/editor[Editor]
-|sl: input type="text" +
+|sl: `<input type="text" />` +
 ml: textarea
-a|
-- https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/[Text in Xamarin.Forms]
+a| https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/[Text in Xamarin.Forms]
 
 |Drop-down list
 3+|ComboBox +
