@@ -41,13 +41,18 @@ custom Text input: `IsEditable=True`
 |
 |
 
-| list of viewmodels
+| display list of viewmodels
 3+|ListView is the more flexible/feature-rich/newer variant of ListBox +
 https://docs.microsoft.com/en-us/dotnet/desktop/wpf/controls/listview-overview[WPF ListView] (derived from ListBox) +
 https://docs.microsoft.com/en-us/dotnet/desktop/wpf/controls/listbox[WPF ListBox] +
 https://docs.microsoft.com/en-us/windows/winui/api/microsoft.ui.xaml.controls.listview[WUI ListView]
-|
-|
+| https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/listview/[ListView] +
+https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/collectionview/[CollectionView] (buggy as fuck) + 
+https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/layouts/bindable-layouts
+| 
 |
 
+| Layouts
+3+|
+| https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/layouts/choose-layout
 |===
