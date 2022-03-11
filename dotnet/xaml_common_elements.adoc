@@ -6,22 +6,23 @@
 (multitline +
 support)
 3+|TextBlock
-|
+|https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/label[Label]
 |
 a|- https://stackoverflow.com/questions/5382925/difference-between-label-and-textblock[WPF: Label vs TextBlock]
 - https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/[Text in Xamarin.Forms]
 
-|Display any Content
+|Label for +
+input lement
 3+|Label
-|
+|https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/label[Label]
 |
 |https://stackoverflow.com/questions/5382925/difference-between-label-and-textblock[WPF: Label vs TextBlock]
 
 
 |Edit Text
 3+|TextBox
-|sl: Entry; +
-ml: Editor
+|sl: https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/entry[Entry] +
+ml: https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/editor[Editor]
 |sl: input type="text" +
 ml: textarea
 a|
