@@ -1,3 +1,7 @@
+abbreviations:
+
+- ml: multiline
+- sl: singleline
 
 |===
 |canonic|WPF|UWP|WinUI|XF|HTML|Links
