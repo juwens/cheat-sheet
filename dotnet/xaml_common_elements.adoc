@@ -4,7 +4,7 @@ abbreviations:
 - sl: singleline
 
 |===
-|canonic|WPF|UWP|WinUI|XF|HTML|Links
+|umbrella term|WPF|UWP|WinUI|XF|HTML|Links
 
 |Display Text +
 (multitline +
@@ -16,7 +16,7 @@ a|https://stackoverflow.com/questions/5382925/difference-between-label-and-textb
 https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/[Text in Xamarin.Forms]
 
 |Label for +
-input lement
+input control
 3+|Label
 |https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/label[Label]
 |
