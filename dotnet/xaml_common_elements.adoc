@@ -2,13 +2,28 @@
 |===
 |canonic|WPF|UWP|WinUI|XF|HTML|Links
 
-|Read-only Text (with multitline support)
+|Display Text +
+(multitline +
+support)
 |TextBlock
 |TextBlock
 |TextBlock
 |
 |
-| https://stackoverflow.com/questions/5382925/difference-between-label-and-textblock[WPF: Label vs TextBlock]
+a|- https://stackoverflow.com/questions/5382925/difference-between-label-and-textblock[WPF: Label vs TextBlock]
+- https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/[Text in Xamarin.Forms]
+
+
+|Edit Text
+|TextBox 
+|TextBox 
+|TextBox 
+|sl: Entry; +
+ml: Editor
+|sl: input type="text" +
+ml: textarea
+a|
+- https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/[Text in Xamarin.Forms]
 
 |Drop-down list
 |ComboBox
