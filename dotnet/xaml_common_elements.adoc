@@ -5,9 +5,7 @@
 |Display Text +
 (multitline +
 support)
-|TextBlock
-|TextBlock
-|TextBlock
+3+|TextBlock
 |
 |
 a|- https://stackoverflow.com/questions/5382925/difference-between-label-and-textblock[WPF: Label vs TextBlock]
@@ -15,9 +13,7 @@ a|- https://stackoverflow.com/questions/5382925/difference-between-label-and-tex
 
 
 |Edit Text
-|TextBox 
-|TextBox 
-|TextBox 
+3+|TextBox
 |sl: Entry; +
 ml: Editor
 |sl: input type="text" +
@@ -26,17 +22,10 @@ a|
 - https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/text/[Text in Xamarin.Forms]
 
 |Drop-down list
-|ComboBox
-|ComboBox
-|ComboBox
+3+|ComboBox +
+custom Text input: `IsEditable=True`
 |Picker
 |select
-
-|Input
-|TextBox
-|TextBox
-|
-|
 |
 
 |
@@ -45,11 +34,14 @@ a|
 |
 |
 |
+|
 
+| Foo
 |
 |
 |
 |
 |
 |
+
 |===
