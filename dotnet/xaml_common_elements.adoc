@@ -3,7 +3,7 @@ abbreviations:
 - ml: multiline
 - sl: singleline
 
-[cols="1,1,1,1,3,3,1"]
+[cols="1,3*,3,3,1"]
 |===
 |umbrella term|WPF|UWP|WinUI|XF|HTML|Links
 
