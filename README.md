@@ -1,0 +1,5 @@
+# cheat-sheet
+
+| foo | bar |
+|--|--|
+| | |
