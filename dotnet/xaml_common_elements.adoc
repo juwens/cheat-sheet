@@ -54,7 +54,7 @@ https://docs.microsoft.com/en-us/dotnet/desktop/wpf/controls/listbox[WPF ListBox
 https://docs.microsoft.com/en-us/windows/winui/api/microsoft.ui.xaml.controls.listview[WUI ListView]
 | https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/listview/[ListView] +
 https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/collectionview/[CollectionView] (buggy as fuck) + 
-https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/layouts/bindable-layouts
+https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/layouts/bindable-layouts[Bindable Layouts]
 | 
 |
 
@@ -62,9 +62,15 @@ https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/layouts/bi
 | DataGrid
 | https://www.nuget.org/packages/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid/[Microsoft.Toolkit.Uwp.UI.Controls.DataGrid]
 | https://www.nuget.org/packages/CommunityToolkit.WinUI.UI.Controls.DataGrid/[CommunityToolkit.WinUI.UI.Controls.DataGrid]
-
+|
+| table +
+https://gridjs.io/ +
+https://www.ag-grid.com/ +
+http://js-grid.com/
+|
 
 | Layouts
 3+|
 | https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/layouts/choose-layout
+
 |===
