@@ -58,6 +58,12 @@ https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/layouts/bi
 | 
 |
 
+| Datagrid
+| DataGrid
+| https://www.nuget.org/packages/Microsoft.Toolkit.Uwp.UI.Controls.DataGrid/[Microsoft.Toolkit.Uwp.UI.Controls.DataGrid]
+| https://www.nuget.org/packages/CommunityToolkit.WinUI.UI.Controls.DataGrid/[CommunityToolkit.WinUI.UI.Controls.DataGrid]
+
+
 | Layouts
 3+|
 | https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/layouts/choose-layout
