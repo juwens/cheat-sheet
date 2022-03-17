@@ -19,3 +19,4 @@
   - Any folder structure may be appended to the end of this syntax.
 
 - https://docs.microsoft.com/en-us/nuget/create-packages/creating-a-package#from-a-convention-based-working-directory
+- https://github.com/NuGet/Home/wiki/NuGet-Errors-and-Warnings
