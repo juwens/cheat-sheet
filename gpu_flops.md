@@ -26,7 +26,7 @@ Hint: edit me here https://www.tablesgenerator.com/markdown_tables
 | GeForce RTX 3080     | 25          | 25.0        |             | GA102  |  8_704     | 320    |              |
 | GeForce RTX 4060     |             |             |             | GA104? |  7_680?    |        |              |
 | GeForce RTX 4070     |             |             |             | AD103? | 10_753?    |        |              |
-| GeForce RTX 4080     |             |             |             | AD102? | 18_432?    |        |              |
+| GeForce RTX 4080     |             | 66          |             | AD102? | 18_432?    |        |              |
 
 # Nvidia Generations
 
