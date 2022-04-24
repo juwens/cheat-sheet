@@ -13,7 +13,7 @@ Hint: edit me here https://www.tablesgenerator.com/markdown_tables
  
 | GPU                  | FP16 TFLOPS | FP32 TFLOPS | FP64 TFLOPS | Chip   | Cuda Cores | TDP[W] | Power target |
 |----------------------|-------------|-------------|-------------|--------|------------|--------|--------------|
-| GTX 660              |             |  2.0        | 0.1 (1:24)  |        |            | 140    | 115          |
+| GTX 660              |             |  2.0        | 0.1 (1:24)  |        |    960     | 140    | 115          |
 | GTX 1070             | 101?        |  6.5        |             |        |  1_920     | 150    |              |
 | RTX 2060 Super       | 16.2        |  8.1        |             |        |            |        |              |
 | GeForce GTX 1080     |             |  8.23       |             |        |            |        |              |
