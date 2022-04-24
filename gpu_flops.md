@@ -32,6 +32,8 @@ Hint: edit me here https://www.tablesgenerator.com/markdown_tables
 
 |   Generation  |   Codename   |
 |:-------------:|:------------:|
+| GTX  0 Series |              |
+| GTX 10 Series |              |
 | RTX 20 Series |              |
 | RTX 30 Series |    Ampere    |
 | RTX 40 Series | Ada Lovelace |
