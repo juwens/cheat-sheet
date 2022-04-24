@@ -30,10 +30,13 @@ Hint: edit me here https://www.tablesgenerator.com/markdown_tables
 
 # Nvidia Generations
 
-|   Generation  |   Codename   |
-|:-------------:|:------------:|
-| GTX  6 Series |              |
-| GTX 10 Series |              |
-| RTX 20 Series |              |
-| RTX 30 Series |    Ampere    |
-| RTX 40 Series | Ada Lovelace |
+|    Generation   | Codename |               Architecture               |
+|:---------------:|:--------:|:----------------------------------------:|
+| GTX  500 Series |   GF10x  |                Fermi (GF)                |
+| GTX  600 Series |   GK10x  |                Kepler (GK)               |
+| GTX  700 Series |          | Kepler (GK) & Fermi (GF) & Maxwell (GM)  |
+| GTX  900 Series |   GM20x  |               Maxwell (GM)               |
+|  GTX 10 Series  |   GP10x  |                Pascal (GP)               |
+|  RTX 20 Series  |   TU10x  |                Turing (TU)               |
+|  RTX 30 Series  |   GA10x  |                Ampere (GA)               |
+|  RTX 40 Series  |   AD10x  |             Ada Lovelace (AD)            |
