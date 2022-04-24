@@ -18,5 +18,5 @@
 | RTX 2070 Super       | 19.4        | 9.7         |             |
 | GeForce RTX 2080     |             | 10.6        |             |
 |  GeForce RTX 3060 Ti | 13.7        | 13.7        | 0.2         |
-| GeForce RTX 3080     |             | 25          |             |
 | GeForce RTX 3070 Ti  | 19.4        | 19.4        | 0.3         |
+| GeForce RTX 3080     | 25          | 25          |             |
