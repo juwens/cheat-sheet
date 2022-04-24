@@ -1,5 +1,10 @@
 Hint: edit me here https://www.tablesgenerator.com/markdown_tables
 
+# GPUs
+
+https://db.thegpu.guru/compare?id=cBy4vQpBMpIEpMwOrDZIj6&id=aKWMgOd5COih6kE65AUqW3&id=1dh17myZrKBn6PHRLkXeb4&id=ULlScp2abN9T97s2LYzCX3&id=oJ0QmHooWt0XQCQ4znYzV3
+
+# Consoles 
 
 | Console       | FP16 TFLOPS | FP32 TFLOPS | FP64 TFLOPS |
 |---------------|-------------|-------------|-------------|
