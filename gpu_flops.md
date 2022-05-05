@@ -31,12 +31,15 @@ https://db.thegpu.guru/compare?id=cBy4vQpBMpIEpMwOrDZIj6&id=aKWMgOd5COih6kE65AUq
 |                      |             |             |             |        |            |        |              |        |
 | GeForce RTX 3050     |             |  8.5 ( 9.1) |             |        |            |        |              | 279    |
 | GeForce RTX 3060     |  9.5        |  9.5 (12.7) | 0.15        | GA106  |  3_584     | 170    |              |        |
-| GeForce RTX 3060 Ti  | 13.7        | 13.7        | 0.2         | GA104  |  4_864     | 200    |              |        |
-| GeForce RTX 3070 Ti  | 19.4        | 19.4        | 0.3         | GA104  |  6_144     | 290    |              |        |
+| GeForce RTX 3060 Ti  | 13.7 (16.2) | 13.7 (16.2) | 0.2         | GA104  |  4_864     | 200    |              |        |
+| GeForce RTX 3070     | 17.6 (20.3) | 17.6 (20.3) |             | GA104  |            | 220    |              |        |
+| GeForce RTX 3070 Ti  | 19.4        | 19.4 (21.7) | 0.3         | GA104  |  6_144     | 290    |              |        |
 | GeForce RTX 3080     | 25          | 25.0        |             | GA102  |  8_704     | 320    |              |        |
 | GeForce RTX 4060     |             |             |             | GA104? |  7_680?    |        |              |        |
 | GeForce RTX 4070     |             |             |             | AD103? | 10_753?    |        |              |        |
 | GeForce RTX 4080     |             | 66          |             | AD102? | 18_432?    |        |              |        |
+
+https://en.wikipedia.org/wiki/GeForce_30_series
 
 # Nvidia Generations
 
