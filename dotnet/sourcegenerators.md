@@ -1,0 +1,1 @@
+- [C# Source Generators in Action, by Andrey Dyatlov - JetBrainsTV](https://www.youtube.com/watch?v=052xutD86uI)
