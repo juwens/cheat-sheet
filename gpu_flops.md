@@ -8,6 +8,7 @@ https://db.thegpu.guru/compare?id=cBy4vQpBMpIEpMwOrDZIj6&id=aKWMgOd5COih6kE65AUq
 
 | Console       | FP16 TFLOPS | FP32 TFLOPS | FP64 TFLOPS |
 |---------------|-------------|-------------|-------------|
+| Switch        | 1.0         | 0.5         |             |
 | Xbox One S    |             | 1.4         |             |
 | PS4           |             | 1.8         |             |
 | ps4 pro       |             | 4.2         |             |
