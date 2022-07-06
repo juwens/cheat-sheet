@@ -16,6 +16,25 @@ Combines setup.exe, msi, ClickOnce, APPX (Store/UWP Apps)
 
 https://techcommunity.microsoft.com/t5/windows-dev-appconsult/packaging-a-net-core-3-0-application-with-msix/bc-p/2076112/highlight/true#M496
 
+# powershell
+
+```
+# Powershell 7 needs this:
+import-module appx -usewindowspowershell # https://github.com/PowerShell/PowerShell/issues/13138#issuecomment-677972433
+
+# list all installed packages
+Get-AppxPackage
+
+# get specific package
+Get-AppxPackage Microsoft.UI.Xaml.2.6
+
+# remove specific package
+Get-AppxPackage Microsoft.UI.Xaml.2.6 | Remove-AppxPackage
+
+# get all items in start menu
+Get-StartApps
+```
+
 # Tools
 
 - https://msixhero.net/get/
