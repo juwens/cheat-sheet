@@ -48,9 +48,12 @@
 | https://www.nuget.org/packages/Microsoft.Toolkit.Uwp.UI/ | 
 
 .3+| Guard
-| https://www.nuget.org/packages/CommunityToolkit.Diagnostics/ | https://docs.microsoft.com/en-us/windows/communitytoolkit/developer-tools/guard
+| https://www.nuget.org/packages/CommunityToolkit.Diagnostics/ (37K) | https://docs.microsoft.com/en-us/windows/communitytoolkit/developer-tools/guard
 | https://www.nuget.org/packages/Ardalis.GuardClauses/ (3.5M) |
 | https://www.nuget.org/packages/Ensure.That/ (5.2M) |
+
+.3+| Misc
+| https://www.nuget.org/packages/Hashids.net |
 |===
 
 #### Sources
