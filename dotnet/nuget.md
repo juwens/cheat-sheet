@@ -20,3 +20,22 @@
 
 - https://docs.microsoft.com/en-us/nuget/create-packages/creating-a-package#from-a-convention-based-working-directory
 - https://github.com/NuGet/Home/wiki/NuGet-Errors-and-Warnings
+
+# System.Collections.Immutable problem
+
+problem:
+
+```
+"Error	CS7038	Failed to emit module 'FooApp': Changing the version of an assembly reference is not allowed during debugging: 'System.Collections.Immutable, Version=1.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' changed version to '1.2.5.0'"       
+```
+
+Nuget and dll AssemblyVersion differ
+
+| Nuget | AssemblyVersion |
+|=======|=================|
+| 1.4.0 | 1.2.2.0         |
+| 1.5.0 | 1.2.3.0         |
+| 1.6.0 | 1.2.4.0         |
+| 1.7.1 | 1.2.5.0         |
+| 5.0.0 | 5.0.0.0         |
+| 6.0.0 | 6.0.0.0         |
