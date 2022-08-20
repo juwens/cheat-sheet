@@ -1,4 +1,5 @@
 https://docs.microsoft.com/en-us/visualstudio/msbuild/property-functions
+- Version history: https://www.nuget.org/packages/Microsoft.Build/#versions-body-tab
 
 # Check OS
 Since MSBuild 15.3
