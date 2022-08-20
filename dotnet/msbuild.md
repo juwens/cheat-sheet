@@ -1,3 +1,15 @@
+https://docs.microsoft.com/en-us/visualstudio/msbuild/property-functions
+
+# Check OS
+Since MSBuild 15.3
+```
+<PropertyGroup>
+  <OpenCommand Condition="$([MSBuild]::IsOSPlatform('Linux'))">xdg-open</OpenCommand>
+  <OpenCommand Condition="$([MSBuild]::IsOSPlatform('OSX'))">open</OpenCommand>
+  <OpenCommand Condition="$([MSBuild]::IsOSPlatform('Windows'))">explorer</OpenCommand>
+</PropertyGroup>
+```
+
 # `<Project Sdk="...">` 
 
 - official:
