@@ -1,0 +1,3 @@
+- Entity Framework - https://github.com/dotnet/ef6
+- Dapper - https://github.com/DapperLib/Dapper
+- linq2db - https://github.com/linq2db/linq2db
