@@ -23,7 +23,7 @@ git diff -b # shorthand for --ignore-space-change
         st = status
         sw = switch
         fa = fetch --all --prune
-        mm = !git fetch origin master && git merge origin/master
+        moma = !git fetch origin master && git merge origin/master
 ```
 
 
