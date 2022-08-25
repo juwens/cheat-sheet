@@ -18,6 +18,13 @@ git diff -b # shorthand for --ignore-space-change
 
 # gitconfig aliases
 ```
+git config --global alias.co checkout
+git config --global alias.st status
+git config --global alias.sw switch
+git config --global alias.fa fetch --all --prune
+```
+
+```
 [alias]
         co = checkout
         st = status
