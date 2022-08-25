@@ -22,6 +22,7 @@ git config --global alias.co checkout
 git config --global alias.st status
 git config --global alias.sw switch
 git config --global alias.fa fetch --all --prune
+git config --global alias.moma '!git fetch origin main && git merge origin/main'
 ```
 
 ```
@@ -30,7 +31,7 @@ git config --global alias.fa fetch --all --prune
         st = status
         sw = switch
         fa = fetch --all --prune
-        moma = !git fetch origin master && git merge origin/master
+        moma = !git fetch origin main && git merge origin/main
 ```
 
 
