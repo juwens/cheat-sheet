@@ -53,7 +53,10 @@
 | https://www.nuget.org/packages/Ensure.That/ (5.2M) |
 
 .3+| Misc
-| https://www.nuget.org/packages/Hashids.net |
+a| 
+- https://www.nuget.org/packages/Hashids.net
+- https://www.nuget.org/packages/MvsSln
+|
 |===
 
 #### Sources
