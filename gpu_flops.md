@@ -36,6 +36,8 @@ https://db.thegpu.guru/compare?id=cBy4vQpBMpIEpMwOrDZIj6&id=aKWMgOd5COih6kE65AUq
 | GeForce RTX 3070     | 17.6 (20.3) | 17.6 (20.3) |             | GA104  |  5_888     | 220    |              |        |
 | GeForce RTX 3070 Ti  | 19.4        | 19.4 (21.7) | 0.3         | GA104  |  6_144     | 290    |              |        |
 | GeForce RTX 3080     | 25          | 25.0        |             | GA102  |  8_704     | 320    |              |        |
+| GeForce RTX 3090     |             | 35.9        |             |        |  10_496    |        |              |        |
+|                      |             |             |             |        |            |        |              |        |
 | GeForce RTX 4060     |             |             |             | GA104? |  7_680?    |        |              |        |
 | GeForce RTX 4070     |             |             |             | AD103? | 10_753?    |        |              |        |
 | GeForce RTX 4080     |             | 66          |             | AD102? | 18_432?    |        |              |        |
