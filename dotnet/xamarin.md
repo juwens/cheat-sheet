@@ -44,3 +44,7 @@ private async void Tapped(object sender, EventArgs e)
 - https://github.com/xamarin/Xamarin.Forms/issues/1412 ( aus dem Jahr 2016!!)
 - https://github.com/xamarin/Xamarin.Forms/issues/9495
 - https://github.com/xamarin/Xamarin.Forms/issues/7219
+
+# Commercial Control Libraries
+- https://grialkit.com/
+- https://www.syncfusion.com/
