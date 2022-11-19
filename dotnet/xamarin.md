@@ -48,3 +48,7 @@ private async void Tapped(object sender, EventArgs e)
 # Commercial Control Libraries
 - https://grialkit.com/
 - https://www.syncfusion.com/
+
+# See also
+
+- https://github.com/xamarin/Xamarin.Legacy.Sdk
