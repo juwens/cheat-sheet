@@ -1,4 +1,5 @@
-https://docs.microsoft.com/en-us/visualstudio/msbuild/property-functions
+- https://docs.microsoft.com/en-us/visualstudio/msbuild/property-functions
+- https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-well-known-item-metadata
 - Version history: https://www.nuget.org/packages/Microsoft.Build/#versions-body-tab
 
 # Check OS
