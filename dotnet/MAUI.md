@@ -31,3 +31,4 @@ dotnet build -t:Run -f net6.0-ios /p:_DeviceName=:v2:udid=E3B7CC6A-4E29-4148-AAC
 # SDK Download
 
 * https://aka.ms/dotnet/7.0.1xx/daily/dotnet-sdk-win-x64.zip
+* https://dotnet.microsoft.com/en-us/download/dotnet/7.0
