@@ -17,12 +17,13 @@ https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes
 
 [options=header]
 |===
-| hex | dex | name | context | links |
+| hex | dex | name | context | links
 
 | c000027b 
 0xc000_027b | 3221226107 32_2122_6107 | stashed Exception | UWP/WinRT/WinUI/WinAppSDK 
 a| * https://learn.microsoft.com/en-us/shows/inside/c000027b 
 * https://github.com/microsoft/microsoft-ui-xaml/blob/main/docs/debugging_crashes.md
 * https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/guides/threading
-|
+
+| 0xC0000409 | | STATUS_FAIL_FAST_EXCEPTION | Fail Fast Exception | https://learn.microsoft.com/en-us/shows/inside/c0000409 
 |===
