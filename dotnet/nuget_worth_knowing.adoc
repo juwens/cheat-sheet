@@ -52,6 +52,9 @@
 | https://www.nuget.org/packages/Ardalis.GuardClauses/ (3.5M) |
 | https://www.nuget.org/packages/Ensure.That/ (5.2M) |
 
+.1+| PInvoke Helpers
+| https://www.nuget.org/packages/Microsoft.Windows.CsWin32 (132K) | https://github.com/microsoft/CsWin32
+
 .3+| Misc
 a| 
 - https://www.nuget.org/packages/Hashids.net
