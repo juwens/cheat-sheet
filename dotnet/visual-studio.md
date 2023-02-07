@@ -8,3 +8,7 @@
 
 # Default Settings
 - Environment > ProjectsAndSolution > ShowTaskListAfterBuild = false - "always show error list if build finishes with errors"
+
+# Must-Have Extensions
+
+* https://marketplace.visualstudio.com/items?itemName=NikolayBalakin.Outputenhancer
