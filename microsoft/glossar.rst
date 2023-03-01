@@ -6,8 +6,8 @@
      - example
      - description
    * - msvcp
-     - msvcp140.dll
-     - **m**\ (icro)\ **s**\ (oft) **v**\ (isual) **cp**\ (p) redistributable version 14.0
-   * - Row 2, column 1
-     - Row 2, column 2
-     - Row 2, column 3
+     - ``C:\Windows\System32\msvcp140.dll``
+     - **m**\ (icro)\ **s**\ (oft) **v**\ (isual) **cp**\ (p) redistributable, version 14.0
+   * - msvcrt
+     - ``C:\Windows\System32\msvcrt.dll``
+     -  **m**\ (icro)\ **s**\ (oft) **v**\ (isual) **cp**\ (p) **r**\ (un)\ **t**\ (ime)
