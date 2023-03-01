@@ -8,12 +8,13 @@
    * - term
      - example
      - description
-   * - msvcp
-     - ``C:\Windows\System32\msvcp140.dll``
-     - **m**\ (icro)\ **s**\ (oft) **v**\ (isual) **cp**\ (p) redistributable, version 14.0
    * - msvcrt
      - ``C:\Windows\System32\msvcrt.dll``
-     - **m**\ (icro)\ **s**\ (oft) **v**\ (isual) **c** (ohne pp) **r**\ (un)\ **t**\ (ime)
+     - MS visual **C** runtime library
+   * - msvcp
+     - ``C:\Windows\System32\msvcp140.dll``
+     - MS visual **C++** runtime library
+
    * - vcruntime
      - ``C:\Windows\System32\vcruntime140.dll``
      - **v**\ (isual) **c** (ohne pp) **runtime**
