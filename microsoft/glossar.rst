@@ -7,7 +7,7 @@
      - description
    * - msvcp
      - msvcp140.dll
-     - **m**icrosoft **v**isual **cp**p redistributable version 14.0
+     - **m**\ (icro)\ **s**\ (oft) **v**\ (isual) **cp**\ (p) redistributable version 14.0
    * - Row 2, column 1
      - Row 2, column 2
      - Row 2, column 3
