@@ -17,7 +17,7 @@ a| * `netsh advfirewall firewall add rule name="Rule Name" dir=in action=allow p
 a| * `netsh http show urlacl`
 * `netsh http delete urlacl http://192.168.0.5:12345/`
 * `http add urlacl http://+:12345/ user=\MyLocalUser`
-| https://superuser.com/a/1273710/62366[correlation http.sys <-> urlacl]
+| https://superuser.com/a/1273710/62366[correlation http.sys &lt;-&gt; urlacl]
 |
 
 |           |                                      |                                  |
