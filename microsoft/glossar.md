@@ -4,7 +4,7 @@
 | msvcp     | C:\Windows\System32\msvcp140.dll     | MS visual C++ runtime library    |
 | vcruntime | C:\Windows\System32\vcruntime140.dll | v(isual) c (ohne pp) runtime     |
 | ucrt      | C:\Windows\System32\ucrtbased.dll    | universal c runtime (library)    |
-|           |                                      |                                  |
+| WFP       | netsh wfp show state                 | [Windows Filtering Platform](https://learn.microsoft.com/en-us/windows/win32/fwp/windows-filtering-platform-start-page)       |
 |           |                                      |                                  |
 |           |                                      |                                  |
 |           |                                      |                                  |
