@@ -1,15 +1,22 @@
-|    term   |                example               |            description           |
-|:---------:|:------------------------------------:|:--------------------------------:|
+|===
+| term | example | description | foo
 | msvcrt    | C:\Windows\System32\msvcrt.dll       | MS visual C runtime bootstrapper |
 | msvcp     | C:\Windows\System32\msvcp140.dll     | MS visual C++ runtime library    |
 | vcruntime | C:\Windows\System32\vcruntime140.dll | v(isual) c (ohne pp) runtime     |
 | ucrt      | C:\Windows\System32\ucrtbased.dll    | universal c runtime (library)    |
+
 | WFP       | netsh wfp show state                 | [Windows Filtering Platform](https://learn.microsoft.com/en-us/windows/win32/fwp/windows-filtering-platform-start-page)       |
+
+| advanced Firewall 
+a| * `netsh advfirewall firewall add rule name="Rule Name" dir=in action=allow protocol=TCP localport=12345`
+* `wf.msc`
+* `netsh advfirewall firewall show rule dir=in name=all`
+| https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/netsh-advfirewall-firewall-control-firewall-behavior |
 |           |                                      |                                  |
 |           |                                      |                                  |
 |           |                                      |                                  |
 |           |                                      |                                  |
-|           |                                      |                                  |
+|===
 
 Sources:
  - https://learn.microsoft.com/en-us/cpp/c-runtime-library/crt-library-features?view=msvc-170
