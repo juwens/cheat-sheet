@@ -17,7 +17,7 @@ a| * `netsh advfirewall firewall add rule name="Rule Name" dir=in action=allow p
 a| * a http-server which is part of the Windows-Kernel.
 ** it was created 2003 and hardened since
 ** it's recommended, if you want to expose a service direcly to the internet
-** most windows services use it to create host their (soap) services
+** most windows services use it to host their (soap) services
 ** major windows web-related things are based on it: IIS, IIS-Express, asp.netcore-with-http.sys-hosting
 * `netsh http show urlacl`
 * `netsh http delete urlacl http://192.168.0.5:12345/`
