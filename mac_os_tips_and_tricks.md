@@ -1,2 +1,3 @@
 - http://www.nomad-cli.com/
 - Remap Home and End Keys: https://discussions.apple.com/thread/251108215
+- oppisite Touchpad and Mouse-Wheel Scrolling: https://github.com/ther0n/UnnaturalScrollWheels
