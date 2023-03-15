@@ -14,3 +14,13 @@ using (var compressionStream = new GZipStream(outFileStream, CompressionMode.Com
     inFileStream.CopyTo(compressionStream);
 }
 ```
+
+# 
+https://blog.jetbrains.com/dotnet/2021/11/04/caller-argument-expressions-in-csharp-10/
+```
+public static void Foo(
+    bool bar,
+    [CallerArgumentExpression(nameof(bar))] string barExpression = default)
+{
+}
+```
