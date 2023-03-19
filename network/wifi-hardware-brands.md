@@ -1,5 +1,8 @@
 - Ubiquiti/Unifi/AmpliFi
+  - https://eu.store.ui.com/collections/unifi-network-wireless
+  - https://amplifi.com/
 - TP-Link
+  - https://www.tp-link.com/de/business-networking/omada-sdn-access-point/
 - Zyxel
 - netgear
   - Orbi
