@@ -2,7 +2,7 @@
 - TP-Link
 - Zyxel
 - netgear
-- Orbi
+  - Orbi
 - Asus
 - Drytek Vigor
 - AVM Fritz!Box
