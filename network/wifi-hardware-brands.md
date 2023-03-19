@@ -1,0 +1,10 @@
+- Ubiquiti/Unifi/AmpliFi
+- TP-Link
+- Zyxel
+- netgear
+- Orbi
+- Asus
+- Drytek Vigor
+- AVM Fritz!Box
+- Linksys
+- 
