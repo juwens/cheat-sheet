@@ -7,4 +7,6 @@
 - Drytek Vigor
 - AVM Fritz!Box
 - Linksys
+- Aruba
+- MikroTik
 - 
