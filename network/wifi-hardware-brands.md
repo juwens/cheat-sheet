@@ -9,4 +9,5 @@
 - Linksys
 - Aruba
 - MikroTik
+- Ruckus
 - 
