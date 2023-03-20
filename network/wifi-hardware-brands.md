@@ -19,4 +19,5 @@
 - 
 
 History:
-- Linksys E3000 High Performance Wireless-N Router https://amzn.eu/d/8QOXW6T
+- 2016: Ubiquiti Networks Wireless Access Point, 2.4GHz/5GHz, 867Mbit, 122m 1x 10/100/1000, 24V Passiv PoE, UAP-AC-LITE (1x 10/100/1000, 24V Passiv PoE 160 x 31.45 mm Indoor) https://amzn.eu/d/a9VefNW
+- 2010: Linksys E3000 High Performance Wireless-N Router https://amzn.eu/d/8QOXW6T
