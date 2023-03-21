@@ -5,7 +5,8 @@
 |Name|Homepage/Wiki|WYSIWYG|License|Infos
 
 |mermaid
-|https://github.com/mermaid-js/mermaid
+a|* https://github.com/mermaid-js/mermaid
+* https://mermaid.js.org/
 |Yes (live preview of markup changes)
 |???
 a|* javascript-library available for browser and nodejs CLI
