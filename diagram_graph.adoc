@@ -12,6 +12,7 @@ a|* javascript-library available for browser and nodejs CLI
 * https://mermaid-js.github.io/mermaid-live-editor/#/[Live Editor]
 * pleasent style (out of the box)
 * embedded in gitlab and azure devops server
+* does not support rank yet: https://github.com/mermaid-js/mermaid/issues/3723
 
 |PlantUML
 |https://en.wikipedia.org/wiki/PlantUML[wiki]
