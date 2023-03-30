@@ -1,0 +1,23 @@
+= Publish-Subscribe Implementations
+
+|===
+|foo|bar
+
+|.Net Event/EventHandler
+|
+
+|RX ReactiveExtensions
+|
+
+|MVVM Toolkit Namespace: "Microsoft.Toolkit.Mvvm.Messaging", Typen:  IMessenger/WeakReferenceMessenger
+|https://learn.microsoft.com/en-us/dotnet/communitytoolkit/mvvm/messenger
+
+|
+|
+|===
+
+== good implementation details for a pub-sub implementation
+
+- publishing of a message does not block the publisher
+- invocations of subscribers are executed on the Task Pool
+- exceptions in the subscriber are not propagated to the publisher
