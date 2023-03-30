@@ -18,6 +18,7 @@
 
 == good implementation details for a pub-sub implementation
 
+- subscribers must be stored with a weak reference
 - publishing of a message does not block the publisher
 - invocations of subscribers are executed on the Task Pool
 - exceptions in the subscriber are not propagated to the publisher
