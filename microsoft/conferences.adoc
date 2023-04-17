@@ -1,7 +1,10 @@
 |===
 | Name | Date | Links
 
-| Microsoft Build | May (yearly) | https://build.microsoft.com/en-US/home
+| Microsoft Build 
+a|* May (yearly) 
+* May 23–25, 2023
+| https://build.microsoft.com/en-US/home
 
 | .Net Conf | November (yearly) | https://www.dotnetconf.net/agenda
 
