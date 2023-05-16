@@ -18,7 +18,7 @@
 | https://github.com/uw-labs/bloomrpc
 | 7.5k
 | (⭐⭐⬛⬛⬛)
-| 
+| deprecated as of Jan 2023 
 
 | https://github.com/fullstorydev/grpcui
 | 3.1k
