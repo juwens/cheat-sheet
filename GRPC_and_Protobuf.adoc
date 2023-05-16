@@ -8,7 +8,7 @@
 | https://github.com/rogchap/wombat
 | 1.1k
 | (⭐⭐⭐⭐⬛)
-|
+| no new release since Apr 2021 (and this release is buggy)
 
 | https://github.com/fullstorydev/grpcurl
 | 6.4k
