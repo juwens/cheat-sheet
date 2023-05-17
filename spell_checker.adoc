@@ -1,0 +1,20 @@
+Glossary
+
+|===
+|SCOWL |Spell Checker Oriented Word Lists
+|===
+
+check if word is in dictionary: http://app.aspell.net/lookup?dict=en_US;words=unhandled
+
+# Overview Spellchecker
+
+* GNU Aspell — Spell checker designed to eventually replace ispell, see also aspell(1) and the info document. +
+http://aspell.net/ || aspell, dictionaries, dictionaries in AUR
+* Hunspell — Spell checker and morphological analyzer library and program, see also hunspell(1). +
+https://hunspell.github.io/ || hunspell, dictionaries in the official repositories, dictionaries in AUR
+* Nuspell — Spell checker library and program designed as a modern alternative to hunspell, see also nuspell(1). +
+https://nuspell.github.io/ || nuspell, supports hunspell dictionaries
+* Ispell — Interactive spell-checking program for Unix, see also ispell(1). +
+https://www.cs.hmc.edu/~geoff/ispell.html || ispell
+
+Source: https://wiki.archlinux.org/title/Language_checking
