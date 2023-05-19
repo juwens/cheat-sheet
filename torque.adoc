@@ -1,7 +1,7 @@
 # max torque for square socket
 
 |===
-|anvil|failure|source
-|3/8|360Nm|https://youtu.be/kay3z8qSEok
-|1/2|730Nm|https://youtu.be/ibmzKTIxoSw
+|anvil|failure|rated|source
+|3/8|360Nm|???|https://youtu.be/kay3z8qSEok
+|1/2|730Nm|512|https://youtu.be/ibmzKTIxoSw
 |===
