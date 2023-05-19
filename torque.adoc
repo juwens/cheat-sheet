@@ -3,5 +3,5 @@
 |===
 |anvil|failure|rated|source
 |3/8|360Nm|???|https://youtu.be/kay3z8qSEok
-|1/2|730Nm|512|https://youtu.be/ibmzKTIxoSw
+|1/2|730Nm|512|https://youtu.be/ibmzKTIxoSw https://youtu.be/Zt5hqn6nEKA ( 600-650 ft lbs, 814-881Nm)
 |===
