@@ -1,7 +1,7 @@
 * https://en.wikipedia.org/wiki/Sugar_substitute#Types
 
 |===
-| Allulose | https://de.wikipedia.org/wiki/Erythrit[Erythrit/Erythritol]
+| Allulose | 
 | Acesulfame potassium | 
 | Aspartame | 
 | Cyclamate | 
@@ -16,10 +16,10 @@
 
 https://de.wikipedia.org/wiki/Zuckeraustauschstoffe
 
-* E 420 Sorbitol
-* E 421 Mannitol
-* E 953 Isomalt
-* E 965 Maltitol
-* E 966 Lactitol
-* E 967 Xylitol (Birkenzucker)
-* E 968 Erythritol
+* E420 Sorbitol
+* E421 Mannitol
+* E953 Isomalt
+* E965 Maltitol
+* E966 Lactitol
+* E967 Xylitol (Birkenzucker)
+* E968 Erythritol
