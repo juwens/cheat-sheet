@@ -9,7 +9,8 @@
 | Saccharin | 
 | Steviol glycosides (stevia) | 
 | Sucralose | 
-| Sugar alcohol / Polyols | 
+| Sugar alcohol / Polyols: |
+| Erythritol | 20% higher risk of severe cardiovascular issues, when in blood: https://www.nature.com/articles/s41392-023-01504-6
 |===
 
 # Polyole (sogenannte Zuckeralkohole)
