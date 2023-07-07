@@ -55,8 +55,11 @@
 .1+| PInvoke Helpers
 | https://www.nuget.org/packages/Microsoft.Windows.CsWin32 (132K) | https://github.com/microsoft/CsWin32
 
+.1+| Retry/Fail
+| https://www.nuget.org/packages/Polly/ (390M) | https://github.com/App-vNext/Polly
+
 .3+| Misc
-a| 
+a|
 - https://www.nuget.org/packages/Hashids.net
 - https://www.nuget.org/packages/MvsSln
 |
