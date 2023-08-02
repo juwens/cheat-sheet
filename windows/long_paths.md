@@ -1,0 +1,1 @@
+- https://learn.microsoft.com/en-us/archive/blogs/jeremykuhne/net-4-6-2-and-long-paths-on-windows-10
