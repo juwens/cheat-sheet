@@ -1,0 +1,7 @@
+```
+IConfigurationSource -> IConfigurationProvder -> IConfigurationBuilder -> IConfiguration
+```
+
+- https://learn.microsoft.com/en-us/dotnet/core/extensions/configuration
+- https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/options?view=aspnetcore-7.0#options-interfaces
+- ChangeToken: https://learn.microsoft.com/en-us/aspnet/core/fundamentals/change-tokens?view=aspnetcore-7.0
