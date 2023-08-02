@@ -58,6 +58,10 @@
 .1+| Retry/Fail
 | https://www.nuget.org/packages/Polly/ (390M) | https://github.com/App-vNext/Polly
 
+.2+| Roslyn/CodeGen
+| https://www.nuget.org/packages/Basic.Reference.Assemblies.Net70 (30K) | https://github.com/jaredpar/basic-reference-assemblies 
+| | https://github.com/jaredpar/roslyn-codedom
+
 .3+| Misc
 a|
 - https://www.nuget.org/packages/Hashids.net
