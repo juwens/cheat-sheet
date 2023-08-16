@@ -2,7 +2,7 @@
 |--|--|--
 | "Microsoft Symbol Servers" | http://msdl.microsoft.com/download/symbols | `SRV*http://msdl.microsoft.com/download/symbols` |
 | "NuGet.org Symbol Server" | https://symbols.nuget.org/download/symbols | `SRV*https://symbols.nuget.org/download/symbols` |
-| "http://symweb" | http://symweb.corp.microsoft.com | `SRV*http://symweb.corp.microsoft.com` | 
+| "http://symweb" | http://symweb.corp.microsoft.com (not available public) | `SRV*http://symweb.corp.microsoft.com` | 
 
 
 - "Microsoft Symbol Servers" is located in `Microsoft.VisualStudio.Debugger.UserControls.SymbolPathControl.SymbolPathControlResources.resources/MicrosoftSymbolServersCaption`
