@@ -4,7 +4,7 @@
 | "NuGet.org Symbol Server" | https://symbols.nuget.org/download/symbols | `SRV*https://symbols.nuget.org/download/symbols` |
 | "http://symweb" | http://symweb.corp.microsoft.com (not available public) | `SRV*http://symweb.corp.microsoft.com` | 
 
-# full with environment variable
+# full example with environment variable
 
 ```
 _NT_SYMBOL_PATH= {
@@ -18,7 +18,7 @@ _NT_SYMBOL_PATH= {
     }
 ```
 
-
+Source: https://github.com/Microsoft/perfview/issues/593
 
 # Links:
 
