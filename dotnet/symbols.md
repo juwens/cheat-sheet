@@ -4,10 +4,23 @@
 | "NuGet.org Symbol Server" | https://symbols.nuget.org/download/symbols | `SRV*https://symbols.nuget.org/download/symbols` |
 | "http://symweb" | http://symweb.corp.microsoft.com (not available public) | `SRV*http://symweb.corp.microsoft.com` | 
 
+# full with environment variable
 
-- "Microsoft Symbol Servers" is located in `Microsoft.VisualStudio.Debugger.UserControls.SymbolPathControl.SymbolPathControlResources.resources/MicrosoftSymbolServersCaption`
+```
+_NT_SYMBOL_PATH= {
+    C:\Users\jasonsh\Documents;
+    d:\springfield.fuzzing\src\build\fuzzers\sage\x64-release;
+    SRV*C:\Users\jasonsh\AppData\Local\Temp\symbols*http://symweb.corp.microsoft.com;
+    SRV*C:\Users\jasonsh\AppData\Local\Temp\symbols*http://msdl.microsoft.com/download/symbols;
+    SRV*C:\Users\jasonsh\AppData\Local\Temp\symbols*https://nuget.smbsrc.net;
+    SRV*C:\Users\jasonsh\AppData\Local\Temp\symbols*http://referencesource.microsoft.com/symbols;
+    SRV*C:\Users\jasonsh\AppData\Local\Temp\symbols*https://dotnet.myget.org/F/dotnet-core/symbols;
+    }
+```
 
-  Links:
+
+
+# Links:
 
 - https://github.com/terrajobst/experimentation/blob/master/Documentation/GettingStarted.md
 - https://stackoverflow.com/questions/556383/how-to-use-windows-symbol-packages-with-visual-studio-2008
@@ -46,5 +59,5 @@ $ grep -R "/download/symbols" /c/Program\ Files/Microsoft\ Visual\ Studio/2022
 /c/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/VC/Profile/VC.vssettings:          <PropertyValue name="PublicSymbolServerName2">https://msdl.microsoft.com/download/symbols</PropertyValue>
 ```
 
-VS Logic
+# VS Logic
 ![image](https://github.com/juwens/cheat-sheet/assets/11560817/c5bdf831-f762-406d-a591-ad84b219d73c)
