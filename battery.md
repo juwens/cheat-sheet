@@ -1,0 +1,3 @@
+- LFO
+- NMC: https://de.m.wikipedia.org/wiki/Nickel-Mangan-Cobalt-Akkumulator
+- LFP: https://en.m.wikipedia.org/wiki/Lithium_iron_phosphate_battery
