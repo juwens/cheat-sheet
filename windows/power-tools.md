@@ -1,0 +1,3 @@
+- https://www.nirsoft.net/utils/index.html
+- https://github.com/EricZimmerman?tab=repositories
+  - https://github.com/EricZimmerman/LECmd 
