@@ -7,3 +7,15 @@
 * https://github.com/microsoft/win32metadata/blob/main/generation/WinSDK/RecompiledIdlHeaders/um/propkey.h
 * https://github.com/microsoft/Windows-classic-samples/blob/main/Samples/DesktopToasts/CS/ShellPropertyKeys.cs
 * https://github.com/winsiderss/systeminformer/blob/master/phlib/include/appresolverp.h
+
+IShellLink was never extended for UWP/MSIX/WinRT, you need to cast it to a property-store an then set specific properties. 
+
+```
+		auto link {winrt::create_instance<IShellLink>(CLSID_ShellLink)};
+		winrt::check_hresult(link->SetPath(module_path.c_str()));
+
+		auto store {link.as<IPropertyStore>()};
+		prop_variant value;
+		winrt::check_hresult(InitPropVariantFromString(app_user_model_id.c_str(), &value));
+		winrt::check_hresult(store->SetValue(PKEY_AppUserModel_ID, value));
+```
