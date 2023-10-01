@@ -5,8 +5,8 @@
 [cols="7*"]
 |===
 ||Windows|Xbox|Linux|Mac|iOS|PS5
-|Direct 3D 9-11|✅|⚠️ via D3D11On12 & D3D9On12|⚠️ via dxvk/Proton|only via GPTK|❌|❌
-|Direct 3D 12|✅|✅|⚠️ only via dxvk/Proton|only via GPTK|❌|❌
+|Direct 3D 9-11|✅|⚠️ via D3D11On12 & D3D9On12|⚠️ via DXVK/Proton|only via GPTK|❌|❌
+|Direct 3D 12|✅|✅|⚠️ only via VKD3D/Proton|only via GPTK|❌|❌
 |OpenGL 4.5+ |✅|⚠️ only via GLon12|✅|3|4|5
 |OpenGL ES 3.2+ ||1|2|3|4|5
 |Vulkan|✅|❌|???|||???
