@@ -23,7 +23,9 @@
 * https://www.ravbug.com/graphics/
 * Proton
 ** https://en.wikipedia.org/wiki/Proton_(software)[]
-* dxvk
+* DXVK/VKD3D
+** DXVK: Direct3D 9, 10 and 11
+** VKD3D: Direct3D 12
 ** A Vulkan-based translation layer for Direct3D 9/10/11 which allows running 3D applications on Linux using Wine.
 ** https://github.com/doitsujin/dxvk
 * Apple Game Porting Toolkit (GPTK)
