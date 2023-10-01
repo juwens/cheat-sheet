@@ -5,7 +5,7 @@
 [cols="7*"]
 |===
 ||Windows|Xbox|Linux|Mac|iOS|PS5
-|Direct X/3D|✅|✅|only via dxvk/Proton|[Game Porting Toolkit]|❌|❌
+|Direct X/3D|✅|✅|only via dxvk/Proton|only via GPTK|❌|❌
 |OpenGL 4.5+ |✅|???|✅|3|4|5
 |OpenGL ES 3.2+ ||1|2|3|4|5
 |Vulkan|✅|❌|???|||???
