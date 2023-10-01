@@ -36,5 +36,7 @@
 ** https://en.wikipedia.org/wiki/Metal_(API)[]
 * Direct X/3D
 ** D3D12 Translation Layer
+** D3D9On12
+** D3D11On12
 ** https://github.com/microsoft/D3D12TranslationLayer
 ** https://devblogs.microsoft.com/directx/d3d12-translation-layer-and-d3d11on12-are-now-open-source/
