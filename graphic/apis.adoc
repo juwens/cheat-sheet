@@ -5,8 +5,9 @@
 [cols="7*"]
 |===
 ||Windows|Xbox|Linux|Mac|iOS|PS5
-|Direct X/3D|✅|✅|only via dxvk/Proton|only via GPTK|❌|❌
-|OpenGL 4.5+ |✅|???|✅|3|4|5
+|Direct 3D 9-11|✅|⚠️ via D3D11On12|⚠️ via dxvk/Proton|only via GPTK|❌|❌
+|Direct 3D 12|✅|✅|⚠️ only via dxvk/Proton|only via GPTK|❌|❌
+|OpenGL 4.5+ |✅|⚠️ only via GLon12|✅|3|4|5
 |OpenGL ES 3.2+ ||1|2|3|4|5
 |Vulkan|✅|❌|???|||???
 |GNM/GNMX|❌|❌|❌|❌|❌|✅
@@ -33,3 +34,7 @@
 ** https://www.applegamingwiki.com/wiki/Game_Porting_Toolkit
 * Metal (Mac OS + iOS + iPad OS + TV OS)
 ** https://en.wikipedia.org/wiki/Metal_(API)[]
+* Direct X/3D
+** D3D12 Translation Layer
+** https://github.com/microsoft/D3D12TranslationLayer
+** https://devblogs.microsoft.com/directx/d3d12-translation-layer-and-d3d11on12-are-now-open-source/
