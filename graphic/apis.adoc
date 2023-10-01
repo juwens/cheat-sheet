@@ -22,7 +22,7 @@
 
 * https://www.ravbug.com/graphics/
 * Proton
-** https://en.wikipedia.org/wiki/Proton_(software)
+** https://en.wikipedia.org/wiki/Proton_(software)[]
 * dxvk
 ** A Vulkan-based translation layer for Direct3D 9/10/11 which allows running 3D applications on Linux using Wine.
 ** https://github.com/doitsujin/dxvk
@@ -30,4 +30,4 @@
 ** a fork of codeweaver Wine
 ** https://www.applegamingwiki.com/wiki/Game_Porting_Toolkit
 * Metal (Mac OS + iOS + iPad OS + TV OS)
-** https://en.wikipedia.org/wiki/Metal_(API)
+** https://en.wikipedia.org/wiki/Metal_(API)[]
