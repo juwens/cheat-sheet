@@ -1,0 +1,23 @@
+== Support Matrix
+
+[cols="7*"]
+|===
+||Windows|Xbox|Linux|Mac|iOS|PS5
+|Direct X/3D|✅|✅|only via dxvk/Proton|[Game Porting Toolkit]|❌|❌
+|OpenGL 4.5+ |✅|???|✅|3|4|5
+|OpenGL ES 3.2+ ||1|2|3|4|5
+|Vulkan|✅|❌|???|||???
+|GNM/GNMX|❌|❌|❌|❌|❌|✅
+|https://en.wikipedia.org/wiki/Metal_(API)[Apple Metal]|0|1|2|3|4|5
+|xxx|0|1|2|3|4|5
+|xxx|0|1|2|3|4|5
+|xxx|0|1|2|3|4|5
+|xxx|0|1|2|3|4|5
+|xxx|0|1|2|3|4|5
+|==
+
+== Links 
+
+- https://www.ravbug.com/graphics/
+- https://en.wikipedia.org/wiki/Proton_(software)
+  - A Vulkan-based translation layer for Direct3D 9/10/11 which allows running 3D applications on Linux using Wine.
