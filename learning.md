@@ -1,0 +1,3 @@
+* udemy
+* pluralsight
+* brilliant.org
