@@ -1,28 +1,40 @@
 
 |===
-|Language|summary|Links
-|AssemblyScript|variant of TypeScript|https://en.wikipedia.org/wiki/AssemblyScript[wiki] https://www.assemblyscript.org/introduction.html[docs] https://github.com/AssemblyScript[github]
+|language|summary|links|comments
+
+|AssemblyScript
+|variant of TypeScript
+|https://en.wikipedia.org/wiki/AssemblyScript[wiki] https://www.assemblyscript.org/introduction.html[docs] https://github.com/AssemblyScript[github]
+|
 
 |gopher
 |golang to js
 |https://github.com/gopherjs/gopherjs[github] https://github.com/gopherjs/gopherjs/blob/master/doc/compatibility.md[docs] https://github.com/gopherjs/gopherjs/wiki[github wiki]
+|
 
 |emscripten
 |C/C++/LLVM-to-WebAssembly/JS Compiler
 |https://emscripten.org/docs/introducing_emscripten/index.html[docs] https://github.com/emscripten-core/emscripten[github] https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_Wasm[mdn example]
+|
 
 |rustwasm/wasm-pack
 |rust to wasm compiler, very early 
 |https://github.com/rustwasm[github] https://rustwasm.github.io/docs/book/game-of-life/hello-world.html[hello world]
+|
 
 |dart2js/Dart Web
-|stable first class citizen (current compiler-name == dart2js, it's contained in the >= 2.18 SDK)
+|stable, first class citizen, (current compiler-name == dart2js, it's contained in the >= 2.18 SDK)
 a|
 * https://dart.dev/tools/dart-compile#js[docs] https://dart.dev/web[overview]
 * https://en.wikipedia.org/wiki/Dart_(programming_language)#JavaScript
-* https://pub.dev/packages/js
-* https://pub.dev/packages?q=platform%3Aweb&sort=popularity
+
 * https://dart.dev/tools/webdev
+* packages
+** https://pub.dev/packages/react
+** https://pub.dev/packages/js
+** https://pub.dev/packages?q=platform%3Aweb&sort=popularity
+* Dart Versions: https://dart.dev/guides/language/evolution
+|SEEMS mature, though Dart 
+
+
 |===
-
-
