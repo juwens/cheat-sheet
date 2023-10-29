@@ -1,0 +1,9 @@
+
+|===
+|Language|summary|Links
+|AssemblyScript|variant of TypeScript|https://en.wikipedia.org/wiki/AssemblyScript[wiki] https://www.assemblyscript.org/introduction.html[docs] https://github.com/AssemblyScript[github]
+
+|gopher
+|golang to js
+|https://github.com/gopherjs/gopherjs[github] https://github.com/gopherjs/gopherjs/blob/master/doc/compatibility.md[docs] https://github.com/gopherjs/gopherjs/wiki[github wiki]
+|===
