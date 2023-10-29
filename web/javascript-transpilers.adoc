@@ -59,4 +59,35 @@ a|
 * https://kotlinlang.org/docs/js-overview.html
 | docs are more clear and it seems the integration is more stable 
 
+|Elixir
+|
+a|
+* https://en.wikipedia.org/wiki/Elixir_(programming_language)[wiki]
+|
+
+|TypeScript
+|
+a|
+*
+|
+
+|Julia
+|
+a|
+*
+|
+
+|
+|
+a|
+*
+|
+
+|
+|
+a|
+*
+|
+
+
 |===
