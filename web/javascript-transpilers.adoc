@@ -13,7 +13,7 @@
 
 |rustwasm/wasm-pack
 |rust to wasm compiler, very early 
-|https://github.com/rustwasm[github]
+|https://github.com/rustwasm[github] https://rustwasm.github.io/docs/book/game-of-life/hello-world.html[hello world]
 |===
 
 
