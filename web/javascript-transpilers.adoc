@@ -16,7 +16,7 @@
 |https://github.com/rustwasm[github] https://rustwasm.github.io/docs/book/game-of-life/hello-world.html[hello world]
 
 |dart2js/Dart Web
-|stable first class citizen (current compiler-name == dart2js)
+|stable first class citizen (current compiler-name == dart2js, it's contained in the >= 2.18 SDK)
 a|
 * https://dart.dev/tools/dart-compile#js[docs] https://dart.dev/web[overview]
 * https://en.wikipedia.org/wiki/Dart_(programming_language)#JavaScript
