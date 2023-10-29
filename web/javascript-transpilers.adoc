@@ -35,7 +35,8 @@ a|
 ** https://pub.dev/packages?q=platform%3Aweb&sort=popularity
 * Dart Versions: https://dart.dev/guides/language/evolution
 * https://github.com/dart-lang/webdev
-|kinda mature, though a little bit chaotic (spread infos, often changes between dart version versions)
+* https://github.com/angulardart-community/angular (abandonded by google, maintained by "community")
+|kinda mature, apprerently not much used for web-frontend-dev, a little bit chaotic (spread infos, often changes between dart version versions)
 
 
 |===
