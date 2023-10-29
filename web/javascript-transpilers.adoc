@@ -6,4 +6,14 @@
 |gopher
 |golang to js
 |https://github.com/gopherjs/gopherjs[github] https://github.com/gopherjs/gopherjs/blob/master/doc/compatibility.md[docs] https://github.com/gopherjs/gopherjs/wiki[github wiki]
+
+|emscripten
+|C/C++/LLVM-to-WebAssembly/JS Compiler
+|https://emscripten.org/docs/introducing_emscripten/index.html[docs] https://github.com/emscripten-core/emscripten[github] https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_Wasm[mdn example]
+
+|rustwasm/wasm-pack
+|rust to wasm compiler, very early 
+|https://github.com/rustwasm[github]
 |===
+
+
