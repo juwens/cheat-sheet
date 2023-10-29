@@ -17,6 +17,12 @@
 |https://emscripten.org/docs/introducing_emscripten/index.html[docs] https://github.com/emscripten-core/emscripten[github] https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_Wasm[mdn example]
 |
 
+|elm
+|language and framework
+a|
+* https://guide.elm-lang.org/[docs]
+* https://github.com/elm[github]
+
 |rustwasm/wasm-pack
 |rust to wasm compiler, very early 
 |https://github.com/rustwasm[github] https://rustwasm.github.io/docs/book/game-of-life/hello-world.html[hello world]
