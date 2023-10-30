@@ -9,3 +9,5 @@ curl --header "Authorization: Bearer <your_access_token>" "https://gitlab.exampl
 or
 git -c http.extraHeader="Authorization: Basic YmQ2MTY0Om82ZzV4YWU1Zm1xZXFkYmphdGRmamljaGRrNTVsd2VxNGp4eXQyanZ3dGp1enhkd3dneGE=" push
 ----
+
+https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html#bot-users-for-projects
