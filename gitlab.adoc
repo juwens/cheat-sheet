@@ -1,0 +1,11 @@
+# token headers
+
+----
+curl "https://gitlab.example.com/api/v4/projects?private_token=<your_access_token>"
+or
+curl --header "PRIVATE-TOKEN: <your_access_token>" "https://gitlab.example.com/api/v4/projects"
+or
+curl --header "Authorization: Bearer <your_access_token>" "https://gitlab.example.com/api/v4/projects"
+or
+git -c http.extraHeader="Authorization: Basic YmQ2MTY0Om82ZzV4YWU1Zm1xZXFkYmphdGRmamljaGRrNTVsd2VxNGp4eXQyanZ3dGp1enhkd3dneGE=" push
+----
