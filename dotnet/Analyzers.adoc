@@ -28,7 +28,10 @@ a|
 |StyleCop
 |
 |
-|https://github.com/DotNetAnalyzers/StyleCopAnalyzers
+a|
+* NuGets:
+** https://www.nuget.org/packages/StyleCop.Analyzers/
+* https://github.com/DotNetAnalyzers/StyleCopAnalyzers
 
 |FxCop (binary analysis)
 |
