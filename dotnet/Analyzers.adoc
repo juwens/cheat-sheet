@@ -19,6 +19,8 @@ Prio to Net 5 SDK:
 a|
 * NuGets:
 ** Microsoft.CodeAnalysis.NetAnalyzers
+** Microsoft.CodeAnalysis.BannedApiAnalyzers
+** Microsoft.CodeAnalysis.PublicApiAnalyzers
 * https://github.com/dotnet/roslyn-analyzers
 
 |StyleCop
