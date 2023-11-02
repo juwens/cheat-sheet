@@ -38,6 +38,9 @@ a|
 
 |FxCop (binary analysis)
 |
-|superseeded by Microsoft.CodeAnalysis.NetAnalyzers
-|https://learn.microsoft.com/en-us/visualstudio/code-quality/net-analyzers-faq?view=vs-2022
+|deprecated and superseeded by Microsoft.CodeAnalysis.NetAnalyzers
+a|
+* NuGets:
+** Microsoft.CodeAnalysis.FxCopAnalyzers
+* https://learn.microsoft.com/en-us/visualstudio/code-quality/net-analyzers-faq?view=vs-2022
 |====
