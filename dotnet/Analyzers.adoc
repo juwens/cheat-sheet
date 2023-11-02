@@ -9,6 +9,8 @@
 |Rosyln Analyzers
 |CAxxxx
 a|
+Since .Net `EnableNETAnalyzers=true` is the default.
+
 Prio to Net 5 SDK:
 ----
 <PropertyGroup>
