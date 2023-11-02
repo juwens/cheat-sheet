@@ -7,9 +7,19 @@
 |
 
 |Rosyln Analyzers
-|
 |CAxxxx
-|https://github.com/dotnet/roslyn-analyzers
+a|
+Prio to Net 5 SDK:
+----
+<PropertyGroup>
+  <EnableNETAnalyzers>true</EnableNETAnalyzers>
+  <AnalysisLevel>latest</AnalysisLevel>
+</PropertyGroup>
+----
+a|
+* NuGets:
+** Microsoft.CodeAnalysis.NetAnalyzers
+* https://github.com/dotnet/roslyn-analyzers
 
 |StyleCop
 |
