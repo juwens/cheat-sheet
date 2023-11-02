@@ -7,7 +7,7 @@
 |
 
 |Rosyln Analyzers
-|CAxxxx
+|`CAxxxx` from Code-Analysis (`Microsoft.Analyzers.ManagedCodeAnalysis`)
 a|
 Since .Net `EnableNETAnalyzers=true` is the default.
 
@@ -26,8 +26,10 @@ a|
 * https://github.com/dotnet/roslyn-analyzers
 
 |StyleCop
-|
-|outdated. Docs talk of C# 8 and VS 2019
+|`SAxxxx` from `StyleCop.Analyzers`
+a|
+* outdated. Docs talk of C# 8 and VS 2019
+* uses `.ruleset` files
 a|
 * NuGets:
 ** https://www.nuget.org/packages/StyleCop.Analyzers/
