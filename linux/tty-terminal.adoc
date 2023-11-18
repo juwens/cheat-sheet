@@ -1,5 +1,5 @@
 
-|===
+|====
 |name|notes
 
 |agetty
@@ -27,4 +27,4 @@ a|
 |kmscon
 a|
 * https://github.com/dvdhrm/kmscon
-|===
+|====
