@@ -1,8 +1,15 @@
 
 |===
+|name|notes
+
 |agetty
 a|
 * https://github.com/util-linux/util-linux/blob/master/term-utils/agetty.c
+
+|mingetty
+a|
+* https://github.com/ystk/debian-mingetty/blob/master/mingetty.c
+* https://tldp.org/HOWTO/Remote-Serial-Console-HOWTO/getty-mingetty.html
 
 |busybox getty
 a|
