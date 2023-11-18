@@ -1,0 +1,23 @@
+
+|===
+|agetty
+a|
+* https://github.com/util-linux/util-linux/blob/master/term-utils/agetty.c
+
+|busybox getty
+a|
+* https://elixir.bootlin.com/busybox/latest/source/loginutils/getty.c
+
+|ngetty
+a|
+* https://salsa.debian.org/debian/ngetty
+* https://manpages.ubuntu.com/manpages/focal/en/man8/ngetty.8.html
+
+|fbterm
+a|
+* https://github.com/zhangyuanwei/fbterm
+
+|kmscon
+a|
+* https://github.com/dvdhrm/kmscon
+|===
