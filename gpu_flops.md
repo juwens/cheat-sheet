@@ -50,6 +50,10 @@ https://db.thegpu.guru/compare?id=cBy4vQpBMpIEpMwOrDZIj6&id=aKWMgOd5COih6kE65AUq
 | M2 10-Core GPU       |             | [3.6](https://www.notebookcheck.net/Apple-M1-GPU-Benchmarks-and-Specs.503610.0.html) |             |        |            |        |              |        |
 | M2 Max               |             | [13.6](https://en.wikipedia.org/wiki/Apple_M2#GPU) |             |        |            |        |              |        |
 | M2 Ultra             |             | [27.2](https://en.wikipedia.org/wiki/Apple_M2#GPU) |             |        |            |        |              |        |
+|                      |             |                         |             |        |            |        |              |        |
+| M3                   |             | [2.8](https://en.wikipedia.org/wiki/Apple_silicon#Comparison_of_M_series_processors)  |             |        |            |        |              |        |
+| M3 Max               |             | [14.1](https://en.wikipedia.org/wiki/Apple_silicon#Comparison_of_M_series_processors) |             |        |            |        |              |        |
+
 
 
 - https://en.wikipedia.org/wiki/GeForce_30_series
