@@ -59,6 +59,7 @@ https://db.thegpu.guru/compare?id=cBy4vQpBMpIEpMwOrDZIj6&id=aKWMgOd5COih6kE65AUq
 - https://en.wikipedia.org/wiki/GeForce_30_series
 - https://en.wikipedia.org/wiki/GeForce_40_series
 - https://en.wikipedia.org/wiki/Radeon_RX_6000_series#Desktop
+- https://en.wikipedia.org/wiki/Apple_silicon#Comparison_of_M_series_processors
 
 # Nvidia Generations
 
