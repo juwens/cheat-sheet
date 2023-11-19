@@ -40,6 +40,17 @@ https://db.thegpu.guru/compare?id=cBy4vQpBMpIEpMwOrDZIj6&id=aKWMgOd5COih6kE65AUq
 |                      |             |                         |             |        |            |        |              |        |
 | GeForce RTX 4080     |             | 43 (49)                 |             | AD103  | 9_728      | 320    |              |        |
 | GeForce RTX 4080     |             | 73 (82)                 |             | AD102  | 16_384     | 450    |              |        |
+|                      |             |                         |             |        |            |        |              |        |
+|                      |             |                         |             |        |            |        |              |        |
+|                      |             |                         |             |        |            |        |              |        |
+| M1 8-Core GPU        | [5.2](https://www.cpu-monkey.com/en/igpu-apple_m1_8_core)            | [2.6](https://en.wikipedia.org/wiki/Apple_M1)  |             |        |            |        |              |        |
+| M1 Pro 18-Core GPU   |             | [10.4](https://en.wikipedia.org/wiki/Apple_M1) |             |        |            |        |              |        |
+| M1 Ultra 64-Core GPU |             | [21](https://en.wikipedia.org/wiki/Apple_M1)   |             |        |            |        |              |        |
+|                      |             |                         |             |        |            |        |              |        |
+| M2 10-Core GPU       |             | [3.6](https://www.notebookcheck.net/Apple-M1-GPU-Benchmarks-and-Specs.503610.0.html) |             |        |            |        |              |        |
+| M2 Max               |             | [13.6](https://en.wikipedia.org/wiki/Apple_M2#GPU) |             |        |            |        |              |        |
+| M2 Ultra             |             | [27.2](https://en.wikipedia.org/wiki/Apple_M2#GPU) |             |        |            |        |              |        |
+
 
 - https://en.wikipedia.org/wiki/GeForce_30_series
 - https://en.wikipedia.org/wiki/GeForce_40_series
