@@ -1,7 +1,18 @@
 |====
 |name|details
 
-|msi|https://en.wikipedia.org/wiki/Message_Signaled_Interrupts[Message Signaled Interrupts]
+|IRQ|https://en.wikipedia.org/wiki/Interrupt_request[Interrupt request]
 |ISR|https://en.wikipedia.org/wiki/Interrupt_handler[interrupt service routine or Interrupt handler]
 |DPC|https://en.wikipedia.org/wiki/Deferred_Procedure_Call[Deferred Procedure Call]
+|msi|https://en.wikipedia.org/wiki/Message_Signaled_Interrupts[Message Signaled Interrupts]
 |====
+
+```mermaid
+sequenceDiagram
+    participant IRQ
+    participant ISR
+    participant DPC
+    IRQ->>ISR: cpu to puts the process (or thread?)<br/>containging the ISR<br/>on a cpu-core and calls it
+    ISR->>DPC: ISR dispatches low-priority tasks
+```
+
