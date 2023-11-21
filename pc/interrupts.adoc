@@ -10,9 +10,13 @@
 ```mermaid
 sequenceDiagram
     participant IRQ
-    participant ISR
+box rgb(70, 70, 70) ISR
+    participant ISR start
+    participant ISR end
+end
     participant DPC
-    IRQ->>ISR: cpu to puts the process (or thread?)<br/>containging the ISR<br/>on a cpu-core and calls it<br/>"interrupt to process latency"
-    ISR->>DPC: ISR dispatches low-priority tasks
+    IRQ->>ISR start: cpu to puts the driver/process<br/>containging the ISR<br/>on a cpu-core and calls it<br/>"interrupt to process latency"
+    ISR start->>ISR end: ISR is executed<br/>"ISR routine execution time"
+    ISR end->>DPC: ISR dispatches low-priority tasks
 ```
 
