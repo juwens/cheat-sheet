@@ -1,0 +1,7 @@
+|====
+|name|details
+
+|msi|https://en.wikipedia.org/wiki/Message_Signaled_Interrupts[Message Signaled Interrupts]
+|ISR|https://en.wikipedia.org/wiki/Interrupt_handler[interrupt service routine or Interrupt handler]
+|DPC|https://en.wikipedia.org/wiki/Deferred_Procedure_Call[Deferred Procedure Call]
+|====
