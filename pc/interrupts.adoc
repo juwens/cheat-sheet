@@ -12,7 +12,7 @@ sequenceDiagram
     participant IRQ
     participant ISR
     participant DPC
-    IRQ->>ISR: cpu to puts the process (or thread?)<br/>containging the ISR<br/>on a cpu-core and calls it
+    IRQ->>ISR: cpu to puts the process (or thread?)<br/>containging the ISR<br/>on a cpu-core and calls it<br/>"interrupt to process latency"
     ISR->>DPC: ISR dispatches low-priority tasks
 ```
 
