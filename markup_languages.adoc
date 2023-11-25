@@ -1,0 +1,21 @@
+# github support
+
+https://github.com/github/markup
+
+# popuplarity of lightweight markup languages wich are supported by github.com (descending order)
+
+|===
+|name|details
+
+|markdown
+a| * https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one[VSCODE Extension 7.5M downloads]
+
+| reStructuredText
+a| * https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext[VSCODE Extension 555k downloads]
+
+| asciidoc
+a| * https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode[VSCODE Extension 400k downloads]
+
+| org-mode
+a| * https://marketplace.visualstudio.com/items?itemName=tootone.org-mode[VSCODE Extension 93k downloads]
+|===
