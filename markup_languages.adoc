@@ -33,7 +33,7 @@ a| * https://marketplace.visualstudio.com/items?itemName=idleberg.textile[VSCODE
 | creole
 | [no VSCODE Extension]
 
-| pod
-a| * perlpod - the Plain Old Documentation format
-*  [no VSCODE Extension]
+a| pod/perlpod +
+the Plain Old Documentation format
+a| [no VSCODE Extension]
 |===
