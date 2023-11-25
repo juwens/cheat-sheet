@@ -18,4 +18,12 @@ a| * https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor
 
 | org-mode
 a| * https://marketplace.visualstudio.com/items?itemName=tootone.org-mode[VSCODE Extension 93k downloads]
+
+| textile
+a| * https://marketplace.visualstudio.com/items?itemName=idleberg.textile[VSCODE Extension 11k downloads]
+
+| no particular order from here |
+
+| rdoc
+| [no VSCODE Extension]
 |===
