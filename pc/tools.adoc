@@ -8,7 +8,8 @@
 |name |details
 |Reliability Monitor 
 a|
-* `perfmon /rel`
+* win+r: `perfmon /rel`
+* start menu: `reliab`
 * https://www.dell.com/support/kbdoc/en-us/000178177/how-to-use-windows-reliability-monitor-to-identify-software-issues[howto on dell.com]
 
 |===
