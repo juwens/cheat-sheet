@@ -1,3 +1,5 @@
+Übersicht: https://de.wikipedia.org/wiki/Kategorie:Journalistische_Darstellungsform
+
 | | |
 |--|--|
 | Kolumne | [kurzer Meinungsbeitrag](https://de.wikipedia.org/wiki/Kolumne) |
