@@ -22,8 +22,10 @@ a| * https://marketplace.visualstudio.com/items?itemName=tootone.org-mode[VSCODE
 | mediawiki
 a| * https://marketplace.visualstudio.com/items?itemName=RoweWilsonFrederiskHolme.wikitext[VSCODE Extension 14k downloads]
 
-| textile
+| https://en.wikipedia.org/wiki/Textile_(markup_language)[Textile]
 a| * https://marketplace.visualstudio.com/items?itemName=idleberg.textile[VSCODE Extension 11k downloads]
+* https://github.com/textile
+* https://textile-lang.com/
 
 | no particular order from here |
 
