@@ -1,6 +1,7 @@
 
 * https://www.resplendence.com/downloads
 * https://www.nirsoft.net/utils/
+** https://www.nirsoft.net/utils/computer_activity_view.html[LastActivityView]
 
 # builtin (windows)
 
