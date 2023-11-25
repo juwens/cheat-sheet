@@ -1,0 +1,14 @@
+
+* https://www.resplendence.com/downloads
+* https://www.nirsoft.net/utils/
+
+# builtin (windows)
+
+|===
+|name |details
+|Reliability Monitor 
+a|
+* `perfmon /rel`
+* https://www.dell.com/support/kbdoc/en-us/000178177/how-to-use-windows-reliability-monitor-to-identify-software-issues[howto on dell.com]
+
+|===
