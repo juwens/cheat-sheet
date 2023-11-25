@@ -19,6 +19,9 @@ a| * https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor
 | org-mode
 a| * https://marketplace.visualstudio.com/items?itemName=tootone.org-mode[VSCODE Extension 93k downloads]
 
+| mediawiki
+a| * https://marketplace.visualstudio.com/items?itemName=RoweWilsonFrederiskHolme.wikitext[VSCODE Extension 14k downloads]
+
 | textile
 a| * https://marketplace.visualstudio.com/items?itemName=idleberg.textile[VSCODE Extension 11k downloads]
 
@@ -26,4 +29,11 @@ a| * https://marketplace.visualstudio.com/items?itemName=idleberg.textile[VSCODE
 
 | rdoc
 | [no VSCODE Extension]
+
+| creole
+| [no VSCODE Extension]
+
+| pod
+a| * perlpod - the Plain Old Documentation format
+*  [no VSCODE Extension]
 |===
