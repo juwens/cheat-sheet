@@ -7,16 +7,16 @@ https://github.com/github/markup
 |===
 |name|details
 
-|markdown
+| https://en.wikipedia.org/wiki/Markdown[.md/Markdown]
 a| * https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one[VSCODE Extension 7.5M downloads]
 
-| reStructuredText
+| https://en.wikipedia.org/wiki/ReStructuredText[.rst/reStructuredText]
 a| * https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext[VSCODE Extension 555k downloads]
 
-| asciidoc
+| https://en.wikipedia.org/wiki/AsciiDoc[.adoc/AsciiDoc]
 a| * https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode[VSCODE Extension 400k downloads]
 
-| org-mode
+| https://en.wikipedia.org/wiki/Org-mode[Org-mode]
 a| * https://marketplace.visualstudio.com/items?itemName=tootone.org-mode[VSCODE Extension 93k downloads]
 
 | mediawiki
@@ -27,7 +27,7 @@ a| * https://marketplace.visualstudio.com/items?itemName=idleberg.textile[VSCODE
 
 | no particular order from here |
 
-| rdoc
+| RDoc/Ruby Doc
 | [no VSCODE Extension]
 
 | creole
