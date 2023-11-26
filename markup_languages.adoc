@@ -30,7 +30,7 @@ a|* most feature-rich markup-lang (of the lightweigt MLs)
 | https://marketplace.visualstudio.com/items?itemName=tootone.org-mode[93k]
 | https://stackoverflow.com/questions/tagged/org-mode[2k]
 
-| mediawiki
+| https://en.wikipedia.org/wiki/MediaWiki#Markup[MediaWiki ML]
 |
 | https://marketplace.visualstudio.com/items?itemName=RoweWilsonFrederiskHolme.wikitext[14k]
 | https://stackoverflow.com/questions/tagged/org-mode[2k]
