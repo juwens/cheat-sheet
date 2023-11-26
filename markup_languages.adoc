@@ -39,14 +39,13 @@ a|* most feature-rich markup-lang (of the lightweigt MLs)
 | https://en.wikipedia.org/wiki/MediaWiki#Markup[MediaWiki ML]
 |
 | https://marketplace.visualstudio.com/items?itemName=RoweWilsonFrederiskHolme.wikitext[14k]
-| https://stackoverflow.com/questions/tagged/org-mode[2k]
+|
 
 | https://en.wikipedia.org/wiki/Textile_(markup_language)[Textile]
 a|* de facto dead (projects which used textile linked in wikipedia are non existent anymore)
 * https://github.com/textile
 * https://textile-lang.com/
 | https://marketplace.visualstudio.com/items?itemName=idleberg.textile[11k]
-| https://stackoverflow.com/questions/tagged/org-mode[2k]
 | https://stackoverflow.com/questions/tagged/textile[0.1k]
 
 | no particular order from here
