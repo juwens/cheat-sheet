@@ -14,7 +14,7 @@ installs
 |stackoverflow
 
 | https://en.wikipedia.org/wiki/Markdown[.md/Markdown]
-a|* by a factor of at >= 10 more popular than the next competitor
+a|* by a factor of at ca. 10 more popular than the next competitor
 * has a very small common feature set (https://github.com/commonmark[CommonMark]) which does not even contain tables
 | https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one[7.5M]
 | https://stackoverflow.com/questions/tagged/markdown[9k]
