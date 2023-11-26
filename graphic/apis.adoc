@@ -11,15 +11,10 @@
 |OpenGL ES 3.2+ ||1|2|3|4|5
 |Vulkan|✅|❌|???|||???
 |GNM/GNMX|❌|❌|❌|❌|❌|✅
-|https://en.wikipedia.org/wiki/Metal_(API)[Apple Metal]|0|1|2|3|4|5
-|xxx|0|1|2|3|4|5
-|xxx|0|1|2|3|4|5
-|xxx|0|1|2|3|4|5
-|xxx|0|1|2|3|4|5
-|xxx|0|1|2|3|4|5
+|https://en.wikipedia.org/wiki/Metal_(API)[Apple Metal]|❌|❌|❌|✅|✅|❌
 |===
 
-== Debugging
+== Debug
 
 * https://github.com/baldurk/renderdoc
 * https://github.com/apitrace/apitrace
