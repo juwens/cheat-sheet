@@ -8,12 +8,14 @@ https://github.com/github/markup
 |Name|Details|VSCODE Extension|stackoverflow
 
 | https://en.wikipedia.org/wiki/Markdown[.md/Markdown]
-|
+a|* by a factor of at >= 10 more popular than the next competitor
+* has a very small common feature set (https://github.com/commonmark[CommonMark]) which does not even contain tables
 | https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one[7.5M]
 | https://stackoverflow.com/questions/tagged/markdown[9k]
 
 | https://en.wikipedia.org/wiki/ReStructuredText[.rst/reStructuredText]
-|
+a| * very popular in python
+* used by linux kernel devs
 | https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext[555k]
 | https://stackoverflow.com/questions/tagged/restructuredtext[1.2k]
 
