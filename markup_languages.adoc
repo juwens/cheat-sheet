@@ -4,8 +4,14 @@ https://github.com/github/markup
 
 # popuplarity of lightweight markup languages wich are supported by github.com (descending order)
 
+[cols="1,3,1,1"]
 |===
-|Name|Details|VSCODE Extension installs|stackoverflow
+|Name
+|Details
+a|VSCode +
+Extension +
+installs
+|stackoverflow
 
 | https://en.wikipedia.org/wiki/Markdown[.md/Markdown]
 a|* by a factor of at >= 10 more popular than the next competitor
@@ -50,7 +56,7 @@ a|* de facto dead (projects which used textile linked in wikipedia are non exist
 
 | RDoc/Ruby Doc
 |
-| [no VSCODE Extension]
+| none
 | https://stackoverflow.com/questions/tagged/rdoc[0.2k]
 
 | creole
