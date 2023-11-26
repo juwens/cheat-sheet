@@ -4,7 +4,7 @@ https://github.com/github/markup
 
 # popuplarity of lightweight markup languages wich are supported by github.com (descending order)
 
-*https://trends.google.com/trends/explore?cat=5&date=all&q=%2Fm%2F036gl7,%2Fm%2F0ghs0s,org-mode,%2Fm%2F0jt0gkj&hl=en[google trends]
+* https://trends.google.com/trends/explore?cat=5&date=all&q=%2Fm%2F036gl7,%2Fm%2F0ghs0s,org-mode,%2Fm%2F0jt0gkj&hl=en[google trends]
 
 [cols="1,3,1,1"]
 |===
