@@ -5,7 +5,7 @@ https://github.com/github/markup
 # popuplarity of lightweight markup languages wich are supported by github.com (descending order)
 
 |===
-|name|details|VSCODE Extension|stackoverflow
+|Name|Details|VSCODE Extension|stackoverflow
 
 | https://en.wikipedia.org/wiki/Markdown[.md/Markdown]
 |
