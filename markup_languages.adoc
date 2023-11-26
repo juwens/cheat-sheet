@@ -26,7 +26,7 @@ a|* most feature-rich markup-lang (of the lightweigt MLs)
 | https://stackoverflow.com/questions/tagged/asciidoc[0.5k]
 
 | https://en.wikipedia.org/wiki/Org-mode[Org-mode]
-|
+| coming from Emacs, made it into several editors
 | https://marketplace.visualstudio.com/items?itemName=tootone.org-mode[93k]
 | https://stackoverflow.com/questions/tagged/org-mode[2k]
 
