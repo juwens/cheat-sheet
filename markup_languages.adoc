@@ -52,13 +52,12 @@ a|* de facto dead (projects which used textile linked in wikipedia are non exist
 
 | creole
 |
-| [no VSCODE Extension]
-| https://stackoverflow.com/questions/tagged/rdoc[0.2k]
+| none
+| https://stackoverflow.com/questions/tagged/creole[0.02k]
 
 a| pod/perlpod +
 | https://stackoverflow.com/questions/tagged/org-mode[2k]
 | Plain Old Documentation format for perl
-a| * [no VSCODE Extension]
-| https://stackoverflow.com/questions/tagged/org-mode[2k]
-*
+| none
+| 0
 |===
