@@ -2,6 +2,7 @@
 * https://www.resplendence.com/downloads
 * https://www.nirsoft.net/utils/
 ** https://www.nirsoft.net/utils/computer_activity_view.html[LastActivityView]
+* https://github.com/ventoy/Ventoy - multi boot usb drive
 
 # builtin (windows)
 
