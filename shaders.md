@@ -1,6 +1,10 @@
+# Videos
+
+* `Introduction to shaders: Learn the basics`: https://www.youtube.com/watch?v=3mfvZ-mdtZQ
+
 # Examples 
 
-* [Protean clouds](https://www.shadertoy.com/view/3l23Rh)
+* [https://www.shadertoy.com/Protean_clouds](https://www.shadertoy.com/view/3l23Rh)
 
 # Glossar
 * [SDF](https://en.wikipedia.org/wiki/Signed_distance_function)
