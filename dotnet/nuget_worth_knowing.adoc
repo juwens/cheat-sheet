@@ -62,10 +62,16 @@
 | https://www.nuget.org/packages/Basic.Reference.Assemblies.Net70 (30K) | https://github.com/jaredpar/basic-reference-assemblies 
 | | https://github.com/jaredpar/roslyn-codedom
 
+.3+| Console Table
+| https://www.nuget.org/packages/Spectre.Console/ (7.3M) | https://github.com/spectreconsole/spectre.console
+| https://www.nuget.org/packages/ConsoleTables (3.2M) | https://github.com/khalidabuhakmeh/ConsoleTables
+| https://www.nuget.org/packages/ConsoleTableExt (500k) | https://github.com/minhhungit/ConsoleTableExt/
+
 .3+| Misc
 a|
-- https://www.nuget.org/packages/Hashids.net
-- https://www.nuget.org/packages/MvsSln
+* https://www.nuget.org/packages/Hashids.net
+* https://www.nuget.org/packages/MvsSln
+* https://www.nuget.org/packages/Microsoft.VisualStudio.Threading/
 |
 |===
 
