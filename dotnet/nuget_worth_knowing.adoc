@@ -63,9 +63,9 @@
 | | https://github.com/jaredpar/roslyn-codedom
 
 .4+| Console Table
-| https://www.nuget.org/packages/Spectre.Console/ (7.3M) | https://github.com/spectreconsole/spectre.console
-| https://www.nuget.org/packages/ConsoleTables (3.2M) | https://github.com/khalidabuhakmeh/ConsoleTables
-| https://www.nuget.org/packages/ConsoleTableExt (500k) | https://github.com/minhhungit/ConsoleTableExt/
+| https://www.nuget.org/packages/Spectre.Console/ (7.3M) | https://github.com/spectreconsole/spectre.console (8k)
+| https://www.nuget.org/packages/ConsoleTables (3.2M) | https://github.com/khalidabuhakmeh/ConsoleTables (900)
+| https://www.nuget.org/packages/ConsoleTableExt (500k) | https://github.com/minhhungit/ConsoleTableExt/ (315)
 | https://www.nuget.org/packages/BetterConsoleTables (256k) | https://github.com/douglasg14b/BetterConsoleTables (80)
 
 .3+| Misc
