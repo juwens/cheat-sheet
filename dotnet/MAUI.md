@@ -4,9 +4,9 @@
 
 # workloads insights
 
-- https://maui.blob.core.windows.net/metadata/rollbacks/<sdk-version>.json
-- https://maui.blob.core.windows.net/metadata/rollbacks/7.0.101.json
-- https://maui.blob.core.windows.net/metadata/rollbacks/main.json
+- `https://maui.blob.core.windows.net/metadata/rollbacks/<maui-version>.json`
+- `https://maui.blob.core.windows.net/metadata/rollbacks/7.0.101.json`
+- `https://maui.blob.core.windows.net/metadata/rollbacks/main.json`
 
 # Handlers
 
