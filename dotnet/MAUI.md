@@ -2,6 +2,12 @@
 
 - https://docs.microsoft.com/en-us/dotnet/maui/troubleshooting
 
+# workloads insights
+
+- https://maui.blob.core.windows.net/metadata/rollbacks/<sdk-version>.json
+- https://maui.blob.core.windows.net/metadata/rollbacks/7.0.101.json
+- https://maui.blob.core.windows.net/metadata/rollbacks/main.json
+
 # Handlers
 
 - handler progress: https://github.com/dotnet/maui/projects/4
