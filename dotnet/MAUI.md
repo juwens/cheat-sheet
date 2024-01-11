@@ -33,6 +33,8 @@ dotnet build -t:Run -f net6.0-ios /p:_DeviceName=:v2:udid=E3B7CC6A-4E29-4148-AAC
 | 17.4.3 | 7.0.52 (SR1.1) | 7.0.101  |                 |             | 2022-12-13 | https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes#1743--visual-studio-2022-version-1743 |
 | 17.4.4 |                | 7.0.102  |                 |             | 2023-01-10 | https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes#1744--visual-studio-2022-version-1744 |
 | 17.5.0 | 7.0.58         |          |                 |             |  | |
+| ... | ...         |          |                 |             |  | |
+| 17.8.3 | 8.0.x         |          |                 |             |  | |
 
 * https://developercommunity.visualstudio.com/VisualStudio?q=%5BVisual+Studio+2022+version+17.4%5D&sort=votes&page=1
 
