@@ -12,7 +12,7 @@ pstree -p 0 -A -T -a
 Because containers are only "executed via cgroups" (no full virtualization), a process is necessary ass man-in-the-middle between host and container.
 
 |===
-|CExecSvc.exe|central svc which runs windows docker containers on windows|
+|CExecSvc.exe|Part of Windows. The executable which runs win docker containers on windows like nano-server or server-core|
 |runc
 a|CLI tool for spawning and running containers according to the OCI specification|https://github.com/opencontainers/runc +
 Used by almost anybody (docker, podman, containerd, cri-o)
