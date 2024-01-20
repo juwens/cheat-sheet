@@ -1,0 +1,15 @@
+== Linux
+
+|===
+|KVM+QEMU
+|openvz (virtuozzo)
+|
+|===
+
+== Windows
+
+|===
+|Hyper-V
+|docker in "Windows container mode". Uses native NT kernel cgroups, which were introduced to support windows containers.
+|docker in "Linux container mode". A regular linux docker environment in a Hyper-V VM.
+|===
