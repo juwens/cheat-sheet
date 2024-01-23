@@ -33,8 +33,13 @@ a|0xFFFFFFFFC0000135
 a|0xFFFFFFFFC0000137
 0xFFFF_FFFF_C000_0137| -1073741513 | STATUS_IO_PRIVILEGE_FAILED|
 
-|0xFFFFFFFFC0000409 | STATUS_FAIL_FAST_EXCEPTION | Fail Fast Exception 
-a|* https://learn.microsoft.com/en-us/shows/inside/c0000409 
+a|0xFFFFFFFFC0000409
+0xFFFF_FFFF_C000_0409
+| -1073740791
+| STATUS_FAIL_FAST_EXCEPTION
+a|Fail Fast Exception 
+
+* https://learn.microsoft.com/en-us/shows/inside/c0000409 
 * https://devblogs.microsoft.com/oldnewthing/20190108-00/?p=100655
 |===
 
