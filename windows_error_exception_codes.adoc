@@ -15,7 +15,7 @@ https://learn.microsoft.com/en-us/windows/win32/debug/system-error-codes
 | 12000    | 15999  | 0x2ee0   | 0x3e7f |
 |===
 
-[options=header]
+[options=header,cols="4,2,2,2,2"]
 |===
 | hex | dec | name | context | links
 
@@ -26,10 +26,10 @@ a| * https://learn.microsoft.com/en-us/shows/inside/c000027b
 * https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/guides/threading
 
 a|0xFFFFFFFFC0000135
-0xFFFF FFFF C000 0135| -1073741515 | | STATUS_DLL_NOT_FOUND|
+0xFFFF_FFFF_C000_0135| -1073741515 | | STATUS_DLL_NOT_FOUND|
 
 a|0xFFFFFFFFC0000137
-0xFFFF FFFF C000 0137| -1073741513 | | STATUS_IO_PRIVILEGE_FAILED|
+0xFFFF_FFFF_C000_0137| -1073741513 | | STATUS_IO_PRIVILEGE_FAILED|
 
 |0xC0000409 | | STATUS_FAIL_FAST_EXCEPTION | Fail Fast Exception 
 a|* https://learn.microsoft.com/en-us/shows/inside/c0000409 
