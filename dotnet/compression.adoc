@@ -1,9 +1,47 @@
 == Relations
 
-[mermaid]
-.... 
-Diagram code 
-....
+```mermaid
+classDiagram
+    direction LR
+    
+    class LZ{
+        Lempel-Ziv Family
+    }
+
+    LZ -- LZ77
+    
+    LZ77 -- DEFLATE
+    class DEFLATE{
+        https://en.wikipedia.org/wiki/Deflate
+        gzip
+        zip
+        PKZIP
+    }
+
+    LZ77 -- LZX
+    class LZX{
+        https://en.wikipedia.org/wiki/LZX
+        .wim - windows image archive
+        .cab - https://en.wikipedia.org/wiki/Cabinet_(file_format)   
+    }
+
+    LZ77 -- Brotli
+    class Brotli{
+        https://en.wikipedia.org/wiki/Brotli
+    }
+    LZ77 -- Snappy
+    class Snappy{
+        https://en.wikipedia.org/wiki/Snappy_(compression)
+    }
+    LZ77 -- LZ4
+    class LZ4{
+        https://en.wikipedia.org/wiki/LZ4_(compression_algorithm)
+    }
+    LZ77 -- zstd
+    class zstd{
+        https://en.wikipedia.org/wiki/Zstd
+    }
+```
 
 === Benchmark
 
