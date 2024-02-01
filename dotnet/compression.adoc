@@ -12,26 +12,26 @@ classDiagram
     
     LZ77 -- DEFLATE
     class DEFLATE{
-        https://en.wikipedia.org/wiki/Deflate
         gzip
         zip
         PKZIP
+        -https://en.wikipedia.org/wiki/Deflate
     }
 
     LZ77 -- LZX
     class LZX{
-        https://en.wikipedia.org/wiki/LZX
-        .wim - windows image archive
-        .cab - https://en.wikipedia.org/wiki/Cabinet_(file_format)   
+        .wim windows image archive
+        .cab https://en.wikipedia.org/wiki/Cabinet_(file_format)   
+        -https://en.wikipedia.org/wiki/LZX
     }
 
     LZ77 -- Brotli
     class Brotli{
-        https://en.wikipedia.org/wiki/Brotli
+        -https://en.wikipedia.org/wiki/Brotli
     }
     LZ77 -- Snappy
     class Snappy{
-        https://en.wikipedia.org/wiki/Snappy_(compression)
+        -https://en.wikipedia.org/wiki/Snappy_(compression)
     }
     LZ77 -- LZ4
     class LZ4{
@@ -41,6 +41,40 @@ classDiagram
     class zstd{
         https://en.wikipedia.org/wiki/Zstd
     }
+
+    LZMA1 -- LZ77
+    class LZMA1{
+        effectively deprecated
+            7z
+    }
+
+    LZMA2 -- LZ77
+    class LZMA2{
+        7z new
+        xz
+        -https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Markov_chain_algorithm
+    }
+
+    LZO -- LZ77
+    class LZO{
+        several file-systems btfs, SquashFS, etc.
+        -https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Oberhumer
+    }
+
+    LZ -- LZ78
+    class LZ78 {
+    }
+
+    LZ78 -- LZW
+    class LZW{
+        -https://en.wikipedia.org/wiki/Lempel%E2%80%93Ziv%E2%80%93Welch
+    }
+
+    class BWT{
+        Burrows–Wheeler transform
+    }
+    
+    BWT -- bzip2
 ```
 
 === Benchmark
