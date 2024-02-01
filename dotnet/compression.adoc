@@ -1,6 +1,9 @@
 == Relations
 
-
+[mermaid]
+.... 
+Diagram code 
+....
 
 === Benchmark
 
