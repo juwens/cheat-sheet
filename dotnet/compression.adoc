@@ -1,6 +1,21 @@
 == Relations
 
 ```mermaid
+timeline
+    title History of Compression Formats
+    1989 : .zip
+    1992 : .gz
+    1993 : .rar
+    1996 : bzip2
+    1999 : .7z/7-Zip
+    2009 : .xz
+    2011 : LZ4
+         : snappy
+    2013 : brotli
+    2015 : .zstd
+```
+
+```mermaid
 classDiagram
     direction LR
     
