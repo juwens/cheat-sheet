@@ -13,7 +13,7 @@ a| * ETW (the default windows tracing; EventSource, EventTrace, https://github.c
 * https://learn.microsoft.com/en-us/dotnet/core/diagnostics/eventsource-collect-and-view-traces
 
 | linux
-*| LTTng (the default linux tracing)
+a| * https://en.wikipedia.org/wiki/LTTng[LTTng] (the default linux tracing)
 * EventPipe[https://learn.microsoft.com/en-us/dotnet/core/diagnostics/eventpipe]
 
 |===
