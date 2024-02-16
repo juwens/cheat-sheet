@@ -7,12 +7,13 @@
 
 
 | Windows
-a| * ETW (EventSource, EventTrace, https://github.com/microsoft/perfview[PerfView])
-* EventPipe
+a| * ETW (the default windows tracing; EventSource, EventTrace, https://github.com/microsoft/perfview[PerfView])
+* EventPipe[https://learn.microsoft.com/en-us/dotnet/core/diagnostics/eventpipe]
 * NetTrace
 * https://learn.microsoft.com/en-us/dotnet/core/diagnostics/eventsource-collect-and-view-traces
 
 | linux
-| LTTng
+*| LTTng (the default linux tracing)
+* EventPipe[https://learn.microsoft.com/en-us/dotnet/core/diagnostics/eventpipe]
 
 |===
