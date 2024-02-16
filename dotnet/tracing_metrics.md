@@ -1,2 +1,0 @@
-- https://docs.microsoft.com/en-us/dotnet/core/diagnostics/eventpipe
-  - Equivalent of old ETW (and LTTng)

@@ -1,0 +1,18 @@
+- https://docs.microsoft.com/en-us/dotnet/core/diagnostics/eventpipe
+  - Equivalent of old ETW (and LTTng)
+
+
+|===
+| Operating System | Details
+
+
+| Windows
+a| * ETW (EventSource, EventTrace, https://github.com/microsoft/perfview[PerfView])
+* EventPipe
+* NetTrace
+* https://learn.microsoft.com/en-us/dotnet/core/diagnostics/eventsource-collect-and-view-traces
+
+| linux
+| LTTng
+
+|===
