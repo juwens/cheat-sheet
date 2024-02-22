@@ -21,3 +21,8 @@ a| * https://github.com/google/perfetto[github: Perfetto]
 * https://perfetto.dev/
 * (https://en.wikipedia.org/wiki/Valgrind[Valgrind])
 |===
+
+== Videos
+
+* https://youtu.be/qGEeZZBwVp4?si=hPSoTJ6BKB3sTeBj[PerfView: The Ultimate .NET Performance Tool]
+* https://youtu.be/TqS4OEWn6hQ?si=-5fJU6kTP4_tESwI[Pavel Yosifovich — Writing a .NET Core cross platform profiler in an hour]
