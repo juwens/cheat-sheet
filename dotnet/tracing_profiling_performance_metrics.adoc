@@ -30,3 +30,9 @@ a| * https://github.com/google/perfetto[github: Perfetto]
 
 * https://docs.microsoft.com/en-us/dotnet/core/diagnostics/eventpipe
 ** Equivalent of old ETW (and LTTng)
+
+== Apps
+
+* https://www.speedscope.app/ (display speedscope files)
+* https://github.com/microsoft/perfview (ETW)
+* https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-trace[dotnet trace] (only EventPipe?, maybe also ETW?)
