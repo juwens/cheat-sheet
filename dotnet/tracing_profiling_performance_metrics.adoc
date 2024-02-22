@@ -9,6 +9,12 @@ a| * ETW (the default windows tracing; EventSource, EventTrace, https://github.c
 ** only managed code
 * NetTrace
 * https://learn.microsoft.com/en-us/dotnet/core/diagnostics/eventsource-collect-and-view-traces
+* .Net Runtime offers way more events, compared to the events which profiler-providers emit. Example for providers:
+** Microsoft-DotNETCore-SampleProfiler
+** example usage:
+*** `dotnet trace collect --providers Microsoft-DotNETCore-SampleProfiler:0x0000F00000000000:4`
+*** `dotnet trace collect --providers Microsoft-DotNETRuntimeMonoProfiler:0x20000000:4`
+** Microsoft-DotNETRuntimeMonoProfiler:0x20000000:4
 
 | Linux
 a| * https://en.wikipedia.org/wiki/LTTng[LTTng] (the default linux tracing)
