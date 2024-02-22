@@ -1,6 +1,3 @@
-- https://docs.microsoft.com/en-us/dotnet/core/diagnostics/eventpipe
-  - Equivalent of old ETW (and LTTng)
-
 
 |===
 | Operating System | Details
@@ -22,7 +19,13 @@ a| * https://github.com/google/perfetto[github: Perfetto]
 * (https://en.wikipedia.org/wiki/Valgrind[Valgrind])
 |===
 
-== Videos
+== Tutorials
 
 * https://youtu.be/qGEeZZBwVp4?si=hPSoTJ6BKB3sTeBj[PerfView: The Ultimate .NET Performance Tool]
 * https://youtu.be/TqS4OEWn6hQ?si=-5fJU6kTP4_tESwI[Pavel Yosifovich — Writing a .NET Core cross platform profiler in an hour]
+* https://chnasarre.medium.com/start-a-journey-into-the-net-profiling-apis-40c76e2e36cc
+
+== Docs
+
+- https://docs.microsoft.com/en-us/dotnet/core/diagnostics/eventpipe
+  - Equivalent of old ETW (and LTTng)
