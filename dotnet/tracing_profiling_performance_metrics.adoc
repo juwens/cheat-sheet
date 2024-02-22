@@ -6,6 +6,7 @@
 | Windows
 a| * ETW (the default windows tracing; EventSource, EventTrace, https://github.com/microsoft/perfview[PerfView])
 * https://learn.microsoft.com/en-us/dotnet/core/diagnostics/eventpipe[EventPipe]
+  * only managed code
 * NetTrace
 * https://learn.microsoft.com/en-us/dotnet/core/diagnostics/eventsource-collect-and-view-traces
 
