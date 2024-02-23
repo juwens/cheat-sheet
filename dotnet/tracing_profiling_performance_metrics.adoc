@@ -43,3 +43,24 @@ a| * https://github.com/google/perfetto[github: Perfetto]
 * https://www.speedscope.app/ (display speedscope files)
 * https://github.com/microsoft/perfview (ETW)
 * https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-trace[dotnet trace] (only EventPipe?, maybe also ETW?)
+
+=== PerfView rewrite async methods
+
+Regex for GroupPats
+
+```
+^([^!]+)!([\w.]+)(?:(?:<>c__DisplayClass[0-9]{2}_[0-9]\.)?(?<open><)*(?:<(\w+Async)>)(?:b__[0-9])*(?<-open>>)*(?(open)(?!))|(Async)\()
+```
+
+Test-Data
+
+```
+System.Private.CoreLib!System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start(MyProject.Presentation.ViewModel.Flyout.FlyoutItemViewModel/<NavigateAsync>d__34`1<MyProject.App.ViewModels.UserSettings.SettingsPageViewModel>&)
+MyProject.View!MyProject.View.Utils.NavigationService.NavigateTo(System.Type)
+MyProject.View!MyProject.View.Utils.NavigationService.NavigateToAsync(System.Type)
+MyProject.View!MyProject.View.Utils.NavigationService.<NavigateToAsync>d__24.MoveNext()
+MyProject.View!MyProject.View.Utils.NavigationService.<NavigateToAsync>d__40.MoveNext()
+MyProject.View!MyProject.View.Utils.NavigationService.<>c__DisplayClass40_0.<NavigateToAsync>b__1()
+MyProject.View!MyProject.View.Utils.NavigationService.<>c__DisplayClass40_0.<NavigateToAsync>b__2()
+MyProject.View!MyProject.View.Utils.NavigationService.<>c__DisplayClass40_0.<<NavigateToAsync>b__2>d.MoveNext()
+```
