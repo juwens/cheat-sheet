@@ -32,16 +32,18 @@ a| * https://github.com/google/perfetto[github: Perfetto]
 * https://youtu.be/TqS4OEWn6hQ?si=-5fJU6kTP4_tESwI[Pavel Yosifovich — Writing a .NET Core cross platform profiler in an hour]
 * https://chnasarre.medium.com/start-a-journey-into-the-net-profiling-apis-40c76e2e36cc
 * https://www.datadoghq.com/blog/engineering/dotnet-continuous-profiler-part-2/
+* https://learn.microsoft.com/en-us/shows/perfview-tutorial/
 
 == Docs
 
 * https://docs.microsoft.com/en-us/dotnet/core/diagnostics/eventpipe
 ** Equivalent of old ETW (and LTTng)
 
-== Apps
+== Tools
 
 * https://www.speedscope.app/ (display speedscope files)
 * https://github.com/microsoft/perfview (ETW)
+** https://learn.microsoft.com/en-us/shows/perfview-tutorial/
 * https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-trace[dotnet trace] (only EventPipe?, maybe also ETW?)
 
 === PerfView rewrite async methods
