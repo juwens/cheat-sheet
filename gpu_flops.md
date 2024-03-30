@@ -42,7 +42,7 @@ https://db.thegpu.guru/compare?id=cBy4vQpBMpIEpMwOrDZIj6&id=aKWMgOd5COih6kE65AUq
 | GeForce RTX 3080     | 25          | 25.0                    |             | GA102  |  8_704     | 320    |              |        |
 | GeForce RTX 3090     |             | 35.9                    |             |        |  10_496    |        |              |        |
 |                      |             |                         |             |        |            |        |              |        |
-| GeForce RTX 4070 Ti  |             | 35 (40)                 |             |   |      |     |              |        |
+| GeForce RTX 4070 Ti  |             | 35 (40)                 |             | AD104  | 7_680      | 285    |              |        |
 | GeForce RTX 4080     |             | 43 (49)                 |             | AD103  | 9_728      | 320    |              |        |
 | GeForce RTX 4090     |             | 73 (82)                 |             | AD102  | 16_384     | 450    |              |        |
 |                      |             |                         |             |        |            |        |              |        |
