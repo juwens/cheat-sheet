@@ -12,6 +12,7 @@ https://db.thegpu.guru/compare?id=cBy4vQpBMpIEpMwOrDZIj6&id=aKWMgOd5COih6kE65AUq
 |               |             | handheld: 0.2 |                 |            |
 | Xbox One      |             | 1.3           |                 | Nov 2013   |
 | Xbox One S    |             | 1.4           |                 | Aug 2016   |
+| Steam Deck    |             | 1.6           | AMD RDNA 2      | Feb 2022   | # https://en.wikipedia.org/wiki/Steam_Deck
 | PS4           |             | 1.8           |                 | Nov 2013   |
 | ps4 pro       |             | 4.2           |                 | Nov 2016   |
 | Xbox Series S |             | 4             |                 | Nov 2020   |
