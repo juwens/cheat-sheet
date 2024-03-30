@@ -18,6 +18,8 @@ https://db.thegpu.guru/compare?id=cBy4vQpBMpIEpMwOrDZIj6&id=aKWMgOd5COih6kE65AUq
 | Xbox One X    |             | 6             |                 | 2017       |
 | PS5           |             | 10.3          |                 | Nov 2020   |
 | Xbox Series X |             | 12            |                 | Nov 2020   |
+|               |             |               |                 |            |
+| Switch 2      |             | 2             |                 | Mar 2025   |
 
 | GPU                  | FP16 TFLOPS | FP32 TFLOPS <br>(boost) | FP64 TFLOPS | Chip   | Cuda Cores | TDP[W] | Power target | UVP[€] |
 |----------------------|-------------|-------------------------|-------------|--------|------------|--------|--------------|--------|
