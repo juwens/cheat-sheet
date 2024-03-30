@@ -6,16 +6,18 @@ https://db.thegpu.guru/compare?id=cBy4vQpBMpIEpMwOrDZIj6&id=aKWMgOd5COih6kE65AUq
 
 # Consoles 
 
-| Console       | FP16 TFLOPS | FP32 TFLOPS | FP64 TFLOPS |
-|---------------|-------------|-------------|-------------|
-| Switch        | 1.0         | 0.5         |             |
-| Xbox One S    |             | 1.4         |             |
-| PS4           |             | 1.8         |             |
-| ps4 pro       |             | 4.2         |             |
-| Xbox Series S |             | 4           |             |
-| Xbox One X    |             | 6           |             |
-| PS5           |             | 10.3        |             |
-| Xbox Series X |             | 12          |             |
+| Console       | FP16 TFLOPS | FP32 TFLOPS   | HW              | Introduced |
+|---------------|-------------|---------------|-----------------|------------|
+| Switch        | docked: 1.0 | docked: 0.4   | NVIDIA Tegra X1 | March 2017 |
+|               |             | handheld: 0.2 |                 |            |
+| Xbox One      |             | 1.3           |                 | Nov 2013   |
+| Xbox One S    |             | 1.4           |                 | Aug 2016   |
+| PS4           |             | 1.8           |                 | Nov 2013   |
+| ps4 pro       |             | 4.2           |                 | Nov 2016   |
+| Xbox Series S |             | 4             |                 | Nov 2020   |
+| Xbox One X    |             | 6             |                 | 2017       |
+| PS5           |             | 10.3          |                 | Nov 2020   |
+| Xbox Series X |             | 12            |                 | Nov 2020   |
 
 | GPU                  | FP16 TFLOPS | FP32 TFLOPS <br>(boost) | FP64 TFLOPS | Chip   | Cuda Cores | TDP[W] | Power target | UVP[€] |
 |----------------------|-------------|-------------------------|-------------|--------|------------|--------|--------------|--------|
