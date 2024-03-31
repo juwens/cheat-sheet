@@ -48,86 +48,77 @@ a|Samsung T239 +
 |
 |===
 
-[width="100%",cols="22%,10%,20%,10%,6%,9%,6%,11%,6%",options="header",]
+[width="100%",cols="21%,8%,14%,8%,14%,8%,8%,5%,9%,5%",options="header",]
 |===
-|GPU |FP16 TFLOPS |FP32 TFLOPS (boost) |FP64 TFLOPS |Chip |Cuda Cores
-|TDP[W] |Power target |UVP[€]
-|GTX 660 | |1.9 |0.1 (1:24) | |960 |140 |115 |
+|GPU |FP16 TFLOPS |FP32 TFLOPS (boost) |FP64 TFLOPS |Chip |Transistors
+|Cuda Cores |TDP[W] |Power target |UVP[€]
+|GTX 660 | |1.9 |0.1 (1:24) | |2.5E12 |960 |140 |115 |
 
-|GTX 1070 |101? |5.8 ( 6.5) | | |1_920 |150 | |499
+|GTX 1070 |101? |5.8 ( 6.5) | |GP102 |12E12 |1_920 |150 | |499
 
-|GeForce GTX 1080 | |8.23 | | | | | |
+|GeForce GTX 1080 | |8.23 | | | | | | |
 
-| | | | | | | | |
+| | | | | | | | | |
 
-|RTX 2060 Super |16.2 |8.1 | | | | | |
+|RTX 2060 Super |16.2 |8.1 | | | | | | |
 
-| | | | | | | | |
+| | | | | | | | | |
 
-|Radeon RX 5700XT | |9.5 |600 | | | | |
+|Radeon RX 5700XT | |9.5 |600 | | | | | |
 
-| | | | | | | | |
+| | | | | | | | | |
 
-|RTX 2070 Super |19.4 |9.7 | | | | | |
+|RTX 2070 Super |19.4 |9.7 | | | | | | |
 
-|GeForce RTX 2080 | |10.6 | | | | | |
+|GeForce RTX 2080 | |10.6 | | | | | | |
 
-| | | | | | | | |
+| | | | | | | | | |
 
-|GeForce RTX 3050 | |8.5 ( 9.1) | | | | | |279
+|GeForce RTX 3050 | |8.5 ( 9.1) | | | | | | |279
 
-|GeForce RTX 3060 |9.5 |9.5 (12.7) |0.15 |GA106 |3_584 |170 | |
+|GeForce RTX 3060 |9.5 |9.5 (12.7) |0.15 |GA106 |12E12 |3_584 |170 | |
 
-|GeForce RTX 3060 Ti |13.7 (16.2) |13.7 (16.2) |0.2 |GA104 |4_864 |200 |
-|
+|GeForce RTX 3060 Ti |13.7 (16.2) |13.7 (16.2) |0.2 |GA104 | |4_864 |200
+| |
 
-|GeForce RTX 3070 |17.6 (20.3) |17.6 (20.3) | |GA104 |5_888 |220 | |
+|GeForce RTX 3070 |17.6 (20.3) |17.6 (20.3) | |GA104 | |5_888 |220 | |
 
-|GeForce RTX 3070 Ti |19.4 |19.4 (21.7) |0.3 |GA104 |6_144 |290 | |
+|GeForce RTX 3070 Ti |19.4 |19.4 (21.7) |0.3 |GA104 | |6_144 |290 | |
 
-|GeForce RTX 3080 |25 |25.0 | |GA102 |8_704 |320 | |
+|GeForce RTX 3080 |25 |25.0 | |GA102 | |8_704 |320 | |
 
-|GeForce RTX 3090 | |35.9 | | |10_496 | | |
+|GeForce RTX 3090 | |35.9 | | | |10_496 | | |
 
-| | | | | | | | |
+| | | | | | | | | |
 
-|GeForce RTX 4070 Ti | |35 (40) | |AD104 |7_680 |285 | |
+|GeForce RTX 4070 Ti | |35 (40) | |AD104 |36E12 |7_680 |285 | |
 
-|GeForce RTX 4080 | |43 (49) | |AD103 |9_728 |320 | |
+|GeForce RTX 4080 | |43 (49) | |AD103 | |9_728 |320 | |
 
-|GeForce RTX 4090 | |73 (82) | |AD102 609 mm² @ 5nm |16_384 |450 | |
+|GeForce RTX 4090 | |73 (82) | |AD102 609 mm² @ 5nm |76E12 |16_384 |450
+| |
 
-| | | | | | | | |
+| | | | | | | | | |
 
-|M1 8-Core GPU |https://www.cpu-monkey.com/en/igpu-apple_m1_8_core[5.2]
-|https://en.wikipedia.org/wiki/Apple_M1[2.6] | | | | | |
+|M1 8-Core GPU |5.2 |2.6 | | | | | | |
 
-|M1 Pro 18-Core GPU | |https://en.wikipedia.org/wiki/Apple_M1[10.4] | |
-| | | |
+|M1 Pro 18-Core GPU | |10.4 | | | | | | |
 
-|M1 Ultra 64-Core GPU | |https://en.wikipedia.org/wiki/Apple_M1[21] | |
-| | | |
+|M1 Ultra 64-Core GPU | |21 | | | | | | |
 
-| | | | | | | | |
+| | | | | | | | | |
 
-|M2 8-Core GPU |
-|https://www.notebookcheck.net/Apple-M1-GPU-Benchmarks-and-Specs.503610.0.html[2.8]
-| | | | | |
+|M2 8-Core GPU | |2.8 | | | | | | |
 
-|M2 Max | |https://en.wikipedia.org/wiki/Apple_M2#GPU[13.6] | | | | | |
+|M2 Max | |13.6 | | | | | | |
 
-|M2 Ultra | |https://en.wikipedia.org/wiki/Apple_M2#GPU[27.2] | | | | |
-|
+|M2 Ultra | |27.2 | | | | | | |
 
-| | | | | | | | |
+| | | | | | | | | |
 
-|M3 |
-|https://en.wikipedia.org/wiki/Apple_silicon#Comparison_of_M_series_processors[2.8]
-| | | | | |
+|M3 | |2.8 | | | | | | |
 
-|M3 Max |
-|https://en.wikipedia.org/wiki/Apple_silicon#Comparison_of_M_series_processors[14.1]
-| | | | | |
+|M3 Max | |14.1 | | | | | | |
 |===
 
 * https://en.wikipedia.org/wiki/GeForce_30_series
