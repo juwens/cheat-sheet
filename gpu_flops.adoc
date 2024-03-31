@@ -99,10 +99,6 @@ a|Samsung T239 +
 
 | | | | | | | | |
 
-| | | | | | | | |
-
-| | | | | | | | |
-
 |M1 8-Core GPU |https://www.cpu-monkey.com/en/igpu-apple_m1_8_core[5.2]
 |https://en.wikipedia.org/wiki/Apple_M1[2.6] | | | | | |
 
