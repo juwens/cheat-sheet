@@ -14,9 +14,11 @@ https://db.thegpu.guru/compare?id=cBy4vQpBMpIEpMwOrDZIj6&id=aKWMgOd5COih6kE65AUq
 |docked: 1.0
 |docked: 0.4
 handheld: 0.2
-a|- 2017: NVIDIA Tegra X1 (T210) +
+a|NVIDIA Tegra X1 +
+
+- 2017: T210 +
 118 mm^2 @ 20 nm (TSMC) https://www.techpowerup.com/gpu-specs/switch-gpu-20nm.c3104[¹]
-- 2019: NVIDIA Tegra X1+ (T210b01) +
+- 2019: T210b01 +
 100 mm^2 @ 16 nm (TSMC) https://www.techpowerup.com/gpu-specs/switch-gpu-16nm.c3754[²]
 |March 2017
 a|- T210: 11-13 W (Zelda BOTW)
