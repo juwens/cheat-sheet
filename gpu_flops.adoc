@@ -14,10 +14,10 @@ https://db.thegpu.guru/compare?id=cBy4vQpBMpIEpMwOrDZIj6&id=aKWMgOd5COih6kE65AUq
 |docked: 1.0
 |docked: 0.4
 handheld: 0.2
-a|* 2017: NVIDIA Tegra X1 (model T210)
+a|2017: NVIDIA Tegra X1 (model T210)
+17.6 mm^2 @ 20 nm (TSMC)
 |March 2017
-|
-* 2019: NVIDIA Tegra X1+ T210b01
+|2019: NVIDIA Tegra X1+ T210b01: 7-8 W (Zelda BOTW)
 
 |Xbox One | |1.3 | |Nov 2013| 
 |Xbox One S | |1.4 | |Aug 2016| 
