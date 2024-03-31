@@ -14,10 +14,13 @@ https://db.thegpu.guru/compare?id=cBy4vQpBMpIEpMwOrDZIj6&id=aKWMgOd5COih6kE65AUq
 |docked: 1.0
 |docked: 0.4
 handheld: 0.2
-a|2017: NVIDIA Tegra X1 (model T210)
+a|- 2017: NVIDIA Tegra X1 (T210) +
 17.6 mm^2 @ 20 nm (TSMC)
+- 2019: NVIDIA Tegra X1+ (T210b01) +
+??? mm^2 @ 16 nm (TSMC)
 |March 2017
-|2019: NVIDIA Tegra X1+ T210b01: 7-8 W (Zelda BOTW)
+a|- T210: 11-13 W (Zelda BOTW)
+- T210b01: 6-8 W (Zelda BOTW)
 a|- https://chipsandcheese.com/2023/12/12/cortex-a57-nintendo-switchs-cpu/[detailed soc analysis] +
 - https://www.youtube.com/watch?v=3E2PZ5-IVDw&t=779s[comparision T210 and T210b01]
 
@@ -30,7 +33,7 @@ a|- https://chipsandcheese.com/2023/12/12/cortex-a57-nintendo-switchs-cpu/[detai
 |Xbox One X | |6 | |2017| |
 |PS5 | |10.3 | |Nov 2020| |
 |Xbox Series X | |12 | |Nov 2020| |
-| | | | || |
+| | | | | | |
 |Switch 2 | |2 | |Mar 2025| |
 |===
 
