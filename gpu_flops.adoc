@@ -15,7 +15,7 @@ https://db.thegpu.guru/compare?id=cBy4vQpBMpIEpMwOrDZIj6&id=aKWMgOd5COih6kE65AUq
 |docked: 0.4
 handheld: 0.2
 a|- 2017: NVIDIA Tegra X1 (T210) +
-17.6 mm^2 @ 20 nm (TSMC)
+118 mm^2 @ 20 nm (TSMC)
 - 2019: NVIDIA Tegra X1+ (T210b01) +
 ??? mm^2 @ 16 nm (TSMC)
 |March 2017
