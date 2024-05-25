@@ -4,6 +4,7 @@
 * l2ping
 * l2test
 * btscanner - https://salsa.debian.org/pkg-security-team/btscanner
+* https://gitlab.com/kalilinux/packages/bluelog
 
 == Tutorials/Blog Posts
 
