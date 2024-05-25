@@ -1,14 +1,16 @@
 == Tools
 
 * https://linux.die.net/man/1/hcitool
-* 
+* l2ping
+* l2test
+* btscanner - https://salsa.debian.org/pkg-security-team/btscanner
 
 == Tutorials/Blog Posts
 
 * https://wiki.archlinux.org/title/bluetooth
 * https://reverse-engineering-ble-devices.readthedocs.io/en/latest/script_creation/00_script_creation.html#bluez-stack
 * https://youtu.be/0EM1LB78VJY?si=-gOok0ZzTcQr54Ed
-
+* https://youtu.be/eKy9c0yLqSg?si=5d7wBeibW-3tV6V_
 == Glossar
 
 |===
