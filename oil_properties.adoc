@@ -4,15 +4,15 @@
 |===
 |Name|cSt @ 100°C
 |Water|0.3
-|SAE 8|4.0 - 6.1
-|SAE 12|5.0 - 7.1
-|SAE 16|6.1 - 8.2
-|SAE 20|6.9 - 9.3
-|SAE 30|9.3 - 12.5
-|SAE 40|12.5 - 16.3
-|SAE 50|16.3 - 21.9
-|SAE 60|21.9 - 26.1
-|SAE 250|41.0 - ???
+|SAE Crankcase Oil 8|4.0 - 6.1
+|SAE Crankcase Oil 12|5.0 - 7.1
+|SAE Crankcase Oil 16|6.1 - 8.2
+|SAE Crankcase Oil 20|6.9 - 9.3
+|SAE Crankcase Oil 30|9.3 - 12.5
+|SAE Crankcase Oil 40|12.5 - 16.3
+|SAE Crankcase Oil 50|16.3 - 21.9
+|SAE Crankcase Oil 60|21.9 - 26.1
+|SAE Gear Oil 250|41.0 - ???
 |===
 
 == Glossar
