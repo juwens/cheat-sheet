@@ -1,0 +1,21 @@
+
+== Examples
+
+|===
+|Name|cSt @ 100°C
+|SAE 8|4.0 - 6.1
+|SAE 12|5.0 - 7.1
+|SAE 16|6.1 - 8.2
+|SAE 20|6.9 - 9.3
+|SAE 30|9.3 - 12.5
+|SAE 40|12.5 - 16.3
+|SAE 50|16.3 - 21.9
+|SAE 60|21.9 - 26.1
+|===
+
+== Glossar
+
+|===
+|Name|Description
+|cST|Centistokes (1 cSt = 0.01 St = 1 mm2/s)
+|===
