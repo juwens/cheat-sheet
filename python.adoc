@@ -1,8 +1,11 @@
 == Package Managers
 
 |===
-|pip|pythons default
-|conda|
-|pixi[https://github.com/prefix-dev/pixi]|modern clone of conda written in rust
-
+|name|description|example
+|pip/pypi|pythons default. pip is the tool. pypi the package repo.|pip install pandas
+|https://github.com/conda/conda[conda]|most prominent of the alternatives. can also manage other languages (R, Java).|conda install -c conda-forge pandas
+a|https://github.com/prefix-dev/pixi[pixi]|modern derivate of conda written in rust|
+|https://github.com/pypa/pipenv[pipenv]| | 
+|https://github.com/python-poetry/poetry[poetry]| | 
+|https://peps.python.org/pep-0735/[PEP 735]||
 |===
