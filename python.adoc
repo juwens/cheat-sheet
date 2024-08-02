@@ -20,3 +20,7 @@ a|https://github.com/prefix-dev/pixi[pixi]|`winget install prefix-dev.pixi`|clai
 |https://github.com/python-poetry/poetry[poetry]|`pip install poetry` https://pypi.org/project/poetry/| | 
 |https://peps.python.org/pep-0735/[PEP 735]|n/a|only a draft. might never be adopted.|
 |===
+
+* https://rye-up.com/
+* setuptools
+* venv
