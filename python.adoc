@@ -1,0 +1,8 @@
+== Package Managers
+
+|===
+|pip|pythons default
+|conda|
+|pixi[https://github.com/prefix-dev/pixi]|modern clone of conda written in rust
+
+|===
