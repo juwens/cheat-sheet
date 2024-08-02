@@ -1,11 +1,11 @@
 == Package Managers
 
 |===
-|name|description|example
-|pip/pypi|pythons default. pip is the tool. pypi the package repo.|pip install pandas
-|https://github.com/conda/conda[conda]|most prominent of the alternatives. can also manage other languages (R, Java).|conda install -c conda-forge pandas
-a|https://github.com/prefix-dev/pixi[pixi]|modern derivate of conda written in rust|
-|https://github.com/pypa/pipenv[pipenv]| | 
-|https://github.com/python-poetry/poetry[poetry]| | 
-|https://peps.python.org/pep-0735/[PEP 735]||
+|name|download|description|example
+|https://github.com/pypa/pip[pip] + https://pypi.org/[pypi]|`pip install pip` https://pypi.org/project/pip/|pythons default. pip is the tool. pypi the package repo.|pip install pandas
+|https://github.com/conda/conda[conda]|https://conda.io/projects/conda/en/latest/user-guide/install/windows.html[https://conda.io/projects/.../install/windows.html]|confusing different variant: anaconda, conda, miniconda, miniforge. and dissagreement betwwen anaconda company and OSS contributors. can also manage other languages (R, Java).|conda install -c conda-forge pandas
+a|https://github.com/prefix-dev/pixi[pixi]|`winget install prefix-dev.pixi`|claims to be a "modern derivate of conda written in rust"|
+|https://github.com/pypa/pipenv[pipenv]|`pip install pipenv` https://pypi.org/project/pipenv/| | 
+|https://github.com/python-poetry/poetry[poetry]|`pip install poetry` https://pypi.org/project/poetry/| | 
+|https://peps.python.org/pep-0735/[PEP 735]|n/a|only a draft. might never be adopted.|
 |===
