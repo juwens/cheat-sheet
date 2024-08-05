@@ -24,3 +24,4 @@ a|https://github.com/prefix-dev/pixi[pixi]|`winget install prefix-dev.pixi`|clai
 * https://rye-up.com/
 * setuptools
 * venv
+* https://github.com/astral-sh/uv
