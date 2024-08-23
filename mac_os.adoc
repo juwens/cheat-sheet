@@ -2,6 +2,7 @@
 
 * located at `~/Library/MobileDevice/Provisioning Profiles/*.mobileprovision` 
 ** `ls -lh ~/Library/MobileDevice/Provisioning\ Profiles`
+** https://github.com/juwens/provision_profile_viewer
 ** .mobileprovision file stucture
 *** dump file structure: `openssl cms -in ~/Library/MobileDevice/Provisioning\ Profiles/....mobileprovision -inform DER -cmsout -print`
 *** outer format: https://en.wikipedia.org/wiki/Cryptographic_Message_Syntax[CMS - Cryptographic Message Syntax], can be read via `security cms -D -i $file`
