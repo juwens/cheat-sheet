@@ -1,5 +1,5 @@
 ```
-apt install cups
+apt install cups foomatic-db foomatic-db-engine
 # cpus runs, but listens only on localhost
 # and web-interface is only allowed from localhost
 
