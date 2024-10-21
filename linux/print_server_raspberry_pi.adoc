@@ -15,6 +15,7 @@ usermod -a -G lpadmin $user
 
 # open https://raspberrypi:631/admin
 # click "find new printers"
+# pick driver: "HP LaserJet P1005 Foomatic/foo2xqx"
 
 # https://ten0s.github.io/blog/2020/02/07/hpljp1005-as-network-printer
 ```
