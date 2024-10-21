@@ -12,4 +12,9 @@ systemctl restart cups.service
 systemctl status cups.service
 
 usermod -a -G lpadmin $user
+
+# open https://raspberrypi:631/admin
+# click "find new printers"
+
+# https://ten0s.github.io/blog/2020/02/07/hpljp1005-as-network-printer
 ```
