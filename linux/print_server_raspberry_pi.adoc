@@ -2,4 +2,5 @@
 apt install cups
 # cpus runs, but listens only on localhost
 sed --in-place=.bak -E '/^Listen localhost:631$/Listen 0.0.0.0:631/' /etc/cups/cupsd.conf
+systemctl restart cups.service
 ```
