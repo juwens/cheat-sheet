@@ -1,6 +1,15 @@
 ```
 apt install cups
 # cpus runs, but listens only on localhost
-sed --in-place=.bak -E '/^Listen localhost:631$/Listen 0.0.0.0:631/' /etc/cups/cupsd.conf
+# and web-interface is only allowed from localhost
+
+# https://www.cups.org/doc/man-cupsd.conf.html
+sed --in-place=.bak 's/^Listen localhost:631$/Listen 0.0.0.0:631/' /etc/cups/cupsd.conf
+sed -i 's/<Location \/>/<Location \/>\n  Allow @local/' /etc/cups/cupsd.conf
+sed -i 's/<Location \/admin>/<Location \/admin>\n  Allow @local/' /etc/cups/cupsd.conf
+
 systemctl restart cups.service
+systemctl status cups.service
+
+usermod -a -G lpadmin $user
 ```
