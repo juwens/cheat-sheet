@@ -7,7 +7,23 @@ Windows APIs are provided by several inconsistent mechanisms.
 |===
 |Name|Description
 |.Net BCL (standard library)|unspecific/broad things things like file-io, network-io
-|Microsoft.Windows.SDK.NET|wide variety of windows implementation-specific things. Bluetooth, Wifi, COM, Credentials, Maps, Cortana, Store. see: https://www.nuget.org/packages/Microsoft.Windows.SDK.NET.Ref
+
+|Microsoft.Windows.SDK.NET.Ref
+a|
+* contains several major components
+** lib/net8.0/Microsoft.Windows.SDK.NET.dll (size 25MB)
+*** wide variety of windows implementation-specific things. Bluetooth, Wifi, COM, Credentials, Maps, Cortana, Store. 
+*** example class `Windows.Foundation.TypedEventHandler<,>`
+** lib/net8.0/Microsoft.Windows.UI.Xaml.dll (size: 7MB; example class Microsoft.UI.Xaml.Controls.TextBox)
+*** WinUI Controls
+** lib/net8.0/WinRT.Runtime.dll
+** analyzers/dotnet/cs/WinRT.SourceGenerator.dll + a log of winmd files
+
+* "Ref" suffix kinda missleading
+** AFAIK there is actual code in the contained DLLs
+** the included WinRT.SourceGenerator creates COM Call wrappers
+* see: https://www.nuget.org/packages/Microsoft.Windows.SDK.NET.Ref
+
 |Microsoft.UI.Xaml.Controls.TextBox|
 |===
 
