@@ -23,8 +23,6 @@ a|
 ** AFAIK there is actual code in the contained DLLs
 ** the included WinRT.SourceGenerator creates COM Call wrappers
 * see: https://www.nuget.org/packages/Microsoft.Windows.SDK.NET.Ref
-
-|Microsoft.UI.Xaml.Controls.TextBox|
 |===
 
 === Example Microsoft.Windows.SDK.NET
