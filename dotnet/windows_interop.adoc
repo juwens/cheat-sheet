@@ -1,0 +1,30 @@
+== Interop between .Net and Windows 
+
+=== Introduction
+
+Windows APIs are provided by several inconsistent mechanisms.
+
+|===
+|Name|Description
+|.Net BCL (standard library)|unspecific/broad things things like file-io, network-io
+|Microsoft.Windows.SDK.NET|wide variety of windows implementation-specific things. Bluetooth, Wifi, COM, Credentials, Maps, Cortana, Store. see: https://www.nuget.org/packages/Microsoft.Windows.SDK.NET.Ref
+|Microsoft.UI.Xaml.Controls.TextBox|
+|===
+
+=== Example Microsoft.Windows.SDK.NET
+
+* user code uses: Microsoft.UI.Xaml.Application
+* Microsoft.UI.Xaml.Application
+** Assembly Microsoft.WinUI
+** .nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.WinUI.dll
+** which uses:
+* Windows.Foundation.TypedEventHandler<,>
+** `namespace Windows.Foundation; public delegate void TypedEventHandler<TSender, TResult>;`
+** Microsoft.Windows.SDK.NET
+** managed COM Calls and Gluecode 
+** .nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.44\lib\net8.0\Microsoft.Windows.SDK.NET.dll
+** dll size: 25MB
+* COM CALL
+* native Windows cpp functions
+    
+    
