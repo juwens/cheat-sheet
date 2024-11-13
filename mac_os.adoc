@@ -81,4 +81,6 @@ example `sudo installer -target LocalSystem -pkg dotnet-sdk-8.0.402-osx-x64.pkg`
 Command line installer (installer) v. 1.5.0
 Copyright (c) 1999-2006 Apple Computer, Inc.
 ```
+
+|`/usr/sbin/pkgutil`|list (installed) package infos
 |===
