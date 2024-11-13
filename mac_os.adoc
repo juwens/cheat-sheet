@@ -34,4 +34,13 @@ list_xcode_provisioning_profiles() {
 ```
 # list intalled packages
 pkgutil --pkgs
+
+# list pkg infos
+pkgutil --pkg-info com.apple.pkg.Xcode
+# output:
+# package-id: com.apple.pkg.Xcode
+# version: 13.4.1.0.1.1652836097
+# volume: /
+# location: /
+# install-time: 1654702682
 ```
