@@ -64,5 +64,21 @@ pkgutil --files com.apple.pkg.CLTools_Executables
 # Library/Developer/CommandLineTools/Library/Developer/Frameworks/Testing.framework
 # Library/Developer/CommandLineTools/Library/Developer/Frameworks/Testing.framework/Modules
 # Library/Developer/CommandLineTools/Library/Developer/Frameworks/Testing.framework/Resources
+```
+
+== macOS specific cli tools
+
+|===
+|Name|Description
+
+|`/usr/sbin/installer`
+a|
+used for installing .pkg files +
+example `sudo installer -target LocalSystem -pkg dotnet-sdk-8.0.402-osx-x64.pkg`
 
 ```
+/usr/sbin/installer -vers
+Command line installer (installer) v. 1.5.0
+Copyright (c) 1999-2006 Apple Computer, Inc.
+```
+|===
