@@ -28,7 +28,7 @@ list_xcode_provisioning_profiles() {
 * Remap Home and End Keys: https://discussions.apple.com/thread/251108215
 * oppisite Touchpad and Mouse-Wheel Scrolling: https://github.com/ther0n/UnnaturalScrollWheels
 
-=== pkg
+== .pkg & pkgutil
 
 * pkg files are just better zip file and practially install-only, they don't contain an uninstall mechanism
 * uninstalling a pkg is manually possible: https://superuser.com/a/525395/62366
