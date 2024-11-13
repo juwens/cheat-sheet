@@ -36,7 +36,10 @@ list_xcode_provisioning_profiles() {
 * many low-level things like dotnet-sdk are installed with by a pkg
 
 ```
-# list intalled packages
+# install a pkg
+sudo installer -target LocalSystem -pkg dotnet-sdk-8.0.402-osx-x64.pkg
+
+# list "intalled" packages
 pkgutil --pkgs
 
 # list pkg infos
