@@ -27,8 +27,8 @@ list_xcode_provisioning_profiles() {
 
 === pkg
 
-* pkg files are just better zip file, they don't contain an uninstall mechanism
-* uninstall a pkg: https://superuser.com/a/525395/62366
+* pkg files are just better zip file and practially install-only, they don't contain an uninstall mechanism
+* uninstalling a pkg is manually possible: https://superuser.com/a/525395/62366
 ** after removing the files of an installed pkg, macos still lists the pkg with "pkgutil --pkgs", it must be manually discarded with `pkgutil --forget PKGID` 
 * many low-level things like dotnet-sdk are installed with by a pkg
 
