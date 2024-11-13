@@ -1,4 +1,7 @@
-# Provisioning Profiles
+= macOS misc infos
+:toc: 
+
+== Provisioning Profiles
 
 * located at `~/Library/MobileDevice/Provisioning Profiles/*.mobileprovision` 
 ** `ls -lh ~/Library/MobileDevice/Provisioning\ Profiles`
