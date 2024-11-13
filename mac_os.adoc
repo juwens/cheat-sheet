@@ -83,4 +83,5 @@ Copyright (c) 1999-2006 Apple Computer, Inc.
 ```
 
 |`/usr/sbin/pkgutil`|list (installed) package infos
+|`/usr/bin/xcodebuild`|similar to msbuild + dotnet-cli for xcode
 |===
