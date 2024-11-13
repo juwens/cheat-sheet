@@ -44,4 +44,19 @@ pkgutil --pkg-info com.apple.pkg.Xcode
 # volume: /
 # location: /
 # install-time: 1654702682
+
+# list pkg content
+pkgutil --files com.apple.pkg.CLTools_Executables
+# output:
+# Library
+# Library/Developer
+# Library/Developer/CommandLineTools
+# Library/Developer/CommandLineTools/Library
+# Library/Developer/CommandLineTools/Library/Developer
+# Library/Developer/CommandLineTools/Library/Developer/Acknowledgments.pdf
+# Library/Developer/CommandLineTools/Library/Developer/Frameworks
+# Library/Developer/CommandLineTools/Library/Developer/Frameworks/Testing.framework
+# Library/Developer/CommandLineTools/Library/Developer/Frameworks/Testing.framework/Modules
+# Library/Developer/CommandLineTools/Library/Developer/Frameworks/Testing.framework/Resources
+
 ```
