@@ -1,0 +1,4 @@
+== MsBuild Properties
+
+* ˋ<IsAotCompatible>true</IsAotCompatible>ˋ enable analyzer to detect aot issues
+* ˋ<PublishAot>true</PublishAot>ˋ enable aot on ˋdotnet publishˋ
