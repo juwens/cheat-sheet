@@ -2,5 +2,5 @@
 
 * `<IsAotCompatible>true</IsAotCompatible>` enable analyzer to detect aot issues
 * ˋ<PublishAot>true</PublishAot>ˋ enable aot on ˋˋdotnet publishˋˋ
-
-ˋ<TrimmerRootAssemby>SomeAssembly<TrimmerRootAssemby>ˋ https://youtu.be/N-MrQeZ1enY?t=4020&si=m5Nmb1LF9QTSF-tH
+* ˋ<TrimmerRootAssemby>SomeAssembly<TrimmerRootAssemby>ˋ https://youtu.be/N-MrQeZ1enY?t=4020&si=m5Nmb1LF9QTSF-tH
+** for the analyzer to check the whole assembky, not only the used/trimmed part
