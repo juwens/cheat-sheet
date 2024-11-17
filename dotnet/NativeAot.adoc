@@ -1,6 +1,6 @@
 == MsBuild Properties
 
 * ˋ<IsAotCompatible>true</IsAotCompatible>ˋ enable analyzer to detect aot issues
-* ˋ<PublishAot>true</PublishAot>ˋ enable aot on ˋdotnet publishˋ
+* ˋ<PublishAot>true</PublishAot>ˋ enable aot on ˋˋdotnet publishˋˋ
 
 ˋ<TrimmerRootAssemby>SomeAssembly<TrimmerRootAssemby>ˋ https://youtu.be/N-MrQeZ1enY?t=4020&si=m5Nmb1LF9QTSF-tH
