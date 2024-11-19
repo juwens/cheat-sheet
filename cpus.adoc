@@ -19,6 +19,7 @@
 | Intel E3-1230 v3 (selbst gemessen)|✅| 4C/8T      | 3.3/3.7 (2/3/4/4) |   8 MB | 364             | 23 | 730 | 3.2
 
 // https://www.computerbase.de/2013-07/haswell-quad-core-test/
+// https://en.wikipedia.org/wiki/Haswell_(microarchitecture)
 | Intel i5-4770            |  | 4C/8T      | 3.4/3.9 (3/4/5/5) |   8 MB | | | 770 | 3.4
 
 // https://www.techpowerup.com/review/amd-ryzen-7-5700x/5.html
