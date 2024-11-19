@@ -1,3 +1,8 @@
+= CPU
+:toc:
+
+== selected CPUs
+
 [options="header",cols="9"]
 |=============================================================================================================================================================
 | CPU
@@ -46,3 +51,11 @@ Render Time: 0:06:04, Rays/sec: 1.333.110
 
 ====
 ================
+
+== Technologies
+
+|===
+|Name|Description
+|AMD SAM|Smart Access Memory. https://www.gamestar.de/artikel/amd-grafikkarte-prozessor-gleichzeitig-nutzen-vorteile,3383534.html[Up to 15% more FPS.]
+|===
+up to 15% more FPS
