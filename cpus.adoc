@@ -17,9 +17,14 @@
 | Cinebench R23 [multi threaded] [TPkt]
 
 | Intel E3-1230 v3 (selbst gemessen)|✅| 4C/8T      | 3.3/3.7 (2/3/4/4) |   8 MB | 364             | 23 | 730 | 3.2
+
 // https://www.computerbase.de/2013-07/haswell-quad-core-test/
 | Intel i5-4770            |  | 4C/8T      | 3.4/3.9 (3/4/5/5) |   8 MB | | | 770 | 3.4
+
+// https://www.techpowerup.com/review/amd-ryzen-7-5700x/5.html
 | AMD Ryzen 5 5700X (Zen 3) |✅| 8C/8T      | 3.5/4.6 |  32 MB | | | 1600 | 13.5
+
+// https://www.pcgameshardware.de/Raptor-Lake-S-Codename-278677/Tests/Intel-13900K-13700K-13600K-Review-Release-Benchmark-1405415/4/
 | Intel i5-13600K           |✅| 6P/8E/20T  | 3.5/5.1 |  24 MB | 60              | 118 | 1950 | 24.4                     
 | Intel i7-13700K           |  | 8P/8E/24T  |         |        | 48              | 141 | 2100 | 31                       
 | Intel i9-13900K           |  | 8P/16E/32T |         |        |                 | 174 | 2200 | 38                       
@@ -29,11 +34,6 @@
 .Links and Test Outputs
 [%collapsible]
 ================
-
-Sources:
-
-* https://www.pcgameshardware.de/Raptor-Lake-S-Codename-278677/Tests/Intel-13900K-13700K-13600K-Review-Release-Benchmark-1405415/4/
-
 
 *Benachmarks*
 
