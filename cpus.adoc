@@ -26,9 +26,10 @@ Source: https://www.pcgameshardware.de/Raptor-Lake-S-Codename-278677/Tests/Intel
 = Benachmarks: Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz
 
 == Corona 1.3
+```
 Corona 1.3 Benchmark Finished
 BTR Scene 16 passes
 Intel(R) Xeon(R) CPU E3-1230 v3 @ 3.30GHz
  Real CPU Frequency [GHz]: 3.5
 Render Time: 0:06:04, Rays/sec: 1.333.110
-
+```
