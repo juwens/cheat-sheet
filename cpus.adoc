@@ -1,17 +1,21 @@
-[options="header",cols="6"]
+[options="header",cols="8"]
 |=============================================================================================================================================================
 | CPU
 | Cores
+| Freq/Turbo [GHz]
+| L3
 | Corona 1.3 [s]  
 | 7-Zip Benchmark +
 128 MiByte Wörterbuchgröße [GIPS]
-| Cinebench R23 [SC]
-| Cinebench R23 [MC] [TPkt]
+| Cinebench R23 [single thread]
+| Cinebench R23 [multi threaded] [TPkt]
 
-| Intel E3-1230 v3 (selbst gemessen) | 4C/8T      | 364             | 23                                                 | 730                 | 3.2                    
-| Intel i5-13600K                    | 6P/8E/20T  | 60              | 118                                                | 2000                | 24.4                     
-| Intel i7-13700K                    | 8P/8E/24T  | 48              | 141                                                | 2100                | 31                       
-| Intel i9-13900K                    | 8P/16E/32T |                 | 174                                                | 2200                | 38                       
+| Intel E3-1230 v3 (selbst gemessen) | 4C/8T      | 3.3/3.7 (2/3/4/4) |   8 MB | 364             | 23                                                 | 730                 | 3.2
+| Intel i5-4770                      | 4C/8T      | 3.4/3.9           |   8 MB | | | |
+| AMD Ryzen 5 5700X (Zen 3)          | 8C/8T      | 3.5/4.6           |  32 MB | | | 1600 | 13.5
+| Intel i5-13600K                    | 6P/8E/20T  | | | 60              | 118                                                | 2000                | 24.4                     
+| Intel i7-13700K                    | 8P/8E/24T  | | | 48              | 141                                                | 2100                | 31                       
+| Intel i9-13900K                    | 8P/16E/32T | | |                 | 174                                                | 2200                | 38                       
 |=============================================================================================================================================================
 
 Source: https://www.pcgameshardware.de/Raptor-Lake-S-Codename-278677/Tests/Intel-13900K-13700K-13600K-Review-Release-Benchmark-1405415/4/
