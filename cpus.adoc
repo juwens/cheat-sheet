@@ -12,7 +12,7 @@
 | Cinebench R23 [multi threaded] [TPkt]
 
 | Intel E3-1230 v3 (selbst gemessen)|✅| 4C/8T      | 3.3/3.7 (2/3/4/4) |   8 MB | 364             | 23 | 730 | 3.2
-| Intel i5-4770             |  | 4C/8T      | 3.4/3.9 |   8 MB | | | |4.4
+| Intel i5-4770             |  | 4C/8T      | 3.4/3.9 |   8 MB | | | 770 | 3.4
 | AMD Ryzen 5 5700X (Zen 3) |✅| 8C/8T      | 3.5/4.6 |  32 MB | | | 1600 | 13.5
 | Intel i5-13600K           |✅| 6P/8E/20T  | 3.5/5.1 |  24 MB | 60              | 118 | 1950 | 24.4                     
 | Intel i7-13700K           |  | 8P/8E/24T  |         |        | 48              | 141 | 2100 | 31                       
