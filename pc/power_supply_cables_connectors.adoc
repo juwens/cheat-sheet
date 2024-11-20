@@ -16,6 +16,7 @@
 |Pinout
 |Details
 
+// https://en.wikipedia.org/wiki/PCI_Express#6-_and_8-pin_power_connectors
 |PCIe 6 Pin
 |
 a|
@@ -26,7 +27,7 @@ V V V
 ```
 |75W
 
-
+// https://en.wikipedia.org/wiki/PCI_Express#6-_and_8-pin_power_connectors
 |PCIe 8 Pin
 |
 a|
