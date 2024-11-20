@@ -53,9 +53,6 @@ a|Samsung T239 +
 [width="100%",cols="21%,8%,14%,8%,14%,8%,8%,5%,9%,5%",options="header",]
 |===
 |GPU |FP16 TFLOPS |FP32 TFLOPS (boost) |FP64 TFLOPS |Chip |Transistors
-
-|Intel UHD 770 (13600k)| |0.75| | | | | | |
-
 |Cuda Cores |TDP[W] |Power target |UVP[€]
 
 |Intel UHD 770 (13600k)| |0.75| | | | | | |
