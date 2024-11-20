@@ -1,9 +1,53 @@
 = Power Supply
 
-[cols="3"]
+== Glossar Pinout
+
 |===
-|Name|Standard|Details
-|PCIe 8 Pin||300W
-|12VHPW (H+)|ATX 3.0 |
-|12V-2x6 (H++)|ATX 3.1 |675W (cable 600W + 75 mainboard)
+|G|Ground
+|V|Voltage
+|S|Sense
+|===
+
+[cols="4"]
+|===
+
+|Name
+|Standard
+|Pinout
+|Details
+
+|PCIe 6 Pin
+|
+a|
+```
+  L
+G S G
+V V V
+```
+|75W
+
+
+|PCIe 8 Pin
+|
+a|
+```
+    L
+G G S G
+S V V V
+```
+|150W
+
+|12VHPW (H+)
+|ATX 3.0
+|
+|
+
+|12V-2x6 (H++)
+|ATX 3.1
+|
+a|
+* 675W (cable 600W + 75 mainboard)
+* single pin "more" than 9.2A
+* overall 55A
+* 16 AWG wires
 |===
