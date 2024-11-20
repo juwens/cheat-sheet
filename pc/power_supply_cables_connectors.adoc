@@ -64,6 +64,7 @@ V V V V V V
 ```
 a|
 * 675W (cable 600W + 75 mainboard)
+** 50 A (8.3 A per wire)
 * single pin "more" than 9.2A
 * overall 55A
 * 16 AWG (1.31 mm²)
