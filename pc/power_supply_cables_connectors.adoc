@@ -1,0 +1,9 @@
+= Power Supply
+
+[cols="3"]
+|===
+|Name|Standard|Details
+|PCIe 8 Pin||300W
+|12VHPW (H+)|ATX 3.0 |
+|12V-2x6 (H++)|ATX 3.1 |675W (cable 600W + 75 mainboard)
+|===
