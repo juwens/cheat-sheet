@@ -93,3 +93,10 @@ Copyright (c) 1999-2006 Apple Computer, Inc.
 
 == noteworthy gui tools
 * https://github.com/XcodesOrg/XcodesApp
+
+== Xcode cleanup
+
+```
+# several tens of GB in ~/Library/Developer/CoreSimulator/Devices
+xcrun simctl delete unavailable
+```
