@@ -93,6 +93,7 @@ Copyright (c) 1999-2006 Apple Computer, Inc.
 
 == noteworthy gui tools
 * https://github.com/XcodesOrg/XcodesApp
+* https://apps.apple.com/de/app/devcleaner-for-xcode/id1388020431?l=en-GB&mt=12
 
 == Xcode cleanup
 
