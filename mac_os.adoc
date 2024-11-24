@@ -100,4 +100,6 @@ Copyright (c) 1999-2006 Apple Computer, Inc.
 ```
 # several tens of GB in ~/Library/Developer/CoreSimulator/Devices
 xcrun simctl delete unavailable
+
+# other dirs to clean up: https://lovemewithoutall.github.io/it/xcode-clean-up/
 ```
