@@ -2,6 +2,10 @@
 
 https://learn.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio?view=vs-2022
 
+== create custom container with VS/BuildTools
+
+https://learn.microsoft.com/en-us/visualstudio/install/build-tools-container?view=vs-2022
+
 == dump Visual Studio Infos
 
 ```
