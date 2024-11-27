@@ -1,13 +1,14 @@
-# Docker
+= Docker
+:toc:
 
-# ps
+== ps
 
 ```
 apt update && apt install -y procps
 pstree -p 0 -A -T -a
 ```
 
-# container runner
+== container runner
 
 Because containers are only "executed via cgroups" (no full virtualization), a process is necessary ass man-in-the-middle between host and container.
 
@@ -18,13 +19,17 @@ a|CLI tool for spawning and running containers according to the OCI specificatio
 Used by almost anybody (docker, podman, containerd, cri-o)
 |===
 
-# ecosystem
+== ecosystem
 
 |===
 |https://github.com/moby/moby|The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems
 |===
 
-# Registry/Registries
+== Registry/Registries
 
 * https://hub.docker.com/search
 * https://mcr.microsoft.com/en-us/catalog
+
+== noteworthy tools
+
+* https://github.com/jesseduffield/lazydocker
