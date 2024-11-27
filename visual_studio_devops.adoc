@@ -1,9 +1,10 @@
+== install VS from cli
+
+https://learn.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio?view=vs-2022
+
+== dump Visual Studio Infos
+
 ```
-dotnet --info
-
-echo $PSVersionTable
-
-# dump Visual Studio Infos
 $vswhere = 'C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe'
 & $vswhere
 # see also:
