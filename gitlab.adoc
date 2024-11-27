@@ -11,3 +11,7 @@ git -c http.extraHeader="Authorization: Basic YmQ2MTY0Om82ZzV4YWU1Zm1xZXFkYmphdG
 ----
 
 https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html#bot-users-for-projects
+
+## disable jobs
+
+prefix joba-name with a "." ".my-job" https://stackoverflow.com/questions/64992049/how-to-quickly-disable-enable-stages-in-gitlab-ci
