@@ -26,5 +26,5 @@ Used by almost anybody (docker, podman, containerd, cri-o)
 
 # Registry/Registries
 
+* https://hub.docker.com/search
 * https://mcr.microsoft.com/en-us/catalog
-* 
