@@ -1,6 +1,7 @@
 == install VS from cli
 
-https://learn.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio?view=vs-2022
+* https://learn.microsoft.com/en-us/visualstudio/install/use-command-line-parameters-to-install-visual-studio?view=vs-2022
+* https://learn.microsoft.com/en-us/visualstudio/install/command-line-parameter-examples?view=vs-2022
 
 == create custom container with VS/BuildTools
 
