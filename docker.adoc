@@ -23,3 +23,8 @@ Used by almost anybody (docker, podman, containerd, cri-o)
 |===
 |https://github.com/moby/moby|The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems
 |===
+
+# Registries
+
+* https://mcr.microsoft.com/en-us/catalog
+* 
