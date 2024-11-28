@@ -21,3 +21,26 @@ $vswhere = 'C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe
 [xml]$doc = & $vswhere @("-utf8", "-include", "packages", "-format", "xml", "-property", "packages")
 $doc.GetElementsByTagName("package") | Sort-Object id | Format-Table
 ```
+
+== Install powershell (Core) in Docker/Sandbox
+
+```
+$PS_VERSION="7.4.6"
+$PS_PACKAGE_URL="https://github.com/PowerShell/PowerShell/releases/download/v$PS_VERSION/PowerShell-$PS_VERSION-win-x64.zip"
+$ProgressPreference = 'SilentlyContinue' # big speedup of download with Invoke-WebRequest
+Invoke-WebRequest $PS_PACKAGE_URL -OutFile pwsh.zip
+Expand-Archive .\pwsh.zip 'C:\Program Files\pwsh'
+$env:Path += ";C:\Program Files\pwsh"
+```
+
+== Install winget in docker container
+
+Does not work: https://github.com/microsoft/winget-cli/issues/4144
+
+.halfway
+```
+Install-PackageProvider NuGet -Force
+Set-PSRepository PSGallery -InstallationPolicy Trusted
+Set-ExecutionPolicy RemoteSigned
+Repair-WinGetPackageManager -Latest # < fails
+```
