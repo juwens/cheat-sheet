@@ -27,7 +27,7 @@ $doc.GetElementsByTagName("package") | Sort-Object id | Format-Table
 ```
 $PS_VERSION="7.4.6"
 $PS_PACKAGE_URL="https://github.com/PowerShell/PowerShell/releases/download/v$PS_VERSION/PowerShell-$PS_VERSION-win-x64.zip"
-$ProgressPreference = 'SilentlyContinue' # big speedup of download with Invoke-WebRequest
+$ProgressPreference = 'SilentlyContinue' # 20x speedup of download with Invoke-WebRequest in PS5: https://github.com/PowerShell/PowerShell/issues/2138
 Invoke-WebRequest $PS_PACKAGE_URL -OutFile pwsh.zip
 Expand-Archive .\pwsh.zip 'C:\Program Files\pwsh'
 $env:Path += ";C:\Program Files\pwsh"
