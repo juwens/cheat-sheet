@@ -30,7 +30,8 @@ Used by almost all container-management platofrms (docker, podman, containerd, c
 |aspect|Linux|Windows|MacOS
 |https://docs.docker.com/build/concepts/overview/[build]|BuildKit/buildx (since docker 23.0.0, Feb 2023)|https://docs.docker.com/reference/cli/docker/build-legacy/[legacy and slow build-engine, pre-BuildKit] https://docs.docker.com/build/buildkit/#buildkit-on-windows[BuildKit Windows hint]|n/a
 |container runner|runc + containerd|CExecSvc.exe|
-|dind (docker in docker)|complete|partial (client-side docker tools, can build Dockerfile) | 
+|dind (docker in docker)|complete|partial (client-side docker tools, can build Dockerfile) |
+|dockerfile ENV instruction|works as documented|does not work, use `RUN setx PATH "%PATH%;%ProgramFiles(x86)%\Microsoft Visual Studio\Installer"` instead. See https://stackoverflow.com/a/49549793/534812[StackOverflow.com]|
 |===
 
 == ecosystem
