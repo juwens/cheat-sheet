@@ -28,7 +28,7 @@ Used by almost all container-management platofrms (docker, podman, containerd, c
 
 |===
 |aspect|Linux|Windows|MacOS
-|build|BuildKit/buildx (since docker 23.0.0, Feb 2023)|legacy and slow build-enging|n/a
+|build|BuildKit/buildx (since docker 23.0.0, Feb 2023)|https://docs.docker.com/reference/cli/docker/build-legacy/[legacy and slow build-engine, pre-BuildKit]|n/a
 |container runner|runc + containerd|CExecSvc.exe|
 |dind (docker in docker)|complete|partial (client-side docker tools, can build Dockerfile) | 
 |===
