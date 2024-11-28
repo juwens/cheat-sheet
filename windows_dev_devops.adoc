@@ -31,6 +31,7 @@ $ProgressPreference = 'SilentlyContinue' # big speedup of download with Invoke-W
 Invoke-WebRequest $PS_PACKAGE_URL -OutFile pwsh.zip
 Expand-Archive .\pwsh.zip 'C:\Program Files\pwsh'
 $env:Path += ";C:\Program Files\pwsh"
+pwsh --version
 ```
 
 == Install winget in docker container
