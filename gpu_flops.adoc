@@ -74,10 +74,11 @@ a|Samsung T239 +
 
 |Radeon RX 5700XT | |9.5 |600 | | | | | |
 
+10+|
 // https://en.wikipedia.org/wiki/Radeon_RX_6000_series
 |Radeon RX 66000 XT | |8.0 (10.6) | | | | | | |
-| | | | | | | | | |
 
+10+|
 // https://en.wikipedia.org/wiki/Radeon_RX_7000_series
 |Radeon RX 7600 (8GB)       | |14.1 (21.8) | | | | | |165 W|
 |Radeon RX 76000 XT (16 GB) | |14.1 (22.6) | | | | | |190 W|
