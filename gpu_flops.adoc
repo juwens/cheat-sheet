@@ -52,8 +52,7 @@ a|Samsung T239 +
 
 [width="100%",cols="21%,8%,14%,8%,14%,8%,8%,5%,9%,5%",options="header",]
 |===
-|GPU |FP16 TFLOPS |FP32 TFLOPS (boost) |FP64 TFLOPS |Chip |Transistors
-|Cuda Cores |TDP[W] |Power target |UVP[€]
+|GPU |FP16 TFLOPS |FP32 TFLOPS (boost) |FP64 TFLOPS |Chip |Transistors |Cuda Cores |TDP[W] |Power target |UVP[€]
 
 |Intel UHD 770 (13600k)| |0.75| | | | | | |
 
@@ -75,7 +74,9 @@ a|Samsung T239 +
 
 |Radeon RX 5700XT | |9.5 |600 | | | | | |
 |Radeon RX 66000 XT | |8.0 (10.6) | | | | | | |
-|Radeon RX 76000 XT | |14.1 (22.6) | | | | | | |
+// https://en.wikipedia.org/wiki/Radeon_RX_7000_series
+|Radeon RX 7600 (8GB)       | |14.1 (21.8) | | | | | |165 W|
+|Radeon RX 76000 XT (16 GB) | |14.1 (22.6) | | | | | |190 W|
 
 10+|{nbsp}
 10+|*NVIDIA RTX*
