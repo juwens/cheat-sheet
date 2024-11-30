@@ -61,7 +61,7 @@ a|Samsung T239 +
 
 |GTX 660 | |1.9 |0.1 (1:24) | |2.5E12 |960 |140 |115 |
 
-|GTX 1070 |101? |5.8 ( 6.5) | |GP102 |12E12 |1_920 |150 | |499
+|GTX 1070 |101? |5.8 (6.5) | |GP102 |12E12 |1_920 |150 | |499
 
 |GeForce GTX 1080 | |8.23 | | | | | | |
 
@@ -73,7 +73,11 @@ a|Samsung T239 +
 10+|*Radeon*
 
 |Radeon RX 5700XT | |9.5 |600 | | | | | |
+
+// https://en.wikipedia.org/wiki/Radeon_RX_6000_series
 |Radeon RX 66000 XT | |8.0 (10.6) | | | | | | |
+| | | | | | | | | |
+
 // https://en.wikipedia.org/wiki/Radeon_RX_7000_series
 |Radeon RX 7600 (8GB)       | |14.1 (21.8) | | | | | |165 W|
 |Radeon RX 76000 XT (16 GB) | |14.1 (22.6) | | | | | |190 W|
