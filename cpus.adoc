@@ -25,7 +25,7 @@
 // https://www.techpowerup.com/review/amd-ryzen-7-5700x/5.html
 // https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Vermeer_(5000_series,_Zen_3_based)
 | AMD Ryzen 5 5700X (Zen 3)  |✅| 8C/16T | 3.5/4.6 |  32 MB | | | 1518 (gemessen) | 12764 (gemessen)
-| AMD Ryzen 5 5700X3D (Zen 3)||8C/16T    | 3.0/4.1 | 96 MB  | | | 
+| AMD Ryzen 5 5700X3D (Zen 3)||8C/16T    | 3.0/4.1 | 96 MB  | | | |
 
 // https://www.pcgameshardware.de/Raptor-Lake-S-Codename-278677/Tests/Intel-13900K-13700K-13600K-Review-Release-Benchmark-1405415/4/
 | Intel i5-13600K           |✅| 6P/8E/20T  | 3.5/5.1 |  24 MB | 60              | 118 | 1950 | 24.4                     
