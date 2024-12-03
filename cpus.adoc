@@ -16,21 +16,21 @@
 | Cinebench R23 [single thread]
 | Cinebench R23 [multi threaded] [TPkt]
 
-| Intel E3-1230 v3 (selbst gemessen)|✅| 4C/8T      | 3.3/3.7 (2/3/4/4) |   8 MB | 364             | 23 | 730 | 3.2
+| Intel E3-1230 v3 (selbst gemessen)|✅| 4C/8T      | 3.3/3.7 (2/3/4/4) |   8 MB | 364             | 23 | 730 | 3 200
 
 // https://www.computerbase.de/2013-07/haswell-quad-core-test/
 // https://en.wikipedia.org/wiki/Haswell_(microarchitecture)
-| Intel i5-4770            |  | 4C/8T      | 3.4/3.9 (3/4/5/5) |   8 MB | | | 770 | 3.4
+| Intel i5-4770            |  | 4C/8T      | 3.4/3.9 (3/4/5/5) |   8 MB | | | 770 | 3 400
 
 // https://www.techpowerup.com/review/amd-ryzen-7-5700x/5.html
 // https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Vermeer_(5000_series,_Zen_3_based)
-| AMD Ryzen 5 5700X (Zen 3)  |✅| 8C/16T | 3.5/4.6 |  32 MB | | | 1518 (gemessen) | 12764 (gemessen)
+| AMD Ryzen 5 5700X (Zen 3)  |✅| 8C/16T | 3.5/4.6 |  32 MB | | | 1518 (gemessen) | 12 764 (gemessen)
 | AMD Ryzen 5 5700X3D (Zen 3)||8C/16T    | 3.0/4.1 | 96 MB  | | | |
 
 // https://www.pcgameshardware.de/Raptor-Lake-S-Codename-278677/Tests/Intel-13900K-13700K-13600K-Review-Release-Benchmark-1405415/4/
-| Intel i5-13600K           |✅| 6P/8E/20T  | 3.5/5.1 |  24 MB | 60              | 118 | 1950 | 24.4                     
-| Intel i7-13700K           |  | 8P/8E/24T  |         |        | 48              | 141 | 2100 | 31                       
-| Intel i9-13900K           |  | 8P/16E/32T |         |        |                 | 174 | 2200 | 38                       
+| Intel i5-13600K           |✅| 6P/8E/20T  | 3.5/5.1 |  24 MB | 60              | 118 | 1950 | 24 400
+| Intel i7-13700K           |  | 8P/8E/24T  |         |        | 48              | 141 | 2100 | 31 000                      
+| Intel i9-13900K           |  | 8P/16E/32T |         |        |                 | 174 | 2200 | 38 000                       
 
 |=============================================================================================================================================================
 
