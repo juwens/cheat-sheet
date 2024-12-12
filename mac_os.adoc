@@ -104,3 +104,12 @@ xcrun simctl delete unavailable
 # other dirs to clean up: https://lovemewithoutall.github.io/it/xcode-clean-up/
 rm -r Library/Developer/Xcode/iOS\ DeviceSupport/*
 ```
+
+== launchd/launchctl
+
+```
+# list services
+launchctl list
+
+
+```
