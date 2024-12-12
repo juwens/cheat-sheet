@@ -78,6 +78,8 @@ a|Samsung T239 +
 // https://en.wikipedia.org/wiki/Radeon_RX_6000_series
 |Radeon RX 66000 XT | |8.0 (10.6) | | | | | | |
 
+|Intel Arc B580||13.4|||||||
+
 10+|
 // https://en.wikipedia.org/wiki/Radeon_RX_7000_series
 |Radeon RX 7600 (8GB)       | |14.1 (21.8) | | | | | |165 W|
