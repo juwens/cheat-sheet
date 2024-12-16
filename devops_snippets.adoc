@@ -1,0 +1,4 @@
+== git: set user/email for one commit
+```
+git -c "user.name=Your Name" -c "user.email=Your email" commit 
+```
