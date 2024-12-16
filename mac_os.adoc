@@ -110,6 +110,12 @@ rm -r Library/Developer/Xcode/iOS\ DeviceSupport/*
 ```
 # list services
 launchctl list
+```
 
+== log
 
+```
+log show --start '2024-12-11 23:59:00' --end '2024-12-12 00:00:05' --process launchd --pager
+log show --last '1h' --process launchd
+log show --start '2024-12-12 00:00:00' --end '2024-12-12 14:00:00' --predicate '(process == "launchd" && subsystem BEGINSWITH "gui/123/gitlab") || processImagePath CONTAINS[cd] "gitlab"' --info --debug --signpost
 ```
