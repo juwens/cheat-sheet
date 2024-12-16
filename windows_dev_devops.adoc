@@ -39,10 +39,5 @@ pwsh --version
 Does not work: https://github.com/microsoft/winget-cli/issues/4144
 
 .bootstrap winget
-```
-Install-PackageProvider NuGet -Force
-Set-PSRepository PSGallery -InstallationPolicy Trusted
-Set-ExecutionPolicy RemoteSigned
-Install-Module Microsoft.WinGet.Client -Repository PSGallery -Force
-Repair-WinGetPackageManager -Latest
-```
+
+https://gist.github.com/juwens/dd1ad8d0f0c66fdfe5a65681b4012381
