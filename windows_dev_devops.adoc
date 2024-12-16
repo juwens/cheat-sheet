@@ -34,10 +34,6 @@ $env:Path += ";C:\Program Files\pwsh"
 pwsh --version
 ```
 
-== Install winget in docker container
-
-Does not work: https://github.com/microsoft/winget-cli/issues/4144
-
-.bootstrap winget
+== .bootstrap winget (for example, to: install winget in docker container)
 
 https://gist.github.com/juwens/dd1ad8d0f0c66fdfe5a65681b4012381
