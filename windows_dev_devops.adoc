@@ -34,6 +34,6 @@ $env:Path += ";C:\Program Files\pwsh"
 pwsh --version
 ```
 
-== .bootstrap winget (for example, to: install winget in docker container)
+== bootstrap winget (for example, to: install winget in docker container)
 
 https://gist.github.com/juwens/dd1ad8d0f0c66fdfe5a65681b4012381
