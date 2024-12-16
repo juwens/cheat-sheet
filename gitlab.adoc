@@ -16,6 +16,7 @@ https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html#bot-
 
 prefix joba-name with a "." ".my-job" https://stackoverflow.com/questions/64992049/how-to-quickly-disable-enable-stages-in-gitlab-ci
 
+== runner
 ```
 /usr/local/bin/gitlab-runner list
 /usr/local/bin/gitlab-runner status
