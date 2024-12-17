@@ -35,9 +35,11 @@ echo -e "section_end:`date +%s`:my_section\r\e[0K"
 
 .powershell
 ```
-$unixSeconds = [System.DateTimeOffset]::Now.ToUnixTimeSeconds()
-Write-Output "`r`e[0Ksection_start:${unixSeconds}:${Identifier}[collapsed=true]`r`e[0K${Title}"
-Write-Output "`r`e[0Ksection_end:${unixSeconds}:${Identifier}`r`e[0K"
+function Get-UnixTimestamp() {
+    return [System.DateTimeOffset]::Now.ToUnixTimeSeconds()
+}
+Write-Output "`r`e[0Ksection_start:$(Get-UnixTimestamp):${Identifier}[collapsed=true]`r`e[0K${Title}"
+Write-Output "`r`e[0Ksection_end:$(Get-UnixTimestamp):${Identifier}`r`e[0K"
 ```
 
 === automatic sections
