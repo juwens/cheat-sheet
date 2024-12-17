@@ -2,3 +2,10 @@
 ```
 git -c "user.name=Your Name" -c "user.email=Your email" commit 
 ```
+
+== git: authenticate with custom ssh key-file
+
+```
+export GIT_SSH_COMMAND="ssh -i ${identity_file} -o StrictHostKeychecking=no"
+git clone git@foo.bar.com:my.project.git
+```
