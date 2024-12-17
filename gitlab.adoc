@@ -22,3 +22,24 @@ prefix joba-name with a "." ".my-job" https://stackoverflow.com/questions/649920
 /usr/local/bin/gitlab-runner status
 /usr/local/bin/gitlab-runner verify
 ```
+
+== Script Section
+
+=== manual sections
+
+.sh
+```
+echo -e "section_start:`date +%s`:my_section[collapsed=true]\r\e[0Kmy section title"
+echo -e "section_end:`date +%s`:my_section\r\e[0K"
+```
+
+.powershell
+```
+$unixSeconds = [System.DateTimeOffset]::Now.ToUnixTimeSeconds()
+Write-Output "`r`e[0Ksection_start:${unixSeconds}:${Identifier}[collapsed=true]`r`e[0K${Title}"
+Write-Output "`r`e[0Ksection_end:${unixSeconds}:${Identifier}`r`e[0K"
+```
+
+=== automatic sections
+
+https://gitlab.com/gitlab-org/gitlab-runner/-/merge_requests/3051[FF_SCRIPT_SECTIONS]
