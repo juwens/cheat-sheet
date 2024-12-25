@@ -10,4 +10,8 @@ a|LMDB/LightningDB<br>
 Lightning Memory-Mapped Database Manager
 |
 |https://github.com/CoreyKaylor/Lightning.NET|https://www.nuget.org/packages/LightningDB/
+
+|DBreeze||https://github.com/hhblaze/DBreeze|
 |===
+
+https://nugettrends.com/packages?months=72&ids=System.Data.SQLite&ids=LiteDB&ids=DuckDb&ids=RavenDB.Embedded&ids=DBreeze&ids=LightningDB
