@@ -5,5 +5,5 @@
 |LiteDB|document|https://github.com/litedb-org/LiteDB|https://www.nuget.org/packages/LiteDB
 |RavenDB||https://github.com/ravendb/ravendb|https://www.nuget.org/packages/RavenDB.Embedded
 |DuckDB|OLAP|https://github.com/duckdb/duckdb|
-|LMDB|https://github.com/CoreyKaylor/Lightning.NET|https://www.nuget.org/packages/LightningDB/
+|LMDB|https://github.com/CoreyKaylor/Lightning.NET|https://www.nuget.org/packages/LightningDB/|
 |===
