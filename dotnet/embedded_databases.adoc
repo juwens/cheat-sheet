@@ -1,0 +1,6 @@
+## embedded databases for .Net
+
+|===
+|SQLite|https://github.com/sqlite/sqlite|https://www.nuget.org/packages/System.Data.SQLite
+
+|===
