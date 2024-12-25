@@ -2,5 +2,5 @@
 
 |===
 |SQLite|https://github.com/sqlite/sqlite|https://www.nuget.org/packages/System.Data.SQLite
-
+|LiteDB|https://github.com/litedb-org/LiteDB|https://www.nuget.org/packages/LiteDB
 |===
