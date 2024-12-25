@@ -12,7 +12,8 @@ Lightning Memory-Mapped Database Manager
 |https://github.com/CoreyKaylor/Lightning.NET|https://www.nuget.org/packages/LightningDB/
 
 |DBreeze||https://github.com/hhblaze/DBreeze|
-|FASTER||https://github.com/microsoft/FASTER|https://www.nuget.org/packages/Microsoft.FASTER.Core|
+|FASTER||https://github.com/microsoft/FASTER|https://www.nuget.org/packages/Microsoft.FASTER.Core
+|RocksDB|LevelDB Fork|https://github.com/curiosity-ai/rocksdb-sharp|https://www.nuget.org/packages/rocksdb|
 |===
 
 https://nugettrends.com/packages?months=72&ids=System.Data.SQLite&ids=LiteDB&ids=DuckDb&ids=RavenDB.Embedded&ids=DBreeze&ids=LightningDB
