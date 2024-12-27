@@ -42,7 +42,8 @@ mindmap
       usp: fast adhoc queries without indexes
       OLAP, auto index creation"]
     Document
-      lite-db["LiteDB (2015; C#)"]
+      lite-db["LiteDB (2015; C#)
+      usp: pure .Net"]
       raven-db["RavenDB (2015; C#)
       embedded and server"]
     Key-Value
