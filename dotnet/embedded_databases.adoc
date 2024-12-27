@@ -25,3 +25,25 @@ Lightning Memory-Mapped Database Manager
 
 https://nugettrends.com/packages?months=72&ids=System.Data.SQLite&ids=LiteDB&ids=DuckDb&ids=RavenDB.Embedded&ids=DBreeze&ids=LightningDB
 
+[source, mermaid]
+----
+mindmap
+  root((embedded<br>databases))
+    Relational
+      sqlite["SQLite (2004; C)"]
+        libsql["libSQL (2022; C)
+        fork of SQLite"]
+    Document
+      lite-db["LiteDB (2015; C#)"]
+      raven-db["RavenDB (2015; C#)
+      embedded and server"]
+    Key-Value
+      level-db["LevelDB (2011; C++; Google)
+      used in Google Chrome
+      for IndexedDB"]
+      rocks-db["RocksDB (2012; C++; Facebook)
+      feature-rich Fork of LevelDB"]
+      lmdb["LMDB (2011; C; Symas/OpenLDAP)"]
+      bdb["Berkeley DB (1994; C)
+      inconvenient licence fueled developement of LevelDB"]
+----
