@@ -20,3 +20,4 @@ Lightning Memory-Mapped Database Manager
 |===
 
 https://nugettrends.com/packages?months=72&ids=System.Data.SQLite&ids=LiteDB&ids=DuckDb&ids=RavenDB.Embedded&ids=DBreeze&ids=LightningDB
+
