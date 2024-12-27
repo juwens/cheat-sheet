@@ -5,8 +5,8 @@
 |SQLite|relational OLTP|https://github.com/sqlite/sqlite|https://www.nuget.org/packages/System.Data.SQLite
 4+|*document/object*
 |LiteDB|document|https://github.com/litedb-org/LiteDB|https://www.nuget.org/packages/LiteDB
-4+|*key-value*
 |RavenDB||https://github.com/ravendb/ravendb|https://www.nuget.org/packages/RavenDB.Embedded
+4+|*key-value*
 |DuckDB|OLAP|https://github.com/duckdb/duckdb|
 
 a|LMDB/LightningDB<br>
