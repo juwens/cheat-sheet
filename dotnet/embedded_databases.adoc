@@ -27,6 +27,12 @@ https://nugettrends.com/packages?months=72&ids=System.Data.SQLite&ids=LiteDB&ids
 
 [source, mermaid]
 ----
+%%{init: 
+{
+  "theme": "base"
+}
+}%%
+
 %% usp: https://en.wikipedia.org/wiki/Unique_selling_proposition
 
 mindmap
