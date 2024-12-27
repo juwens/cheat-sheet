@@ -8,6 +8,10 @@
 |RavenDB|document, OLAP|https://github.com/ravendb/ravendb|https://www.nuget.org/packages/RavenDB.Embedded
 4+|*key-value*
 |DuckDB|OLAP|https://github.com/duckdb/duckdb|
+|ESENT|windows only, several value structures supported|
+a|
+* https://github.com/microsoft/Extensible-Storage-Engine
+* https://github.com/microsoft/ManagedEsent
 
 a|LMDB/LightningDB<br>
 Lightning Memory-Mapped Database Manager
