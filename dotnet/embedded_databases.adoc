@@ -27,12 +27,20 @@ https://nugettrends.com/packages?months=72&ids=System.Data.SQLite&ids=LiteDB&ids
 
 [source, mermaid]
 ----
+%% usp: https://en.wikipedia.org/wiki/Unique_selling_proposition
+
 mindmap
   root((embedded<br>databases))
     Relational
-      sqlite["SQLite (2004; C)"]
+      sqlite["SQLite (2004; C)
+      usp: it just works, battle tested
+      fast for indexed reads
+      a little slow for inserts"]
         libsql["libSQL (2022; C)
         fork of SQLite"]
+      DuckDB["DuckDB (2024; C++)
+      usp: fast adhoc queries without indexes
+      OLAP, auto index creation"]
     Document
       lite-db["LiteDB (2015; C#)"]
       raven-db["RavenDB (2015; C#)
