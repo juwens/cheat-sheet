@@ -2,6 +2,8 @@
 
 > Specifies a verification policy by GUID. The PolicyGUID corresponds to the ActionID of the verification policy. This option cannot be used with the catdb options.
 
+The guid is the same as the `pgActionID` parameter in the win32 api https://learn.microsoft.com/en-us/windows/win32/api/wintrust/nf-wintrust-winverifytrust#parameters
+
 ```
 signtool verify /pg $guid
 
