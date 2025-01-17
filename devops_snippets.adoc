@@ -9,3 +9,8 @@ git -c "user.name=Your Name" -c "user.email=Your email" commit
 export GIT_SSH_COMMAND="ssh -i ${identity_file} -o StrictHostKeychecking=no"
 git clone git@foo.bar.com:my.project.git
 ```
+
+== powershell mkdir, ignore error
+```
+mkdir foobar; {}
+```
