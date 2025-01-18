@@ -1,0 +1,61 @@
+- https://learn.microsoft.com/en-us/dotnet/csharp/roslyn-sdk/compiler-api-model
+- https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.cookbook.md
+- [C# Source Generators in Action, by Andrey Dyatlov - JetBrainsTV](https://www.youtube.com/watch?v=052xutD86uI)
+- https://wengier.com/SourceGeneratorPlayground/
+- https://sharplab.io/
+
+== tipps
+
+=== marker syntax
+
+Credits: https://www.meziantou.net/how-to-test-a-roslyn-analyzer.htm#marker-syntax
+
+With 1 diagnostic
+
+```
+var testCode = """
+    class [|Foo|] {}
+    """;
+```
+
+With N diagnostics
+
+```
+var testCode = """
+    class {|ExpectedRuleId:Foo|} {}
+    """;
+```
+
+With N diagnostics with more details
+
+```
+var context = new CSharpAnalyzerTest<MyAnalyzer, DefaultVerifier>();
+
+var testCode = """
+    class {|#0:Foo|} {}
+    class {|#1:Type1|#1} { }
+    """;
+
+context.ExpectedDiagnostics.Add(new DiagnosticResult(MyAnalyzer.Rule).WithLocation(0).WithArguments("Type1"));
+context.ExpectedDiagnostics.Add(new DiagnosticResult(MyAnalyzer.Rule).WithLocation(1).WithArguments("Type2"));
+await context.RunAsync();
+```
+
+=== syntax highlighting
+
+```
+var testCode = /* lang=c#-test */ """
+    public void Sample()
+    {
+        var x = 1;
+        var y = 2;
+        var z = x + y;
+    }
+    """;
+```
+
+as parameter
+
+```
+void ValidateCode([StringSyntax("c#-test")] string value) { }
+```
