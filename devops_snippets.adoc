@@ -9,3 +9,20 @@ git -c "user.name=Your Name" -c "user.email=Your email" commit
 export GIT_SSH_COMMAND="ssh -i ${identity_file} -o StrictHostKeychecking=no"
 git clone git@foo.bar.com:my.project.git
 ```
+
+== debian insatll package
+
+```
+apt-get update && apt-get install -y curl git openssh-client
+```
+
+== alpine insatll package
+
+```
+apk add --update curl git openssh-client
+```
+
+For building containers:
+```
+apk add --no-cache --update curl git openssh-client
+```
