@@ -49,3 +49,15 @@ Used by almost all container-management platofrms (docker, podman, containerd, c
 == noteworthy tools
 
 * https://github.com/jesseduffield/lazydocker
+
+== Linux Image Abbreveations
+
+|===
+|Jammy|Ubuntu 22.04 LTS
+|Noble|Ubuntu 24.04 LTS
+|trixie|Debian 13 (2025)
+|bookworm|Debian 12 (2023)
+|bullseye|Debian 11 (2021)
+|CBL|Common Base Linux; rebranded to AzureLinux
+|cbl-mariner2|
+|===
