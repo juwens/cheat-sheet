@@ -23,6 +23,15 @@ prefix joba-name with a "." ".my-job" https://stackoverflow.com/questions/649920
 /usr/local/bin/gitlab-runner verify
 ```
 
+== .gitlab-ci.yml variable precedence
+
+```
+job:rules[]:variables
+override
+job:variables
+override
+workflow:rules:name:variables
+```
 == Script Section
 
 === manual sections
