@@ -53,11 +53,11 @@ Used by almost all container-management platofrms (docker, podman, containerd, c
 == Linux Image Abbreveations
 
 |===
-|Jammy|Ubuntu 22.04 LTS
-|Noble|Ubuntu 24.04 LTS
-|trixie|Debian 13 (2025)
-|bookworm|Debian 12 (2023)
-|bullseye|Debian 11 (2021)
-|CBL|Common Base Linux; rebranded to AzureLinux
-|cbl-mariner2|
+|Jammy|Ubuntu 22.04 LTS|apt-get
+|Noble|Ubuntu 24.04 LTS|apt-get
+|trixie|Debian 13 (2025)|apt-get
+|bookworm|Debian 12 (2023)|apt-get
+|bullseye|Debian 11 (2021)|apt-get
+|CBL|Common Base Linux; rebranded to AzureLinux|tdnf
+|cbl-mariner2||tdnf
 |===
