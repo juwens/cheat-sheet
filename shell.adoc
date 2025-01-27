@@ -1,1 +1,5 @@
 * https://www.shellcheck.net/
+** as comment in source code `# shellcheck shell=busybox`
+** https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck
+** https://marketplace.visualstudio.com/items?itemName=mads-hartmann.bash-ide-vscode
+
