@@ -3,3 +3,4 @@
 ** https://marketplace.visualstudio.com/items?itemName=timonwong.shellcheck
 ** https://marketplace.visualstudio.com/items?itemName=mads-hartmann.bash-ide-vscode
 
+* Feature Matrix https://mastodon.social/@nixCraft/111631287881185620
