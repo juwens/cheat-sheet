@@ -69,7 +69,7 @@
 | https://www.nuget.org/packages/BetterConsoleTables (256k) | https://github.com/douglasg14b/BetterConsoleTables (80)
 
 .3+| Cron Jobs
-|| https://github.com/quartznet/quartznet (6.7k)
+|https://www.nuget.org/packages/Quartz (20k/d) | https://github.com/quartznet/quartznet (6.7k)
 || https://github.com/jamesmh/coravel (4.1k)
 || https://github.com/HangfireIO/Hangfire (9.6k)
 
