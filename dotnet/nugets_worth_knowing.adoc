@@ -75,7 +75,7 @@
 
 .3+| Misc
 a|
-*https://www.nuget.org/packages/Hashids.net
+* https://www.nuget.org/packages/Hashids.net
 * https://www.nuget.org/packages/MvsSln
 * https://www.nuget.org/packages/Microsoft.VisualStudio.Threading/
 |
