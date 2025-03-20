@@ -70,8 +70,8 @@
 
 .3+| Cron Jobs
 |https://www.nuget.org/packages/Quartz (20k/d) | https://github.com/quartznet/quartznet (6.7k)
-|| https://github.com/jamesmh/coravel (4.1k)
-|| https://github.com/HangfireIO/Hangfire (9.6k)
+|https://www.nuget.org/packages/Coravel (1.8k/d) | https://github.com/jamesmh/coravel (4.1k)
+|https://www.nuget.org/packages/Hangfire.Core/ (51k/d) | https://github.com/HangfireIO/Hangfire (9.6k)
 
 .3+| Misc
 a|
