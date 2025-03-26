@@ -90,6 +90,7 @@ Copyright (c) 1999-2006 Apple Computer, Inc.
 
 * https://github.com/Byron/dua-cli
 * https://github.com/XcodesOrg/xcodes
+* https://github.com/vladkens/macmon (shows live cpu/ram/disk usage)
 
 == noteworthy gui tools
 * https://github.com/XcodesOrg/XcodesApp
