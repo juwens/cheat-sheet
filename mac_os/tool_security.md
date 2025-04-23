@@ -22,4 +22,6 @@ enum
 	kSecCertTypeItemAttr		 	 = 'ctyp',
 	kSecCertEncodingItemAttr	 	 = 'cenc'
 };
+
+Source: https://github.com/phracker/MacOSX-SDKs/blob/master/MacOSX10.6.sdk/System/Library/Frameworks/Security.framework/Versions/A/Headers/SecCertificate.h
 ```
