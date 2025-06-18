@@ -1,4 +1,4 @@
-== .Net 10
+# .Net 10
 
 - [dotnet run app.cs](https://devblogs.microsoft.com/dotnet/announcing-dotnet-run-app/)
 - C# 14
