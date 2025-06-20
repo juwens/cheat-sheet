@@ -4,8 +4,8 @@
 |===
 3+| Process abstraction
 .2+| Process abstraction
-| https://www.nuget.org/packages/SimpleExec/ |
-| https://www.nuget.org/packages/ProcessX/ | https://github.com/Cysharp/ProcessX
+| https://www.nuget.org/packages/SimpleExec/ (dl/day: 1K) |
+| https://www.nuget.org/packages/ProcessX/ (dl/day: 0.1K) | https://github.com/Cysharp/ProcessX
 
  
 3+| Build Task
