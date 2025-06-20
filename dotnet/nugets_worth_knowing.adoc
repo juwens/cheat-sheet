@@ -16,8 +16,8 @@
 | | |
 
 .2+| Console printing & tables
-| https://www.nuget.org/packages/ConsoleTableExt/ | 
-| https://www.nuget.org/packages/Spectre.Console/ | https://github.com/spectreconsole/spectre.console
+| https://www.nuget.org/packages/ConsoleTableExt/ (dl/day: 0.25K) | 
+| https://www.nuget.org/packages/Spectre.Console/ (dl/day: 11K) | https://github.com/spectreconsole/spectre.console
 
 | | |
 
