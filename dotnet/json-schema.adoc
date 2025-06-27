@@ -2,15 +2,15 @@
 |===
 |Name|state|gh
 
-|json-everything / JsonSchema.Net [github](https://github.com/json-everything/json-everything)
+|json-everything / JsonSchema.Net https://github.com/json-everything/json-everything[github]
 |
 |1100
 
-|NJsonSchema [github](https://github.com/RicoSuter/NJsonSchema)
+|NJsonSchema https://github.com/RicoSuter/NJsonSchema[github]
 |
 |1500
 
-|JsonSchema.Net [github](https://github.com/jsonsystems/json-schema)
+|JsonSchema.Net https://github.com/jsonsystems/json-schema[github]
 |archived 2022
 |660
 
