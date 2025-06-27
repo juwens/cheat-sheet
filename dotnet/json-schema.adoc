@@ -6,18 +6,18 @@
 |
 |1500
 |https://www.nuget.org/packages/NJsonSchema[NJsonSchema]
-|56000
+|56k
 
 |json-everything https://github.com/json-everything/json-everything[github] https://github.com/jsonsystems/json-schema[old repo]
 |
 |1100
 |https://www.nuget.org/packages/JsonSchema.Net[JsonSchema.Net]
-|9600
+|9.6k
 
 |https://www.newtonsoft.com/jsonschema[Json.NET Schema] https://github.com/JamesNK/Newtonsoft.Json.Schema[github]
 |
 |250
 |https://www.nuget.org/packages/Newtonsoft.Json.Schema[Newtonsoft.Json.Schema]
-|17800
+|17.8k
 
 |===
