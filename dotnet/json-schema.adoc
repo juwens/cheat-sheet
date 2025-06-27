@@ -1,21 +1,23 @@
 
 |===
-|Name|state|gh|nuget dl/day
+|Name|state|gh|nuget|nuget dl/day
 
 |NJsonSchema https://github.com/RicoSuter/NJsonSchema[github]
 |
 |1500
-|https://www.nuget.org/packages/NJsonSchema[56000]
+|https://www.nuget.org/packages/NJsonSchema[NJsonSchema]
+|56000
 
 |json-everything / JsonSchema.Net https://github.com/json-everything/json-everything[github] https://github.com/jsonsystems/json-schema[old repo]
 |
 |1100
-|https://www.nuget.org/packages/JsonSchema.Net/[9600]
+|https://www.nuget.org/packages/JsonSchema.Net[JsonSchema.Net]
+|9600
 
-
-|Newtonsoft.Json.Schema https://github.com/JamesNK/Newtonsoft.Json.Schema[github]
+|Newtonsoft.Json.Schema aka. "https://www.newtonsoft.com/jsonschema[Json.NET Schema]" https://github.com/JamesNK/Newtonsoft.Json.Schema[github]
 |
 |250
-|
+|https://www.nuget.org/packages/Newtonsoft.Json.Schema[Newtonsoft.Json.Schema]
+|17800
 
 |===
