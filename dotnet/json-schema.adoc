@@ -1,21 +1,21 @@
 
 |===
-|Name|state|gh
+|Name|state|gh|nuget dl/day
 
 |NJsonSchema https://github.com/RicoSuter/NJsonSchema[github]
 |
 |1500
+|https://www.nuget.org/packages/NJsonSchema[56000]
 
-|json-everything / JsonSchema.Net https://github.com/json-everything/json-everything[github]
+|json-everything / JsonSchema.Net https://github.com/json-everything/json-everything[github] https://github.com/jsonsystems/json-schema[old repo]
 |
 |1100
+|https://www.nuget.org/packages/JsonSchema.Net/[9600]
 
-|JsonSchema.Net https://github.com/jsonsystems/json-schema[github]
-|archived 2022
-|660
 
-|Newtonsoft.Json.Schema https://github.com/JamesNK/Newtonsoft.Json.Schema?utm_source=chatgpt.com[github]
+|Newtonsoft.Json.Schema https://github.com/JamesNK/Newtonsoft.Json.Schema[github]
 |
 |250
+|
 
 |===
