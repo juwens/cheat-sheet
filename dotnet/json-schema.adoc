@@ -2,16 +2,20 @@
 |===
 |Name|state|gh
 
-|json-everything / JsonSchema.Net https://github.com/json-everything/json-everything[github]
-|
-|1100
-
 |NJsonSchema https://github.com/RicoSuter/NJsonSchema[github]
 |
 |1500
 
+|json-everything / JsonSchema.Net https://github.com/json-everything/json-everything[github]
+|
+|1100
+
 |JsonSchema.Net https://github.com/jsonsystems/json-schema[github]
 |archived 2022
 |660
+
+|Newtonsoft.Json.Schema https://github.com/JamesNK/Newtonsoft.Json.Schema?utm_source=chatgpt.com[github]
+|
+|250
 
 |===
