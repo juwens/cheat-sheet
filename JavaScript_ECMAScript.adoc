@@ -95,9 +95,15 @@ a|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules[EcmaScri
 ```
 import { name as circleName } from "https://example.com/shapes/circle.js";
 import { name as squareName, draw } from "./shapes/square.js";
-
 --
-
 export function foo () { ... }
+```
+|iife
+|https://developer.mozilla.org/en-US/docs/Glossary/IIFE[Immediately Invoked Function Expression]
+a|
+```
+(function () {
+  // statements…
+})();
 ```
 |===
