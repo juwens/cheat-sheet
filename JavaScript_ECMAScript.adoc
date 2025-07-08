@@ -81,8 +81,23 @@ https://wiki.mozilla.org/JaegerMonkey
 = Module Types
 
 |===
-|name|description
+|name|description|syntax
 
 |AMD|https://en.wikipedia.org/wiki/Asynchronous_module_definition[asynchronous module definition]
+a|
+
+
 |CJS|https://en.wikipedia.org/wiki/CommonJS[CommonJS]
+a|
+
+|ESM|
+a|https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules[EcmaScript/JavaScript modules]
+```
+import { name as circleName } from "https://example.com/shapes/circle.js";
+import { name as squareName, draw } from "./shapes/square.js";
+
+--
+
+export function foo () { ... }
+```
 |===
