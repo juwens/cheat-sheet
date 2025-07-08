@@ -76,3 +76,11 @@ a|* Firefox
 a|[%hardbreaks]
 https://en.wikipedia.org/wiki/SpiderMonkey
 https://wiki.mozilla.org/JaegerMonkey
+
+
+= Module Types
+
+|===
+|name|description
+|AMD|[Asynchronous module definition]https://en.wikipedia.org/wiki/Asynchronous_module_definition
+|CJS|https://en.wikipedia.org/wiki/CommonJS
