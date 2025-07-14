@@ -1,86 +1,187 @@
-# Packages
+## Packages
 
-[cols=3*]
+[cols=5*]
 |===
-3+| Process abstraction
-.2+| Process abstraction
-| https://www.nuget.org/packages/SimpleExec/ (dl/day: 1K) |
-| https://www.nuget.org/packages/ProcessX/ (dl/day: 0.1K) | https://github.com/Cysharp/ProcessX
+|category 2+|NuGet         2+|GitHub
+|           |name|tot dl     |name|stars
+.3+| 2D Drawing
+|https://www.nuget.org/packages/SixLabors.ImageSharp[SixLabors.ImageSharp]
+|172M image:https://img.shields.io/nuget/dt/SixLabors.ImageSharp?label=[]
+|https://github.com/[]
+|
+|https://www.nuget.org/packages/SkiaSharp[SkiaSharp]
+|172M image:https://img.shields.io/nuget/dt/SkiaSharp?label=[]
+|https://github.com/[]
+|
+|https://www.nuget.org/packages/Xwt[Xwt]
+|763k image:https://img.shields.io/nuget/dt/Xwt?label=[]
+|https://github.com/mono/xwt[mono/xwt]
+|-2
 
- 
-3+| Build Task
-.2+| Build Task
-| https://www.nuget.org/packages/Bullseye/ | https://github.com/adamralph/bullseye
-| |
+.4+| Build Task
+|https://www.nuget.org/packages/Bullseye[Bullseye]
+|4M image:https://img.shields.io/nuget/dt/Bullseye?label=[]
+|https://github.com/adamralph/bullseye[adamralph/bullseye]
+|-2
+|https://www.nuget.org/packages/Cake.Tool[Cake.Tool]
+|127M image:https://img.shields.io/nuget/dt/Cake.Tool?label=[]
+|https://github.com/[]
+|
+|https://www.nuget.org/packages/Cake.Frosting[Cake.Frosting]
+|3M image:https://img.shields.io/nuget/dt/Cake.Frosting?label=[]
+|https://github.com/[]
+|
+|https://www.nuget.org/packages/Nuke.Build[Nuke.Build]
+|7M image:https://img.shields.io/nuget/dt/Nuke.Build?label=[]
+|https://github.com/[]
+|
 
-| | |
-
-.2+| Console printing & tables
-| https://www.nuget.org/packages/ConsoleTableExt/ (dl/day: 0.25K) | 
-| https://www.nuget.org/packages/Spectre.Console/ (dl/day: 11K) | https://github.com/spectreconsole/spectre.console
-
-| | |
-
-.2+|2D Drawing
-| https://www.nuget.org/packages/SixLabors.ImageSharp/ | 
-| https://www.nuget.org/packages/SkiaSharp | 
-
-| | |
-
-.3+| GUI
-| https://www.nuget.org/packages/Xwt/ | https://github.com/mono/xwt/
-| https://www.nuget.org/packages/Avalonia/ | https://github.com/AvaloniaUI/Avalonia
-| Xamarin/MAUI |
-
-.3+| Plot
-| https://www.nuget.org/packages/OxyPlot.Core/ | https://oxyplot.github.io/
-| https://www.nuget.org/packages/ScottPlot/ | https://scottplot.net/
-| https://www.nuget.org/packages/XPlot.Plotly/ | https://fslab.org/XPlot/
-
-.3+| MVVM
-| https://www.nuget.org/packages/Microsoft.Toolkit.Mvvm/ () | https://github.com/CommunityToolkit/WindowsCommunityToolkit
-| Discontinued https://www.nuget.org/packages/MvvmLight/ (2.6M) | 
-| https://www.nuget.org/packages/MvvmCross/ (4.5M) | https://github.com/MvvmCross/MvvmCross
-
-.3+| XAML Value Converters
-| https://www.nuget.org/packages/ValueConverters/ | 
-| https://www.nuget.org/packages/ValueConverters.Forms |
-| https://www.nuget.org/packages/Microsoft.Toolkit.Uwp.UI/ | 
-
-.3+| Guard
-| https://www.nuget.org/packages/CommunityToolkit.Diagnostics/ (37K) | https://docs.microsoft.com/en-us/windows/communitytoolkit/developer-tools/guard
-| https://www.nuget.org/packages/Ardalis.GuardClauses/ (3.5M) |
-| https://www.nuget.org/packages/Ensure.That/ (5.2M) |
-
-.1+| PInvoke Helpers
-| https://www.nuget.org/packages/Microsoft.Windows.CsWin32 (132K) | https://github.com/microsoft/CsWin32
-
-.1+| Retry/Fail
-| https://www.nuget.org/packages/Polly/ (390M) | https://github.com/App-vNext/Polly
-
-.2+| Roslyn/CodeGen
-| https://www.nuget.org/packages/Basic.Reference.Assemblies.Net70 (30K) | https://github.com/jaredpar/basic-reference-assemblies 
-| | https://github.com/jaredpar/roslyn-codedom
-
-.4+| Console Table
-| https://www.nuget.org/packages/Spectre.Console/ (7.3M) | https://github.com/spectreconsole/spectre.console (8k)
-| https://www.nuget.org/packages/ConsoleTables (3.2M) | https://github.com/khalidabuhakmeh/ConsoleTables (900)
-| https://www.nuget.org/packages/ConsoleTableExt (500k) | https://github.com/minhhungit/ConsoleTableExt/ (315)
-| https://www.nuget.org/packages/BetterConsoleTables (256k) | https://github.com/douglasg14b/BetterConsoleTables (80)
+.4+| Console printing & tables
+|https://www.nuget.org/packages/ConsoleTableExt[ConsoleTableExt]
+|721k image:https://img.shields.io/nuget/dt/ConsoleTableExt?label=[]
+|https://github.com/minhhungit/ConsoleTableExt[minhhungit/ConsoleTableExt]
+|-2
+|https://www.nuget.org/packages/Spectre.Console[Spectre.Console]
+|22M image:https://img.shields.io/nuget/dt/Spectre.Console?label=[]
+|https://github.com/spectreconsole/spectre.console[spectreconsole/spectre.console]
+|-2
+|https://www.nuget.org/packages/ConsoleTables[ConsoleTables]
+|7M image:https://img.shields.io/nuget/dt/ConsoleTables?label=[]
+|https://github.com/khalidabuhakmeh/ConsoleTables[khalidabuhakmeh/ConsoleTables]
+|-2
+|https://www.nuget.org/packages/BetterConsoleTables[BetterConsoleTables]
+|433k image:https://img.shields.io/nuget/dt/BetterConsoleTables?label=[]
+|https://github.com/douglasg14b/BetterConsoleTables[douglasg14b/BetterConsoleTables]
+|-2
 
 .3+| Cron Jobs
-|https://www.nuget.org/packages/Quartz (20k/d) | https://github.com/quartznet/quartznet (6.7k)
-|https://www.nuget.org/packages/Coravel (1.8k/d) | https://github.com/jamesmh/coravel (4.1k)
-|https://www.nuget.org/packages/Hangfire.Core/ (51k/d) | https://github.com/HangfireIO/Hangfire (9.6k)
+|https://www.nuget.org/packages/Coravel[Coravel]
+|5M image:https://img.shields.io/nuget/dt/Coravel?label=[]
+|https://github.com/jamesmh/coravel[jamesmh/coravel]
+|-2
+|https://www.nuget.org/packages/Quartz[Quartz]
+|116M image:https://img.shields.io/nuget/dt/Quartz?label=[]
+|https://github.com/quartznet/quartznet[quartznet/quartznet]
+|-2
+|https://www.nuget.org/packages/Hangfire.Core[Hangfire.Core]
+|245M image:https://img.shields.io/nuget/dt/Hangfire.Core?label=[]
+|https://github.com/HangfireIO/Hangfire[HangfireIO/Hangfire]
+|-2
 
-.3+| Misc
-a|
-* https://www.nuget.org/packages/Hashids.net
-* https://www.nuget.org/packages/MvsSln
-* https://www.nuget.org/packages/Microsoft.VisualStudio.Threading/
+.3+| GUI
+|https://www.nuget.org/packages/Avalonia[Avalonia]
+|10M image:https://img.shields.io/nuget/dt/Avalonia?label=[]
+|https://github.com/AvaloniaUI/Avalonia[AvaloniaUI/Avalonia]
+|-2
+|https://www.nuget.org/packages/Microsoft.Maui.Core[Microsoft.Maui.Core]
+|12M image:https://img.shields.io/nuget/dt/Microsoft.Maui.Core?label=[]
+|https://github.com/dotnet/maui[dotnet/maui]
+|-2
+|https://www.nuget.org/packages/Microsoft.WindowsAppSDK[Microsoft.WindowsAppSDK]
+|15M image:https://img.shields.io/nuget/dt/Microsoft.WindowsAppSDK?label=[]
+|https://github.com/[]
 |
+
+.3+| Guard
+|https://www.nuget.org/packages/CommunityToolkit.Diagnostics[CommunityToolkit.Diagnostics]
+|8M image:https://img.shields.io/nuget/dt/CommunityToolkit.Diagnostics?label=[]
+|https://github.com/[]
+|
+|https://www.nuget.org/packages/Ardalis.GuardClauses[Ardalis.GuardClauses]
+|32M image:https://img.shields.io/nuget/dt/Ardalis.GuardClauses?label=[]
+|https://github.com/[]
+|
+|https://www.nuget.org/packages/Ensure.That[Ensure.That]
+|15M image:https://img.shields.io/nuget/dt/Ensure.That?label=[]
+|https://github.com/[]
+|
+
+.3+| MVVM
+|https://www.nuget.org/packages/CommunityToolkit.Mvvm[CommunityToolkit.Mvvm]
+|12M image:https://img.shields.io/nuget/dt/CommunityToolkit.Mvvm?label=[]
+|https://github.com/CommunityToolkit/Windows[CommunityToolkit/Windows]
+|-2
+|https://www.nuget.org/packages/MvvmLight[MvvmLight]
+|4M image:https://img.shields.io/nuget/dt/MvvmLight?label=[]
+|https://github.com/[]
+|
+|https://www.nuget.org/packages/MvvmCross[MvvmCross]
+|7M image:https://img.shields.io/nuget/dt/MvvmCross?label=[]
+|https://github.com/MvvmCross/MvvmCross[MvvmCross/MvvmCross]
+|-2
+
+.5+| Misc
+|https://www.nuget.org/packages/Hashids.net[Hashids.net]
+|12M image:https://img.shields.io/nuget/dt/Hashids.net?label=[]
+|https://github.com/[]
+|
+|https://www.nuget.org/packages/MvsSln[MvsSln]
+|261k image:https://img.shields.io/nuget/dt/MvsSln?label=[]
+|https://github.com/[]
+|
+|https://www.nuget.org/packages/Microsoft.VisualStudio.Threading[Microsoft.VisualStudio.Threading]
+|45M image:https://img.shields.io/nuget/dt/Microsoft.VisualStudio.Threading?label=[]
+|https://github.com/[]
+|
+|https://www.nuget.org/packages/Krafs.Publicizer[Krafs.Publicizer]
+|60k image:https://img.shields.io/nuget/dt/Krafs.Publicizer?label=[]
+|https://github.com/[]
+|
+|https://www.nuget.org/packages/Scrutor[Scrutor]
+|193M image:https://img.shields.io/nuget/dt/Scrutor?label=[]
+|https://github.com/khellang/Scrutor[khellang/Scrutor]
+|-2
+
+.1+| PInvoke Helpers
+|https://www.nuget.org/packages/Microsoft.Windows.CsWin32[Microsoft.Windows.CsWin32]
+|1M image:https://img.shields.io/nuget/dt/Microsoft.Windows.CsWin32?label=[]
+|https://github.com/microsoft/CsWin32[microsoft/CsWin32]
+|-2
+
+.3+| Plot
+|https://www.nuget.org/packages/OxyPlot.Core[OxyPlot.Core]
+|8M image:https://img.shields.io/nuget/dt/OxyPlot.Core?label=[]
+|https://github.com/oxyplot/oxyplot[oxyplot/oxyplot]
+|-2
+|https://www.nuget.org/packages/ScottPlot[ScottPlot]
+|3M image:https://img.shields.io/nuget/dt/ScottPlot?label=[]
+|https://github.com/ScottPlot/ScottPlot[ScottPlot/ScottPlot]
+|-2
+|https://www.nuget.org/packages/XPlot.Plotly[XPlot.Plotly]
+|807k image:https://img.shields.io/nuget/dt/XPlot.Plotly?label=[]
+|https://github.com/fslaborg/XPlot[fslaborg/XPlot]
+|-2
+
+.2+| Process abstraction
+|https://www.nuget.org/packages/SimpleExec[SimpleExec]
+|3M image:https://img.shields.io/nuget/dt/SimpleExec?label=[]
+|https://github.com/[]
+|
+|https://www.nuget.org/packages/ProcessX[ProcessX]
+|245k image:https://img.shields.io/nuget/dt/ProcessX?label=[]
+|https://github.com/Cysharp/ProcessX[Cysharp/ProcessX]
+|-2
+
+.1+| Retry/Fail
+|https://www.nuget.org/packages/Polly[Polly]
+|962M image:https://img.shields.io/nuget/dt/Polly?label=[]
+|https://github.com/App-vNext/Polly[App-vNext/Polly]
+|-2
+
+.1+| Roslyn/CodeGen
+|https://www.nuget.org/packages/Basic.Reference.Assemblies.Net70[Basic.Reference.Assemblies.Net70]
+|117k image:https://img.shields.io/nuget/dt/Basic.Reference.Assemblies.Net70?label=[]
+|https://github.com/[]
+|
+
+.2+| XAML Value Converters
+|https://www.nuget.org/packages/ValueConverters[ValueConverters]
+|160k image:https://img.shields.io/nuget/dt/ValueConverters?label=[]
+|https://github.com/[]
+|
+|https://www.nuget.org/packages/ValueConverters.Forms[ValueConverters.Forms]
+|117k image:https://img.shields.io/nuget/dt/ValueConverters.Forms?label=[]
+|https://github.com/[]
+|
+
 |===
-
-#### Sources
-
-- https://pknopf.com/post/2019-03-10-you-dont-need-cake-anymore-the-way-to-build-dotnet-projects-going-forward/

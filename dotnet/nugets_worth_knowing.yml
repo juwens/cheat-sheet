@@ -1,0 +1,65 @@
+"Process abstraction":
+  - {ng: SimpleExec}
+  - {ng: ProcessX, gh: Cysharp/ProcessX}
+
+"Build Task":
+  - {ng: Bullseye, gh: adamralph/bullseye, c: https://pknopf.com/post/2019-03-10-you-dont-need-cake-anymore-the-way-to-build-dotnet-projects-going-forward }
+  - {ng: Cake.Tool}
+  - {ng: Cake.Frosting}
+  - {ng: Nuke.Build}
+
+"Console printing & tables":
+    - {ng: ConsoleTableExt, gh: minhhungit/ConsoleTableExt}
+    - {ng: Spectre.Console, gh: spectreconsole/spectre.console }
+    - {ng: ConsoleTables, gh: khalidabuhakmeh/ConsoleTables}
+    - {ng: BetterConsoleTables, gh: douglasg14b/BetterConsoleTables}
+
+"2D Drawing":
+    - {ng: SixLabors.ImageSharp}
+    - {ng: SkiaSharp}
+    - {ng: Xwt, gh: mono/xwt}
+
+"GUI":
+    - {ng: Avalonia, gh: AvaloniaUI/Avalonia }
+    - {ng: Microsoft.Maui.Core, gh: dotnet/maui }
+    - {ng: Microsoft.WindowsAppSDK }
+
+"Plot":
+    - {ng: OxyPlot.Core, gh: oxyplot/oxyplot, c: https://oxyplot.github.io }
+    - {ng: ScottPlot, gh: ScottPlot/ScottPlot, c: https://scottplot.net }
+    - {ng: XPlot.Plotly, gh: fslaborg/XPlot, c: https://fslab.org/XPlot }
+
+"MVVM":
+    - {ng: CommunityToolkit.Mvvm, gh: CommunityToolkit/Windows, c: "former Microsoft.Toolkit.Mvvm" }
+    - {ng: MvvmLight, gh: null, c: discontinued for MvvmCross }
+    - {ng: MvvmCross, gh: MvvmCross/MvvmCross }
+
+"XAML Value Converters":
+    - {ng: ValueConverters }
+    - {ng: ValueConverters.Forms }
+
+"Guard":
+    - {ng: CommunityToolkit.Diagnostics, c: https://docs.microsoft.com/en-us/windows/communitytoolkit/developer-tools/guard }
+    - {ng: Ardalis.GuardClauses }
+    - {ng: Ensure.That }
+
+"PInvoke Helpers":
+    - {ng: Microsoft.Windows.CsWin32, gh: microsoft/CsWin32 }
+
+"Retry/Fail":
+    - {ng: Polly, gh: App-vNext/Polly }
+
+"Roslyn/CodeGen":
+    - {ng: Basic.Reference.Assemblies.Net70 }
+
+"Cron Jobs":
+    - {ng: Coravel, gh: jamesmh/coravel, c: "simple and straightforward" }
+    - {ng: Quartz, gh: quartznet/quartznet }
+    - {ng: Hangfire.Core, gh: HangfireIO/Hangfire }
+
+"Misc":
+    - {ng: Hashids.net }
+    - {ng: MvsSln }
+    - {ng: Microsoft.VisualStudio.Threading }
+    - {ng: Krafs.Publicizer }
+    - {ng: Scrutor, gh: khellang/Scrutor}
