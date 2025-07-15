@@ -11,9 +11,11 @@ import (
 	"os"
 	"path/filepath"
 	"slices"
-	"strconv"
 	"strings"
 
+	"golang.org/x/exp/constraints"
+	"golang.org/x/text/language"
+	"golang.org/x/text/message"
 	"gopkg.in/yaml.v3"
 )
 
@@ -111,12 +113,13 @@ func main() {
 			}
 
 			fmt.Fprintf(out, "|https://www.nuget.org/packages/%s[%s]\n", pkg.NugetName, pkg.NugetName)
-			fmt.Fprintf(out, "|%s image:https://img.shields.io/nuget/dt/%s?label=[]\n", humanize(data.TotalDownloads), pkg.NugetName)
+			// optional add ("image:https://img.shields.io/nuget/dt/%s?label=[]", pkg.NugetName)
+			fmt.Fprintf(out, ">|%s\n", humanizeSep(data.TotalDownloads))
 
-			fmt.Fprintf(out, "|https://github.com/%s[%s]\n", pkg.GithubUserRepo, strings.Replace(pkg.GithubUserRepo, "https://github.com/", "", 1))
+			fmt.Fprintf(out, "|https://github.com/%s[%s]\n", pkg.GithubUserRepo, pkg.GithubUserRepo)
 			if len(pkg.GithubUserRepo) > 0 {
 				ghData := getGithubData(pkg.GithubUserRepo)
-				fmt.Fprintf(out, "|%d", ghData.StargazersCount)
+				fmt.Fprintf(out, ">|%s", humanizeSep(ghData.StargazersCount))
 			} else {
 				fmt.Fprint(out, "|")
 			}
@@ -139,10 +142,22 @@ func main() {
 	outFile.Close()
 }
 
-func humanize(num int64) string {
-	mil := 1e6
+// adds thousand separator
+func humanizeSep[T constraints.Integer](num T) string {
+	p := message.NewPrinter(language.English)
+	return p.Sprintf("%d", num)
+}
+
+// add SI suffix k, M, B
+func humanizeSiSuf[T constraints.Integer](num T) string {
 	numf := float64(num)
 
+	bil := 1e9
+	if numf > bil {
+		return fmt.Sprintf("%.0fB", numf/bil)
+	}
+
+	mil := 1e6
 	if numf > mil {
 		return fmt.Sprintf("%.0fM", numf/mil)
 	}
@@ -151,7 +166,7 @@ func humanize(num int64) string {
 		return fmt.Sprintf("%.0fk", numf/kilo)
 	}
 
-	return strconv.FormatInt(num, 10)
+	return fmt.Sprint(num)
 }
 
 func getGithubData(userRepo string) GitHubRepoDocument {
