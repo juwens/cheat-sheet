@@ -1,0 +1,111 @@
+## Comparision
+
+[cols=3*]
+|===
+|Topic
+|link:https://learn.microsoft.com/en-us/dotnet/standard/events/[good old .Net Events]
+|link:https://github.com/dotnet/reactive[RX.Net]
+
+a|publish is blocking
+[%collapsible]
+====
+pushing a value blocks as long until EVERY subscriber processed the value. +
+blocking here does NOT mean sync-io-blocking 
+
+----
+// during publish:
+public void OnNext<T>(T value) {
+    foreach (var subscriber in this._subscribers) {
+        subscriber.OnNext(value)
+    }
+}
+----
+====
+|✅
+|✅
+
+
+a|publisher holds a strong reference to the subscriber
+[%collapsible]
+.example
+====
+And therefore keeps the publisher in alive, and can cause memory leaks if not unsubscribed. +
+In essence: publisher has a list of subscribers.
+====
+|✅
+|✅
+
+
+|example
+a|[%collapsible]
+.expand
+====
+[source,csharp]
+----
+public class Button
+{
+    public event EventHandler Click;
+    protected virtual void OnClick(EventArgs e)
+    {
+        // publish
+        Click?.Invoke(this, e);
+    }
+}
+
+public class SomeClass 
+{
+    ctor()
+    {
+        var myButton = new Button();
+                
+        // subscribe
+        myButton.Click += MyButtonClickEventHandler;
+        
+        // unsubscribe
+        myButton.Click -= MyButtonClickEventHandler;
+    }
+    
+    private void MyButtonClickEventHandler(object? sender, EventArgs args)
+    {
+      ...
+    }
+}
+----
+====
+a|
+[%collapsible]
+.example
+====
+[source,csharp]
+----
+public class Button
+{
+    private Subject<Unit> _clicks = new();
+    public IObservable<Unit> Clicks => _clicks;
+    
+    protected virtual void OnClick(EventArgs e)
+    {
+        // publish
+        _clicks.OnNext(Unit.Value);
+    }
+}
+
+public class SomeClass 
+{
+    ctor()
+    {
+        var myButton = new Button();
+                
+        // subscribe
+        var subscription = myButton.Clicks.Subscribe(value => {
+            ...
+        });
+        
+        // unsubscribe
+        subscription.Dispose();
+    }
+}
+----
+====
+
+|===
