@@ -1,17 +1,20 @@
-## Comparision
+## Comparison
 
-[cols=3*]
+[cols=5*]
 |===
 |Topic
 |link:https://learn.microsoft.com/en-us/dotnet/standard/events/[good old .Net Events]
-|link:https://github.com/dotnet/reactive[RX.Net]
+|link:https://github.com/dotnet/reactive[System.Reactive / RX.Net / Reactive Extensions]
+|link:https://learn.microsoft.com/en-us/dotnet/core/extensions/channels[System.Threading.Channels]
+a|`IAsyncEnumerable<T>`
 
+// ----------- row ------------------
 a|publish is blocking
 [%collapsible]
 ====
-pushing a value blocks as long until EVERY subscriber processed the value. +
-blocking here does NOT mean sync-io-blocking 
+pushing a value blocks until EVERY subscriber processed the value.
 
+essentially: 
 ----
 // during publish:
 public void OnNext<T>(T value) {
@@ -21,10 +24,13 @@ public void OnNext<T>(T value) {
 }
 ----
 ====
-|✅
-|✅
+|yes
+|default: yes
+|unbounded: no
+|
 
 
+// ----------- row ------------------
 a|publisher holds a strong reference to the subscriber
 [%collapsible]
 .example
@@ -32,10 +38,49 @@ a|publisher holds a strong reference to the subscriber
 And therefore keeps the publisher in alive, and can cause memory leaks if not unsubscribed. +
 In essence: publisher has a list of subscribers.
 ====
-|✅
-|✅
+a|default: yes: publisher -> EventHandler -> internal List -> subscriber +
+ +
+with Weak References: no (link:https://learn.microsoft.com/en-us/dotnet/desktop/wpf/events/weak-event-patterns[Weak event patterns])
+a|default: yes: publisher -> Subject -> subscription -> subscriber + 
+ +
+small chance of leveraging weak-references +
+(link:https://stackoverflow.com/questions/7322395/creating-a-weak-subscription-to-an-iobservable[WeakSubscribe]), but Rx internally uses a lot of Subject+Subscribe for non-trivial operations.
+|Probably not: durring `await channel.ReadAsync()` only the task/runtime (by `.ContinueWith(t => ...)` ) has a reference to the subscriber
+|
 
 
+// ----------- row ------------------
+|transform events/data with Linq
+|no
+a|yes +
+(**vast** majority of Linq operations to map/filter/group/merge/...)
+|no
+|yes with link:https://github.com/dotnet/reactive?tab=readme-ov-file#linq-for-iasyncenumerable-systemlinqasync[Ix (LINQ for IAsyncEnumerable)]
+
+
+
+// ----------- row ------------------
+|fan-out (multiple consumer can receive the same value)
+|yes
+|yes
+a|no: values are load-balanced across all subscribers +
+(you can implement a relatively simple fan-out wrapper though. the wrapper subscribes to the channel and hold a list of subscribers)
+|
+
+
+// ----------- row ------------------
+
+|see also
+|
+|
+a|
+* link:https://github.com/Open-NET-Libraries/Open.ChannelExtensions[Open.ChannelExtensions] (brings Rx like features for Channels)
+a|
+* link:https://github.com/dotnet/reactive?tab=readme-ov-file#linq-for-iasyncenumerable-systemlinqasync[Ix (LINQ for IAsyncEnumerable)]
+
+
+
+// ----------- row: example ------------------
 |example
 a|[%collapsible]
 .expand
@@ -74,7 +119,7 @@ public class SomeClass
 ====
 a|
 [%collapsible]
-.example
+.expand
 ====
 [source,csharp]
 ----
@@ -107,5 +152,26 @@ public class SomeClass
 }
 ----
 ====
+|
+|
 
 |===
+
+
+## glossary / disambiguation
+
+[%header]
+|===
+|name|description
+|mediator pattern|design pattern, separate pub/sub mediator object, publisher and subscriber have no direct connection
+|
+|===
+
+## see also
+
+- https://github.com/MassTransit/MassTransit
+- https://github.com/zeromq/libzmq
+- System.Collections.IAsyncEnumerable<T> + link:https://github.com/dotnet/reactive?tab=readme-ov-file#linq-for-iasyncenumerable-systemlinqasync[Ix (LINQ for IAsyncEnumerable)]
+- link:https://learn.microsoft.com/en-us/dotnet/standard/parallel-programming/dataflow-task-parallel-library[System.Threading.Tasks.Dataflow]
+- https://github.com/ByteAether/WeakEvent
+- https://github.com/LuckyPennySoftware/MediatR
