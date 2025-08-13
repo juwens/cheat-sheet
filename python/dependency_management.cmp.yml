@@ -1,14 +1,20 @@
-- name: pip
-  gh: pypa/pip
-
-- name: uv
-  gh: astral-sh/uv
-
-- name: poetry
-  gh: python-poetry/poetry
-
-- name: pyenv
-  gh: pyenv/pyenv
-
-- name: asdf
-  gh: asdf-vm/asdf
+intro: python historcially lacks a propper project bases package management, all packages are installed globally. Theses tools try to solve that.
+  
+compare:
+  - name: pip
+    gh: pypa/pip
+  
+  - name: uv
+    gh: astral-sh/uv
+  
+  - name: poetry
+    gh: python-poetry/poetry
+  
+  - name: pyenv
+    gh: pyenv/pyenv
+  
+  - name: asdf
+    gh: asdf-vm/asdf
+  
+  - name: venv
+    home: https://docs.python.org/3/library/venv.html
