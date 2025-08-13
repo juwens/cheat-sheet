@@ -6,181 +6,181 @@
 |           |name|tot dl     |name|stars
 .3+| 2D Drawing
 |https://www.nuget.org/packages/SixLabors.ImageSharp[SixLabors.ImageSharp]
->|172,163,732
+>|174,272,598
 |https://github.com/[]
 |
 |https://www.nuget.org/packages/SkiaSharp[SkiaSharp]
->|172,463,932
+>|174,674,908
 |https://github.com/[]
 |
 |https://www.nuget.org/packages/Xwt[Xwt]
->|762,961
+>|768,036
 |https://github.com/mono/xwt[mono/xwt]
 >|1,358
 
 .4+| Build Task
 |https://www.nuget.org/packages/Bullseye[Bullseye]
->|3,855,522
+>|3,873,907
 |https://github.com/adamralph/bullseye[adamralph/bullseye]
->|901
+>|906
 |https://www.nuget.org/packages/Cake.Tool[Cake.Tool]
->|127,344,760
+>|127,849,974
 |https://github.com/[]
 |
 |https://www.nuget.org/packages/Cake.Frosting[Cake.Frosting]
->|2,637,714
+>|2,656,896
 |https://github.com/[]
 |
 |https://www.nuget.org/packages/Nuke.Build[Nuke.Build]
->|6,767,200
+>|6,889,597
 |https://github.com/[]
 |
 
 .4+| Console printing & tables
 |https://www.nuget.org/packages/ConsoleTableExt[ConsoleTableExt]
->|722,075
+>|726,734
 |https://github.com/minhhungit/ConsoleTableExt[minhhungit/ConsoleTableExt]
->|340
+>|341
 |https://www.nuget.org/packages/Spectre.Console[Spectre.Console]
->|21,769,320
+>|22,062,694
 |https://github.com/spectreconsole/spectre.console[spectreconsole/spectre.console]
->|10,411
+>|10,515
 |https://www.nuget.org/packages/ConsoleTables[ConsoleTables]
->|6,895,582
+>|6,970,227
 |https://github.com/khalidabuhakmeh/ConsoleTables[khalidabuhakmeh/ConsoleTables]
->|989
+>|995
 |https://www.nuget.org/packages/BetterConsoleTables[BetterConsoleTables]
->|433,039
+>|436,652
 |https://github.com/douglasg14b/BetterConsoleTables[douglasg14b/BetterConsoleTables]
->|96
+>|97
 
 .3+| Cron Jobs
 |https://www.nuget.org/packages/Coravel[Coravel]
->|5,270,581
+>|5,340,815
 |https://github.com/jamesmh/coravel[jamesmh/coravel]
->|4,166
+>|4,189
 |https://www.nuget.org/packages/Quartz[Quartz]
->|116,176,729
+>|117,217,346
 |https://github.com/quartznet/quartznet[quartznet/quartznet]
->|6,801
+>|6,854
 |https://www.nuget.org/packages/Hangfire.Core[Hangfire.Core]
->|245,064,598
+>|247,608,884
 |https://github.com/HangfireIO/Hangfire[HangfireIO/Hangfire]
->|9,773
+>|9,818
 
 .3+| GUI
 |https://www.nuget.org/packages/Avalonia[Avalonia]
->|9,622,042
+>|9,726,057
 |https://github.com/AvaloniaUI/Avalonia[AvaloniaUI/Avalonia]
->|28,163
+>|28,428
 |https://www.nuget.org/packages/Microsoft.Maui.Core[Microsoft.Maui.Core]
->|12,169,728
+>|12,427,194
 |https://github.com/dotnet/maui[dotnet/maui]
->|22,791
+>|22,842
 |https://www.nuget.org/packages/Microsoft.WindowsAppSDK[Microsoft.WindowsAppSDK]
->|15,388,123
+>|15,602,803
 |https://github.com/[]
 |
 
 .3+| Guard
 |https://www.nuget.org/packages/CommunityToolkit.Diagnostics[CommunityToolkit.Diagnostics]
->|8,248,680
+>|8,360,604
 |https://github.com/[]
 |
 |https://www.nuget.org/packages/Ardalis.GuardClauses[Ardalis.GuardClauses]
->|31,938,155
+>|32,269,361
 |https://github.com/[]
 |
 |https://www.nuget.org/packages/Ensure.That[Ensure.That]
->|15,404,604
+>|15,497,539
 |https://github.com/[]
 |
 
 .3+| MVVM
 |https://www.nuget.org/packages/CommunityToolkit.Mvvm[CommunityToolkit.Mvvm]
->|12,395,713
+>|12,588,019
 |https://github.com/CommunityToolkit/Windows[CommunityToolkit/Windows]
->|776
+>|795
 |https://www.nuget.org/packages/MvvmLight[MvvmLight]
->|4,320,109
+>|4,333,153
 |https://github.com/[]
 |
 |https://www.nuget.org/packages/MvvmCross[MvvmCross]
->|7,295,722
+>|7,311,559
 |https://github.com/MvvmCross/MvvmCross[MvvmCross/MvvmCross]
->|3,896
+>|3,900
 
 .5+| Misc
 |https://www.nuget.org/packages/Hashids.net[Hashids.net]
->|12,175,973
+>|12,279,966
 |https://github.com/[]
 |
 |https://www.nuget.org/packages/MvsSln[MvsSln]
->|260,951
+>|263,326
 |https://github.com/[]
 |
 |https://www.nuget.org/packages/Microsoft.VisualStudio.Threading[Microsoft.VisualStudio.Threading]
->|44,902,301
+>|45,256,445
 |https://github.com/[]
 |
 |https://www.nuget.org/packages/Krafs.Publicizer[Krafs.Publicizer]
->|60,059
+>|62,169
 |https://github.com/[]
 |
 |https://www.nuget.org/packages/Scrutor[Scrutor]
->|193,358,917
+>|195,130,900
 |https://github.com/khellang/Scrutor[khellang/Scrutor]
->|4,002
+>|4,046
 
 .1+| PInvoke Helpers
 |https://www.nuget.org/packages/Microsoft.Windows.CsWin32[Microsoft.Windows.CsWin32]
->|1,425,630
+>|1,446,100
 |https://github.com/microsoft/CsWin32[microsoft/CsWin32]
->|2,326
+>|2,348
 
 .3+| Plot
 |https://www.nuget.org/packages/OxyPlot.Core[OxyPlot.Core]
->|7,869,287
+>|7,924,774
 |https://github.com/oxyplot/oxyplot[oxyplot/oxyplot]
->|3,423
+>|3,438
 |https://www.nuget.org/packages/ScottPlot[ScottPlot]
->|2,643,797
+>|2,684,291
 |https://github.com/ScottPlot/ScottPlot[ScottPlot/ScottPlot]
->|5,966
+>|6,022
 |https://www.nuget.org/packages/XPlot.Plotly[XPlot.Plotly]
->|808,363
+>|811,288
 |https://github.com/fslaborg/XPlot[fslaborg/XPlot]
->|288
+>|289
 
 .2+| Process abstraction
 |https://www.nuget.org/packages/SimpleExec[SimpleExec]
->|2,871,664
+>|2,887,368
 |https://github.com/[]
 |
 |https://www.nuget.org/packages/ProcessX[ProcessX]
->|245,363
+>|249,271
 |https://github.com/Cysharp/ProcessX[Cysharp/ProcessX]
->|512
+>|516
 
 .1+| Retry/Fail
 |https://www.nuget.org/packages/Polly[Polly]
->|962,903,361
+>|973,337,765
 |https://github.com/App-vNext/Polly[App-vNext/Polly]
->|13,858
+>|13,908
 
 .1+| Roslyn/CodeGen
 |https://www.nuget.org/packages/Basic.Reference.Assemblies.Net70[Basic.Reference.Assemblies.Net70]
->|117,240
+>|118,059
 |https://github.com/[]
 |
 
 .2+| XAML Value Converters
 |https://www.nuget.org/packages/ValueConverters[ValueConverters]
->|160,519
+>|162,891
 |https://github.com/[]
 |
 |https://www.nuget.org/packages/ValueConverters.Forms[ValueConverters.Forms]
->|116,549
+>|118,651
 |https://github.com/[]
 |
 
