@@ -1,0 +1,14 @@
+- name: pip
+  gh: pypa/pip
+
+- name: uv
+  gh: astral-sh/uv
+
+- name: poetry
+  gh: python-poetry/poetry
+
+- name: pyenv
+  gh: pyenv/pyenv
+
+- name: asdf
+  gh: asdf-vm/asdf
