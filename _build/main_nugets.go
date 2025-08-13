@@ -4,12 +4,10 @@ import (
 	"bufio"
 	"encoding/json"
 	"fmt"
-	"io"
 	"log"
 	"maps"
 	"net/http"
 	"os"
-	"path/filepath"
 	"slices"
 	"strings"
 
@@ -27,6 +25,7 @@ type PackageEntry struct {
 type YamlData map[string][]PackageEntry
 
 type NuGetRegistration struct {
+	Mode  string `json:"mode"`
 	Items []struct {
 		Items []struct {
 			CatalogEntry struct {
@@ -58,34 +57,7 @@ type NugetSearchResult struct {
 	} `json:"data"`
 }
 
-func main() {
-	var inputFile string
-	if len(os.Args) == 2 {
-		inputFile = os.Args[1]
-		log.Printf("Usage: %s file.yaml", os.Args[0])
-	} else {
-		inputFile = "nugets_worth_knowing.yml"
-	}
-
-	outFilename := fmt.Sprintf("%s.adoc", strings.TrimSuffix(inputFile, filepath.Ext(inputFile)))
-	outFile, outFileErr := os.Create(outFilename)
-	if outFileErr != nil {
-		panic(outFileErr)
-	}
-
-	log.Printf("parsing file %s", inputFile)
-
-	file, err := os.Open(inputFile)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer file.Close()
-
-	data, err := io.ReadAll(file)
-	if err != nil {
-		log.Fatal(err)
-	}
-
+func main_nugets(data []byte, outFile *os.File) {
 	var yamlData YamlData
 	if err := yaml.Unmarshal(data, &yamlData); err != nil {
 		log.Fatal(err)
@@ -139,7 +111,6 @@ func main() {
 	fmt.Fprintln(out, "|===")
 
 	out.Flush()
-	outFile.Close()
 }
 
 // adds thousand separator
